@@ -5,6 +5,7 @@
 ### 1. Objective - big picture
 
 - The goal is a feasible concept for the creation of a microservice based app using the "MicroFrontEnd" approach for the given page structure, that
+  - follows the approach on https://micro-frontends.org/
   - exclusively uses the prescribed technologies
   - names all components and techniques to be used and describes how they are to be used
   - fully describes how the components interact
