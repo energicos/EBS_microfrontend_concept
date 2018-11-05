@@ -1,1 +1,3 @@
-# EBS_microfrontend_concept
+# EBS micro frontend concept
+
+please read assignment.md
