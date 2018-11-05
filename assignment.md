@@ -55,12 +55,12 @@ Table with all references
 
 - Link to Design Mockup
 - Link to HTML/CSS Code
-- Tabel with resources and endpoint
+- Table with resources and endpoints
 
 
 ### 5. Technology Stack
 
-the following technologies are mandatory and cannot be replaced by any other technology similar or not without our explicit approval:
+The following technologies are mandatory and cannot be replaced by any other technology similar or not without our explicit approval:
 
 * **Backend-Technologien**
   * Latest NodeJS LTS version
@@ -68,7 +68,7 @@ the following technologies are mandatory and cannot be replaced by any other tec
     * all tables must be utf8mb4
   * Docker (current version)
   * Swagger
-  * NodeJS, Express
+  * Express
 * **Frontend-Technologies**
   * HTML5
   * CSS3/ CSS Grid (no Flexbox/ no preprocessor)
