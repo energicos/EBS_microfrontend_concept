@@ -9,8 +9,8 @@
   - exclusively uses the prescribed technologies
   - names all components and techniques to be used and describes how they are to be used
   - fully describes how the components interact
-  - contains a guide for creating a microservice based app with microfrontend approach
-  - contains an executable example project on GitHub including all source code
+  - contains a guide for creating a microservice based app with microfrontend approach.
+  - contains an executable example project on GitHub including all source code. This example must show clearly how microservices will interact in order to satisfy the architecture proposed, how to share data between and how to comunicate between micro-front apps.
 
 
 ### 2. Schematic representation of the Web App
@@ -35,6 +35,14 @@ Areas/modules in the front end using the example of a basic profile
 #### 2.1 Description
 
 The page is split into separate components/fragments which represents the individual micoapps...
+
+There will be a master component which we called the shell, which orchestrates all the micro components that are going to be displayed inside the view. 
+
+Other components will be treated as children components. It will be a simple hierarchy of two layers: Master(Shell) + Children Components.
+
+The components may share data between them and also some actions inside one component can produce an effect in other component, so we need to know how to do that. 
+
+We want to achieve a plug and play application in which we can add or remove components easily without affecting the application. Probably an API should be specified and it will define what actions or effects can be taken inside one component, and with a standardized API we can guarantee that nothing will break.
 
 ...more must be described here...
 
@@ -63,7 +71,7 @@ Table with all references
 
 The following technologies are mandatory and cannot be replaced by any other technology similar or not without our explicit approval:
 
-* **Backend-Technologien**
+* **Backend-Technologies**
   * Latest NodeJS LTS version
   * MariaDB 
     * all tables must be utf8mb4
