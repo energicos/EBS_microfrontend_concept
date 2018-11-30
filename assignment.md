@@ -126,6 +126,6 @@ GitHub Link: https://github.com/energicos/EBS_microfrontend_concept
 
 #### 1.3 Timeline
 
-* Project Start: 01.12.2018
+* Project Start: 04.12.2018
 * the timeframe for the project is set to 10 days upon hiring the developer
-* meaning the concept must be ready ==12.12.18==
+* meaning the concept must be ready ==15.12.18==
