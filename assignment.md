@@ -77,7 +77,6 @@ The following technologies are mandatory and cannot be replaced by any other tec
   * CSS3 with Sass preprocessor. Use Grid Layout (no Flexbox)
   * Use a CSS archutecture like BEM or any other.
   * Vuejs/ Javascript
-  * Create e2e tests with Cypress
 * **NOTE:**
   * use `fetch()` api, not jquery or xhr!
   * use typescript as a static checker for both backend and frontend
