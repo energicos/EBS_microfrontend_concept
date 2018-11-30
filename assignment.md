@@ -121,11 +121,11 @@ GitHub Link: https://github.com/energicos/EBS_microfrontend_concept
 ##### 1.2.3 Compatibility
 
 - the Webapp must run in the following Browser:
-  - chromium browser (open source part of google chrome) >= version 61
+  - chromium browser (open source part of google chrome) >= version 65
   - Firefox >= version 54
 
 #### 1.3 Timeline
 
-* Project Start: xx.11.2018
-* the timeframe for the project is set to 1 weeks upon hiring the developer
-* meaning the concept must be ready ==xx.11.18==
+* Project Start: 01.12.2018
+* the timeframe for the project is set to 10 days upon hiring the developer
+* meaning the concept must be ready ==12.12.18==
