@@ -12,6 +12,15 @@
   - contains a guide for creating a microservice based app with microfrontend approach.
   - contains an executable example project on GitHub including all source code. This example must show clearly how microservices will interact in order to satisfy the architecture proposed, how to share data between and how to comunicate between micro-front apps.
 
+**MAIN CHALLENGE**
+We need to deploy those microservices as separated docker images. I have seen many examples that shows how to create microfront applications but the deployment of those applications is still narrow to use.
+
+You will have to decide what is the best manner to organize the microfronts, how to communicate them , how the microservices on the backend should look like and so on, but the main acknowledge that we need is to know how to deploy those tasks.
+
+The current HTML and CSS code will allow you understand the flow between the app. You don't have to replicate the entire application, it's just a view called `Contact Manager`.
+
+We want to follow this (idea of project)[https://github.com/willmendesneto/micro-frontend-pages]
+
 ### 2. Schematic representation of the Web App
 
 Presentation of services in the AWS environment
