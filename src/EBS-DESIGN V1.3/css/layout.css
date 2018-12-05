@@ -1,0 +1,665 @@
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-family: 'roboto-light';
+	background-color: #fafafa;
+}
+
+/*Start key page sections*/
+header { grid-area: header;}
+aside { grid-area: aside;}
+main-content { grid-area: main-content;}
+footer { grid-area: footer;}
+/*End key page sections*/
+
+
+/*Start sidebar elements*/
+.client-area { grid-area: client-area; }
+.energicos-logo { grid-area: energicos-logo; }
+.avatar-section { grid-area: avatar-section; }
+.search-section { grid-area: search-section; }
+.nav-level-1 { grid-area: nav-level-1; }
+/*End sidebar elements*/
+
+
+/*Start main content sections*/
+filter-key {grid-area: filter-key}
+nav-level-2 {grid-area: nav-level-2;}
+navigation-level-2 {grid-area: navigation-level-2;}
+nav-level-2-tab-content {grid-area: nav-level-2-tab-content;}
+breadcrumbs {grid-area: breadcrumbs;}
+bookmarks {grid-area: bookmarks;}
+favorites {grid-area: favorites;}
+module-identity-title {grid-area: module-identity-title;}
+pane-large {grid-area: pane-large;}
+pane-small-first {grid-area: pane-small-first;}
+pane-small-last {grid-area: pane-small-last;}
+dataset-short-info {grid-area: dataset-short-info;}
+dataset-short-info-1 {grid-area: dataset-short-info-1;}
+short-info-title {grid-area: short-info-title;}
+short-info-col-1 {grid-area: short-info-col-1;}
+short-info-col-2 {grid-area: short-info-col-2;}
+menu-level-3 {grid-area: menu-level-3;}
+dataset-tags {grid-area: dataset-tags;}
+subject-area {grid-area: subject-area;}
+quick-action-area {grid-area: quick-action-area;}
+.mid-dataset-content { grid-area: mid-dataset-content; }
+.paginated-links { grid-area: paginated-links; }
+.results-table { grid-area: results-table; }
+overview-section { grid-area: overview-section; }
+overview-functions { grid-area: overview-header-functions; }
+applied-filters { grid-area: applied-filters; }
+dataset-results-table { grid-area: dataset-results-table; }
+mini-panels {grid-area: mini-panels}
+pane-header {grid-area: pane-header;}
+search-filter-section {grid-area: search-filter-section;}
+mini-search-area {grid-area: mini-search-area;}
+pane-content {grid-area: pane-content}
+task-panel {grid-area: task-panel;}
+task-panel-nav {grid-area: task-panel-nav;}
+task-panel-content {grid-area: task-panel-content;}
+task-outlook {grid-area: task-outlook;}
+task-name {grid-area: task-name;}
+task-date {grid-area: task-date;}
+task-tag {grid-area: task-tag;}
+mid-pane {grid-area: mid-pane;}
+mid-upper-pane-area {grid-area: mid-upper-pane-area;}
+page-title {grid-area: page-title;}
+page-prv {grid-area: page-prv;}
+page-nxt {grid-area: page-nxt;}
+quick-tools {grid-area: quick-tools;}
+mid-pane-tools {grid-area: mid-pane-tools;}
+mid-pane-key-title {grid-area: mid-pane-key-title;}
+mid-pane-title-line {grid-area: mid-pane-title-line;}
+applied-tags {grid-area: applied-tags;}
+mid-content {grid-area: mid-content;}
+lower-zone {grid-area: lower-zone;}
+lower-zone-side-1 {grid-area: lower-zone-side-1;}
+lower-zone-side-2 {grid-area: lower-zone-side-2;}
+dataset-sections {grid-area: dataset-sections;}
+dataset-section-1 {grid-area: dataset-section-1;}
+dataset-section-2 {grid-area: dataset-section-2;}
+.tags-line {grid-area: tags-line;}
+sub-menu-level-3 {grid-area: sub-menu-level-3;}
+pod-service-contracts-page {grid-area: pod-service-contracts-page;}
+/*End main content sections*/
+
+
+/*Start Button Fields*/
+button-fields-area {grid-area: button-fields-area;}
+
+
+button-field-1 {grid-area: button-field-1;}
+button-field-2 {grid-area: button-field-2;}
+button-field-3 {grid-area: button-field-3;}
+button-field-4 {grid-area: button-field-4;}
+button-field-5 {grid-area: button-field-5;}
+button-field-6 {grid-area: button-field-6;}
+button-field-7 {grid-area: button-field-7;}
+button-field-8 {grid-area: button-field-8;}
+button-field-9 {grid-area: button-field-9;}
+/*End Button fields*/
+
+
+/*Start Form areas*/
+energicos-form {grid-area: energicos-form;}
+/*End Form areas*/
+
+
+
+/*Start summary page contents*/
+summary-form {grid-area: summary-form;}
+summary-sub-header {grid-area: summary-sub-header;}
+summary-fields {grid-area: summary-fields;}
+summary-fields-6sections {grid-area: summary-fields-6sections;}
+summary-field-1 {grid-area: summary-field-1;}
+summary-field-2 {grid-area: summary-field-2;}
+summary-field-3 {grid-area: summary-field-3;}
+summary-field-4 {grid-area: summary-field-4;}
+summary-field-5 {grid-area: summary-field-5;}
+summary-field-6 {grid-area: summary-field-6;}
+summary-field-7 {grid-area: summary-field-7;}
+summary-field-8 {grid-area: summary-field-8;}
+summary-field-9 {grid-area: summary-field-9;}
+summary-field-10 {grid-area: summary-field-10;}
+summary-field-11 {grid-area: summary-field-11;}
+summary-field-12 {grid-area: summary-field-12;}
+/*End summary page contents*/
+
+
+/*Start page layout names*/
+contact-list-page {grid-area: contact-list-page;}
+basic-profile-page {grid-area: basic-profile-page;}
+personal-profile-page {grid-area: personal-profile-page;}
+business-profile-page {grid-area: business-profile-page;}
+contact-profile-page {grid-area: contact-profile-page;}
+delivery-address-page {grid-area: delivery-address-page;} 
+communication-page {grid-area: communication-page;} 
+financial-profile-page {grid-area: financial-profile-page;}
+credit-card-details-page {grid-area: credit-card-details-page;}
+SEPA-mandate-page {grid-area: SEPA-mandate-page;}
+digital-identity-page {grid-area: digital-identity-page;}
+org-list-page {grid-area: org-list-page;}
+org-basic-profile-page {grid-area: org-basic-profile-page;}
+org-business-profile-page {grid-area: org-business-profile-page;}
+org-management-profile-page {grid-area: org-management-profile-page;}
+org-contact-profile-page {grid-area: org-contact-profile-page;}
+org-delivery-address-page {grid-area: org-delivery-address-page;}
+org-communication-page {grid-area: org-communication-page;}
+org-financial-profile-page {grid-area: org-financial-profile-page;}
+org-credit-card-details-page {grid-area: org-credit-card-details-page;}
+org-SEPA-mandate-page {grid-area: org-SEPA-mandate-page;}
+org-identifier-profile-page {grid-area: org-identifier-profile-page;}
+org-summary-page {grid-area: org-summary-page;}
+org-mgr-overview {grid-area: org-mgr-overview;}
+
+pod-list-page {grid-area: pod-list-page;}
+pod-basic-profile-page {grid-area: pod-basic-profile-page;}
+pod-location-profile-page {grid-area: pod-location-profile-page;}
+pod-contract-profile-page {grid-area: pod-contract-profile-page;}
+pod-energy-contracts-page {grid-area: pod-energy-contracts-page;}
+pod-metering-profile-page {grid-area: pod-metering-profile-page;}
+pod-heat-meter-page {grid-area: pod-heat_meter-page;}
+pod-elt-meter-page {grid-area: pod-elt-meter-page;}
+pod-water-meter-page{grid-area: pod-water-meter-page;}
+pod-component-profile-page {grid-area: pod-component-profile-page;}
+pod-distribution-page {grid-area: pod-distribution-page;}
+pod-valves-fittings-page {grid-area: pod-valves-fittings-page;}
+pod-consumption-page {grid-area: pod-consumption-page;}
+pod-network-profile-page {grid-area: pod-network-profile-page;}
+pod-summary-page {grid-area: pod-summary-page;}
+pod-mgr-overview {grid-area: pod-mgr-overview;}
+
+bldg-list-page {grid-area: bldg-list-page;}
+bldg-basic-profile-page {grid-area: bldg-basic-profile-page;}
+bldg-location-profile-page {grid-area: bldg-location-profile-page;}
+bldg-entrance-page {grid-area: bldg-entrance-page;}
+bldg-apartment-page {grid-area: bldg-apartment-page;}
+bldg-room-page {grid-area: bldg-room-page;}
+bldg-revit-schedule-page {grid-area: bldg-revit-schedule-page;}
+bldg-apartment-schedule-page {grid-area: bldg-apartment-schedule-page;}
+bldg-room-schedule-page {grid-area: bldg-room-schedule-page;}
+bldg-apartment-profiles-page {grid-area: bldg-apartment-profiles-page;}
+bldg-consumption-profiles-page {grid-area: bldg-consumption-profiles-page;}
+bldg-historic-values-page {grid-area: bldg-historic-values-page;}
+bldg-energy-balance-profile-page {grid-area: bldg-energy-balance-profile-page;}
+bldg-climate-page {grid-area: bldg-climate-page;}
+bldg-network-profile-page {grid-area: bldg-network-profile-page;}
+bldg-mgr-summary {grid-area: bldg-mgr-summary;}
+bldg-mgr-overview {grid-area: bldg-mgr-overview;}
+
+
+tag-manager-page {grid-area: tag-manager-page;}
+group-manager-page {grid-area: group-manager-page;}
+role-manager-page {grid-area: role-manager-page;}
+status-manager-page {grid-area: status-manager-page;}
+communication-interfaces-page {grid-area: communication-interfaces-page;}
+general-settings-page {grid-area: general-settings-page;}
+activity-type-page {grid-area: activity-type-page;}
+task-type-page {grid-area: task-type-page;}
+bookmarks-page {grid-area: bookmarks-page;}
+favorites-page {grid-area: favorites-page;}
+
+
+contact-summary-page {grid-area: contact-summary-page;}
+sales-overview-page {grid-area: sales-overview-page;}
+procurement-overview-page {grid-area: procurement-overview-page;}
+service-overview-page {grid-area: service-overview-page;}
+/*End page layout names*/
+
+
+
+
+/*START TOP BAR ELEMENTS*/
+.top-bar {
+	display: grid;
+	width: 100%;
+	line-height: 60px;
+	margin: 0 auto;
+	letter-spacing: 0.7px;
+	grid-template-columns: 16% auto 18% 18%;
+	grid-gap: 0px;
+	grid-template-areas: "nav top-bar-search key-elements datetime";
+	grid-template-rows: 60px;
+}
+
+.top-bar-search {
+	display: grid;
+	width: 100%;
+	line-height: 60px;
+	margin-top: -1px;
+	letter-spacing: 0.7px;
+	grid-template-columns: auto 94% auto auto;
+	grid-gap: 0px;
+	grid-template-areas: "filter-key search-box-input sorting-key reset-key";
+	grid-template-rows: 60px;
+}
+/*END TOP BAR ELEMENTS*/
+
+
+/*START SIDEBAR ELEMENTS*/
+aside {
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	grid-template-columns: 1fr;
+	grid-gap: 0px;
+	grid-template-areas: "energicos-logo"
+						 "avatar-section"
+						 "search-section"
+						 "nav-level-1"
+						 "client-area";
+
+	grid-template-rows: 84px
+						169px
+						40px
+						1fr
+						48px;
+}
+/*END SIDEBAR ELEMENTS*/
+
+
+
+/*START MAIN-CONTENT ELEMENTS*/
+
+navigation-level-2 {
+	display: grid;
+	width: 100%;
+	margin-top: 10px;
+	grid-template-columns: 100%;
+	grid-gap: 0px;
+	grid-template-areas: "nav-level-2"
+		                 "nav-level-2-tab-content";
+	
+	
+	grid-template-rows: 50px
+		                1fr;
+}
+
+
+
+contact-list-page, contact-summary-page, contact-overview-page, sales-overview-page, procurement-overview-page, service-overview-page, org-list-page, org-summary-page, org-mgr-overview, pod-list-page, pod-summary-page, pod-mgr-overview, bldg-list-page, bldg-mgr-summary, bldg-mgr-overview {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 26% 24% 24% 26%;
+	grid-gap: 0px;
+	height: 87vh;
+	grid-template-areas: "breadcrumbs breadcrumbs breadcrumbs breadcrumbs"
+		                 "bookmarks bookmarks favorites favorites"
+		                 "module-identity-title module-identity-title module-identity-title module-identity-title"
+		                 "pane-large pane-large pane-large pane-small-last";
+	
+	
+	grid-template-rows: 44px
+		                42px
+		                41px
+		                1fr;
+}
+
+
+basic-profile-page, personal-profile-page, business-profile-page, contact-profile-page, delivery-address-page, communication-page, financial-profile-page, credit-card-details-page, SEPA-mandate-page, network-profile-page, digital-identity-page, org-basic-profile-page, org-business-profile-page, org-management-profile-page, org-contact-profile-page, org-delivery-address-page, org-communication-page, org-financial-profile-page, org-credit-card-details-page, org-SEPA-mandate-page, org-identifier-profile-page, pod-basic-profile-page, pod-location-profile-page, pod-contract-profile-page, pod-energy-contracts-page, pod-service-contracts-page, pod-metering-profile-page, pod-heat-meter-page, pod-elt-meter-page, pod-water-meter-page, pod-component-profile-page, pod-distribution-page, pod-valves-fittings-page, pod-consumption-page, pod-network-profile-page, bldg-basic-profile-page, bldg-location-profile-page, bldg-entrance-page, bldg-apartment-page, bldg-room-page, bldg-apartment-profiles-page, bldg-consumption-profiles-page, bldg-historic-values-page, bldg-energy-balance-profile-page, bldg-climate-page, bldg-network-profile-page, tag-manager-page, group-manager-page, role-manager-page, status-manager-page, communication-interfaces-page, general-settings-page, activity-type-page, bookmarks-page, favorites-page {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 26% 24% 24% 26%;
+	grid-gap: 0px;
+	height: 87vh;
+	grid-template-areas: "breadcrumbs breadcrumbs breadcrumbs breadcrumbs"
+		                 "bookmarks bookmarks favorites favorites"
+		                 "module-identity-title module-identity-title module-identity-title module-identity-title"
+		                 "pane-small-first pane-large pane-large pane-small-last";
+	
+	
+	grid-template-rows: 44px
+		                42px
+		                41px
+		                1fr;
+}
+
+
+bldg-revit-schedule-page, bldg-apartment-schedule-page, bldg-room-schedule-page {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 26% 24% 24% 26%;
+	grid-gap: 0px;
+	height: 87vh;
+	grid-template-areas: "breadcrumbs breadcrumbs breadcrumbs breadcrumbs"
+		                 "bookmarks bookmarks favorites favorites"
+		                 "module-identity-title module-identity-title module-identity-title module-identity-title"
+		                 "pane-small-first pane-large pane-large pane-large";
+	
+	
+	grid-template-rows: 44px
+		                42px
+		                41px
+		                1fr;
+}
+
+
+/*Start Mid Pane*/
+mid-pane {
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-gap: 0px;
+	grid-template-columns: 100%;
+	grid-template-areas: "mid-upper-pane-area"
+		                 "mid-pane-key-title"
+		                 "mid-pane-title-line"
+		                 "mid-content"
+		                 "applied-tags";
+	
+	grid-template-rows: 75px
+		                70px
+		                1px
+		                1fr
+		                115px;
+}
+
+
+
+
+
+/*End Mid Pane*/
+
+
+/*Start Summary Form*/
+summary-form {
+	display: grid;
+	width: 100%;
+	letter-spacing: 0.8;
+	margin-top: 10px;
+	grid-gap: 20px;
+	grid-template-columns: auto;
+	grid-template-areas: "summary-sub-header"
+		                 "summary-fields";
+		                 
+	grid-template-rows: 40px
+		                 1fr;
+}
+
+summary-fields {
+	display: grid;
+	width: 100%;
+	margin: 5px 0px 15px 0px;
+	grid-gap: 30px;
+	grid-template-columns: 31.1% 31.1% 31.1%;
+	grid-template-areas: "summary-field-1 summary-field-2 summary-field-3"
+		                 "summary-field-4 summary-field-5 summary-field-6"
+						 "summary-field-7 summary-field-8 summary-field-9"
+		                 "summary-field-10 summary-field-11 summary-field-12";
+}
+
+
+summary-fields-6sections {
+	display: grid;
+	width: 100%;
+	margin: 5px 0px 15px 0px;
+	grid-gap: 30px;
+	grid-template-columns: auto auto auto;
+	grid-template-areas: "summary-field-1 summary-field-2 summary-field-3"
+		                 "summary-field-4 summary-field-5 summary-field-6";
+}
+/*End Summary form*/
+
+
+/*Start Overview*/
+overview-section {
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	height: 74vh;
+	grid-gap: 0px;
+	grid-template-columns: auto;
+	grid-template-areas: "overview-functions"
+		                 "dataset-results-table"
+		                 "applied-filters";
+	
+	grid-template-rows: 48px
+		                1fr
+		                70px;
+	
+}
+
+dataset-results-table {
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	grid-gap: 0px;
+	grid-template-columns: 100%;
+	grid-template-areas: "paginated-links"
+		                 "results-table";
+}
+
+
+/*End overview*/
+
+
+/*Start Button Fields*/
+button-fields-area {
+	display: grid;
+	width: 100%;
+	margin: 5px 0px 20px 0px;
+	grid-gap: 20px;
+	grid-template-columns: 31.55% 31.55% 31.55%;
+	grid-template-areas: "button-field-1 button-field-2 button-field-3"
+		                 "button-field-4 button-field-5 button-field-6"
+						 "button-field-7 button-field-8 button-field-9";
+}
+/*End Button Fields*/
+
+
+/*END MAIN-CONTENT ELEMENTS*/
+
+
+/*start USER DATASET*/
+.dataset-item {
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	background-color: rgb(250, 250, 250);
+	box-shadow: 0px 0px 1px 0px rgba(149, 149, 150, 0.85);
+	border-top: 1px solid #e6e6e6;
+	min-height: 86px;
+	grid-gap: 15px;
+	grid-template-columns: 20% 9% 62% auto;
+	grid-template-areas: "contact-details completeness-degree mid-dataset-content view-more-dataset-info";
+}
+
+.dataset-item-element {
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	background-color: rgb(250, 250, 250);
+	box-shadow: 0px 0px 1px 0px rgba(149, 149, 150, 0.85);
+	border-top: 1px solid #e6e6e6;
+	min-height: 86px;
+	grid-gap: 15px;
+	grid-template-columns: 40% auto 7%;
+	grid-template-areas: "contact-details  mid-dataset-content view-more-dataset-info";
+}
+
+
+lower-zone {
+	display: grid;
+	width: 100%;
+	margin-top: 9.4px;
+	margin-bottom: 9.4px;
+	grid-template-columns: 50% 50%;
+	grid-template-areas: "lower-zone-side-1 lower-zone-side-2";
+}
+
+
+dataset-sections {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 50% 50%;
+	grid-template-areas: "dataset-section-1 dataset-section-2";
+}
+
+/*end USER DATASET*/
+
+
+/*START DATASET-SHORT-INFO*/
+dataset-short-info {
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	grid-template-columns: 50% 50%;
+	grid-gap: 0px;
+	grid-template-areas: "short-info-title short-info-title"
+		                 "short-info-col-1 short-info-col-2"
+		                 "dataset-tags dataset-tags"
+		                 "subject-area quick-action-area";
+	
+}
+
+
+dataset-short-info-1 {
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	grid-template-columns: 50% 50%;
+	grid-gap: 0px;
+	grid-template-areas: "short-info-title short-info-title"
+		                 "short-info-col-1 short-info-col-2"
+		                 "dataset-tags dataset-tags"
+		                 "menu-level-3 menu-level-3"
+		                 "subject-area quick-action-area";
+	
+}
+
+
+dataset-short-info-2 {
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	grid-template-columns: 50% 50%;
+	grid-gap: 0px;
+	grid-template-areas: "short-info-title short-info-title"
+		                 "short-info-col-1 short-info-col-2"
+		                 "dataset-tags dataset-tags"
+		                 "menu-level-3 sub-menu-level-3"
+		                 "subject-area quick-action-area";
+	
+}
+
+
+mini-panels {
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	grid-template-columns: auto;
+	grid-gap: 0px;
+	grid-template-areas: "pane-header"
+		                 "search-filter-section"
+		                 "pane-content";
+	
+	grid-template-rows: 76px
+		                85px
+		                1fr;
+}
+
+
+mini-search-area {
+	display: grid;
+	width: 100%;
+	line-height: 85px;
+	margin-top: -1px;
+	letter-spacing: 0.7px;
+	grid-template-columns: auto 76% auto auto;
+	grid-gap: 0px;
+	grid-template-areas: "filter-key search-box-input sorting-key reset-key";
+	grid-template-rows: 60px;
+}
+
+
+task-panel {
+	display: grid;
+	width: 100%;
+	grid-gap: 0px;
+	grid-template-columns: 100%;
+	grid-template-areas: "task-panel-nav"  
+		                 "task-panel-content";
+	
+	grid-template-rows: 45px
+		                1fr;
+}
+/*END DATASET-SHORT-INFO*/
+
+
+
+/* 
+  ##SCREEN = 1920PX RESOLUTION SCREENS
+*/
+@media (min-width: 1920px) {
+	
+	/*START MAIN PAGE FRAMEWORK*/
+	.module-container {
+		display: grid;
+		width: 100%;
+		height: 100vh;
+		margin: 0 auto;
+		letter-spacing: 0.7px;
+		grid-template-columns: 16% 23% auto 26%;
+		grid-gap: 0px;
+		grid-template-areas: "header header header header"
+							 "aside main-content main-content main-content"
+							 "footer footer footer footer";
+
+		grid-template-rows: 60px
+							90.4vh
+							50px;
+
+		min-height: 100vh;
+
+	}
+
+
+	.module-container div {
+	}
+	
+	
+	/*END MAIN PAGE FRAMEWORK*/
+	
+  
+}
+
+
+
+
+
+/* 
+  ##SCREEN = 1921PX TO 3840PX SCREENS
+*/
+@media (min-width: 1921px) and (max-width: 3840px) {
+	
+	/*START MAIN PAGE FRAMEWORK*/
+	.module-container {
+		display: grid;
+		width: 100%;
+		height: 100vh;
+		margin: 0 auto;
+		letter-spacing: 0.7px;
+		grid-template-columns: 16% 23% auto 26%;
+		grid-gap: 0px;
+		grid-template-areas: "header header header header"
+							 "aside main-content main-content main-content"
+							 "footer footer footer footer";
+
+		grid-template-rows: 60px
+							90.4vh
+							50px;
+
+		min-height: 100vh;
+
+	}
+
+
+	.module-container div {
+	}
+	/*END MAIN PAGE FRAMEWORK*/
+	
+	
+  
+}
+
