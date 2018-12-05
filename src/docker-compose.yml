@@ -1,0 +1,9 @@
+version: '2'
+services:
+  ebs-contacts:
+    build: ebs-contacts
+    image: ebs-contacts
+    ports:
+      - 3001:3000
+    environment:
+      HOST: '0.0.0.0'
