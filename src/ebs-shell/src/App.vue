@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <h1>Micro-frontend concept</h1>
     <ebs-app></ebs-app>
   </div>
 </template>
