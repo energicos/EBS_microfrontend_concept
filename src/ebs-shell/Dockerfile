@@ -3,7 +3,7 @@ FROM node:10.4.0-alpine as build-stage
 
 WORKDIR /opt/app
 
-COPY package*.json ./
+COPY yarn.lock package.json ./
 
 RUN yarn
 
