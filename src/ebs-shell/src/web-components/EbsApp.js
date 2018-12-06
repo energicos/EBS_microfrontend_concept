@@ -4,16 +4,19 @@ class EbsApp extends HTMLElement {
   constructor() {
     super();
 
-    // TODO: make the url configurable
-    const url = 'http://127.0.0.1:3001';
-    this.renderApp(url);
-
     this.shadowRoot = this.attachShadow({
       mode: 'open'
     });
+  }
+
+  connectedCallback() {
+    const url = this.getAttribute('url');
+
     this.shadowRoot.innerHTML = `
       Loading ${url}
     `;
+
+    this.renderApp(url);
   }
 
   async renderApp(url) {

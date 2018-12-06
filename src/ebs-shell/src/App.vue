@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>Micro-frontend concept</h1>
-    <ebs-app></ebs-app>
+    <ebs-app url="http://127.0.0.1:3001"></ebs-app>
   </div>
 </template>
 
