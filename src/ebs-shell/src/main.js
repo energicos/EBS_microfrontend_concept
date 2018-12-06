@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+import './web-components/EbsApp';
+
 Vue.config.productionTip = false
 
 new Vue({
