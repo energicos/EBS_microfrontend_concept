@@ -7,3 +7,9 @@ services:
       - 3001:3000
     environment:
       HOST: '0.0.0.0'
+
+  ebs-shell:
+    build: ebs-shell
+    image: ebs-shell
+    ports:
+      - 3000:80
