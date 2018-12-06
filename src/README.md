@@ -1,12 +1,23 @@
 # Development
 
-TODO
+## Development mode
+
+TODO: yarn setup
+
+## Running in Docker 
 
 ```bash
 docker-compose up --build
 ```
 
 # Features
+
+## Components
+
+TODO
+
+- ebs-contacts
+- ebs-shell
 
 ## Web Components
 
