@@ -59,5 +59,12 @@ module.exports = {
     extend(config, ctx) {
       
     }
+  },
+
+  /**
+   * The app needs to be aware of the path it's served under to be return correct paths for its assets.
+   */
+  router: {
+    base: '/contacts/'
   }
 }
