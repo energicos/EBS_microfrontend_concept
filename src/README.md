@@ -1,3 +1,14 @@
+# micro-frontend concept
+
+A PoC implementation of the micro-frontend pattern. Main goals:
+- Ease of maintenance;
+- Stability;
+- Freedom to choose different tech stacks.
+
+Useful articles on the micro-frontend pattern:
+- https://medium.embengineering.com/micro-front-ends-whats-the-best-solution-3bc31218eae4
+- https://medium.com/@_rchaves_/building-microfrontends-part-i-creating-small-apps-710d709b48b7
+
 # Development
 
 ## Development mode
@@ -19,18 +30,32 @@ TODO
 - ebs-contacts
 - ebs-shell
 
-## Web Components
-
-TODO
-
-References:
-- https://developer.mozilla.org/en-US/docs/Web/Web_Components
-- https://www.sitepen.com/blog/2018/07/06/web-components-in-2018/
-- https://custom-elements-everywhere.com/
-
 ## Routing and paths
 
 TODO 
 
 - proxy setup
 - prod setup
+
+# Notes
+
+## Web Components
+
+Using web components to embed server-side rendered applications has a number of issues:
+- JS contained in the embedded app needs to be executed manually. When loading the app using ajax and including it
+in the shell, the browser does not evaluate the included `script` tags. They need to be evaluated manually. While this is 
+doable for synchronous scripts, it can be tricky to get the execution order correctly when the app uses `async` and `defer`
+for loading scripts.
+- JS will be executed in the global context. Web components do not provide any mechanism for sandboxing the JS code of the 
+embedded app. Since the rest of the HTML code is encapsulated in a shadow root, the globally evaluated scripts will fail to 
+access some of the DOM elements. For example, nuxt.js crashes with an error when trying to locate the `#__nuxt` element. 
+- Since JS is executed in the global scope, running multiple applications will cause them to interfere with each other. For example, 
+nuxt.js relies on the `window.__NUXT__` variable to propagate data from the server-side to the client. Loading libraries of 
+different versions for different apps is also likely to cause problems.
+
+Considering these factors, web components don't seem like a proper way to embed server-side rendered applications.
+
+References on using web components:
+- https://developer.mozilla.org/en-US/docs/Web/Web_Components
+- https://www.sitepen.com/blog/2018/07/06/web-components-in-2018/
+- https://custom-elements-everywhere.com/
