@@ -42,6 +42,10 @@ TODO
 - ebs-contacts
 - ebs-shell
 
+## Communication
+
+TODO
+
 ## Routing and paths
 
 TODO 
