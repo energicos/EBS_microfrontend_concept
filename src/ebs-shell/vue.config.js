@@ -1,5 +1,3 @@
-console.log('zzz');
-
 module.exports = {
   devServer: {
     proxy: {
