@@ -13,7 +13,21 @@ Useful articles on the micro-frontend pattern:
 
 ## Development mode
 
-TODO: yarn setup
+1. Run the contact app:
+
+```bash
+cd ebs-contacts
+yarn
+yarn dev
+```
+
+1. Run the shell app:
+
+```bash
+cd ebs-shell
+yarn
+yarn serve
+```
 
 ## Running in Docker 
 
