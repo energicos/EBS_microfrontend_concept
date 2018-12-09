@@ -31,9 +31,7 @@ yarn serve
 
 ## Running in Docker 
 
-```bash
-docker-compose up --build
-```
+TODO
 
 # Features
 
