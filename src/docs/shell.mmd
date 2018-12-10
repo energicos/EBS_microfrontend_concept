@@ -1,0 +1,21 @@
+graph TB
+
+subgraph Shell
+
+EventBus[Event bus]
+
+ebsapp1[EbsApp Component]
+
+ebsapp2[EbsApp Component]
+
+EventBus --- ebsapp1
+
+EventBus --- ebsapp2
+
+end
+
+contacts[Contact app]
+contracts[Contract app]
+
+ebsapp1-->contacts
+ebsapp2-->contracts

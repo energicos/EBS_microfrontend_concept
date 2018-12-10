@@ -1,48 +1,45 @@
 # micro-frontend concept
 
-A PoC implementation of the micro-frontend pattern. Main goals:
+A PoC implementation of the micro-frontend pattern. The main goals of the concept are:
 - Ease of maintenance;
 - Stability;
 - Freedom to choose different tech stacks.
 
-Useful articles on the micro-frontend pattern:
-- https://medium.embengineering.com/micro-front-ends-whats-the-best-solution-3bc31218eae4
-- https://medium.com/@_rchaves_/building-microfrontends-part-i-creating-small-apps-710d709b48b7
+## Concept
 
-# Development
+- The main part of each screen is separated in its own micro-frontend
+- Micro-frontends are renders inside a "shell" application.
+- Each micro-frontend is hosted as a separate application to allow for an independent life cycle.
 
-## Development mode
+## Building block view
 
-1. Run the contact app:
+The solution consists of the following major components:
+- The "shell" application is implemented using Vue.js CLI
+- Two micro-frontends: contacts and contracts (TODO) are implemented using Nuxt.js and server-side rendering.
 
-```bash
-cd ebs-contacts
-yarn
-yarn dev
-```
 
-1. Run the shell app:
+![Concept](docs/concepts.png)
 
-```bash
-cd ebs-shell
-yarn
-yarn serve
-```
+#### Shell
 
-## Running in Docker 
+The shell app contains an `EbsApp` Vue.js component to render each micro-frontend and a `EventBus` to enable 
+communication between micr-frontends.
 
-TODO
+![Shell](docs/shell.mmd.svg)
 
-# Features
+## Runtime view
 
-## Structure
+### Rendering mico-frontends
 
-TODO
+Micro-frontends are rendered using iframes. This allows to:
+1. Easily embed remote applications in the shell.
+2. Encapsulate its HTML and CSS.
+3. Completely isolate its JavaScript runtime.
 
-- ebs-contacts
-- ebs-shell
+From the downsides of this approach one can note that some additional efforts might be required to make the iframe
+fit nicely in the overall layout of the application.
 
-## Communication
+### Communication
 
 The micro-frontends need to be able to communicate with other micro-frontends and the shell itself. To enable easier
 integration of new micro-frontends, the communication is done using an event-based API.
@@ -71,16 +68,37 @@ The `type` property needs to start with `app.` to distinguish application messag
 
 ![Messaging](docs/messaging.mmd.svg)
 
-## Routing and paths
+## Deployment view
 
-TODO 
+TODO
 
-- proxy setup
-- prod setup
+## Development
 
-# Notes
+### Development mode
 
-## Web Components
+1. Run the contact app:
+
+```bash
+cd ebs-contacts
+yarn
+yarn dev
+```
+
+1. Run the shell app:
+
+```bash
+cd ebs-shell
+yarn
+yarn serve
+```
+
+### Running in Docker 
+
+TODO
+
+# #Notes
+
+### Web Components
 
 Using web components to embed server-side rendered applications has a number of issues:
 - JS contained in the embedded app needs to be executed manually. When loading the app using ajax and including it
@@ -100,3 +118,9 @@ References on using web components:
 - https://developer.mozilla.org/en-US/docs/Web/Web_Components
 - https://www.sitepen.com/blog/2018/07/06/web-components-in-2018/
 - https://custom-elements-everywhere.com/
+
+## References
+
+Useful articles on the micro-frontend pattern:
+- https://medium.embengineering.com/micro-front-ends-whats-the-best-solution-3bc31218eae4
+- https://medium.com/@_rchaves_/building-microfrontends-part-i-creating-small-apps-710d709b48b7
