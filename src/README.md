@@ -20,7 +20,7 @@ The solution consists of the following major components:
 
 ![Concept](docs/concepts.png)
 
-#### Shell
+### Shell
 
 The shell app contains an `EbsApp` Vue.js component to render each micro-frontend and a `EventBus` to enable 
 communication between micr-frontends.
