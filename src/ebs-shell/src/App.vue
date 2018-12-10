@@ -2,6 +2,10 @@
   <div id="app">
     <header>
       <h1>Micro-frontend concept</h1>
+      <div>
+        Synchronized counter: {{counter}}
+        <button v-on:click="increment">Increment</button>
+      </div>
     </header>
     <content>
       <ebs-app src="/contacts"></ebs-app>
@@ -11,9 +15,39 @@
 
 <script>
 import EbsApp from "./micro-frontends/EbsApp";
+import {connect} from './micro-frontends/EventBus';
+
+let unsubscribe;
+
 export default {
   name: 'app',
   components: {EbsApp},
+  data: () => {
+    return {
+      counter: 0,
+    }
+  },
+  methods: {
+    increment() {
+      // this.counter++;
+
+      window.postMessage({
+        type: 'app.increment'
+      });
+    }
+  },
+  mounted() {
+    unsubscribe = connect(window);
+
+    window.addEventListener('message', (e) => {
+      if (typeof e.data.type !== 'undefined' && e.data.type === 'app.increment') {
+        this.counter++;
+      }
+    });
+  },
+  beforeDestroy() {
+    unsubscribe();
+  }
 }
 </script>
 
@@ -31,7 +65,7 @@ export default {
 
 header {
   text-align: center;
-  flex: 0 100px;
+  flex: 0 150px;
 }
 
 content {

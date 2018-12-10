@@ -44,7 +44,32 @@ TODO
 
 ## Communication
 
-TODO
+The micro-frontends need to be able to communicate with other micro-frontends and the shell itself. To enable easier
+integration of new micro-frontends, the communication is done using an event-based API.
+
+There is a native [window.postMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) that allows to 
+communicate between different `window` objects. Consumers can subscribe to messages by listening to the `message` event. 
+
+Messaging between different `window` objects is seamlessly integrated
+together using a simple [event bus](ebs-shell/src/micro-frontends/EventBus.js) that listens to messages on each of the windows
+and broadcasts them to others. This way the applications won't even know that they are talking to a different application.
+
+#### Message envelope
+
+Messages are represented using objects with a `type` property and any other payload.
+
+```js
+{
+    type: 'app.my-message',
+    customProperty: 'some-value'
+}
+```
+
+The `type` property needs to start with `app.` to distinguish application messages from the rest.
+
+#### Messaging sequence diagram
+
+![Messaging](docs/messaging.mmd.svg)
 
 ## Routing and paths
 

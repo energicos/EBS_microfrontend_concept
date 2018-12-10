@@ -1,12 +1,22 @@
 <template>
-  <iframe v-bind:src="src"></iframe>
+  <iframe v-bind:src="src" ref="iframe"></iframe>
 </template>
 
 <script>
+import {connect} from "./EventBus";
+
+let unsubscribe;
+
 export default {
   name: 'ebs-app',
   props: {
     src: String
+  },
+  mounted() {
+    unsubscribe = connect(this.$refs.iframe.contentWindow);
+  },
+  beforeDestroy() {
+    unsubscribe();
   }
 }
 </script>
