@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <Header></Header>
-    <content>
+    <main>
+      <side-panel></side-panel>
       <ebs-app src="/contacts"></ebs-app>
-    </content>
+    </main>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import EbsApp from "./micro-frontends/EbsApp";
 import {connect} from './micro-frontends/EventBus';
 import Header from "./components/Header";
+import SidePanel from "./components/SidePanel";
 
 import './css/fonts.css';
 import './css/form.css';
@@ -19,8 +21,6 @@ import './css/layout.css';
 import './css/styles.css';
 import './css/tables.css';
 
-import './assets/js/control'
-
 let unsubscribe;
 
 export default {
@@ -28,6 +28,7 @@ export default {
   components: {
     EbsApp,
     Header,
+    SidePanel,
   },
   data: () => {
     return {
@@ -70,8 +71,10 @@ export default {
   bottom: 0;
 }
 
-content {
+main {
   flex: 1;
+
+  display: flex;
 }
 
 </style>
