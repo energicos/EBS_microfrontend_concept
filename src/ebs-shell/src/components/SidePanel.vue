@@ -112,7 +112,6 @@
 
 <style>
   .side-panel {
-    flex: 0 350px;
-    width: 350px;
+    width: 270px;
   }
 </style>

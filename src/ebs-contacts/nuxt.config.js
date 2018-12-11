@@ -27,6 +27,12 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '@/assets/css/fonts.css',
+    '@/assets/css/form.css',
+    '@/assets/css/icons-codes.css',
+    '@/assets/css/layout.css',
+    '@/assets/css/styles.css',
+    '@/assets/css/tables.css',
   ],
 
   /*
