@@ -1,12 +1,6 @@
 <template>
   <div id="app">
-    <header>
-      <h1>Micro-frontend concept</h1>
-      <div>
-        Synchronized counter: {{counter}}
-        <button v-on:click="increment">Increment</button>
-      </div>
-    </header>
+    <Header></Header>
     <content>
       <ebs-app src="/contacts"></ebs-app>
     </content>
@@ -16,12 +10,25 @@
 <script>
 import EbsApp from "./micro-frontends/EbsApp";
 import {connect} from './micro-frontends/EventBus';
+import Header from "./components/Header";
+
+import './css/fonts.css';
+import './css/form.css';
+import './css/icons-codes.css';
+import './css/layout.css';
+import './css/styles.css';
+import './css/tables.css';
+
+import './assets/js/control'
 
 let unsubscribe;
 
 export default {
   name: 'app',
-  components: {EbsApp},
+  components: {
+    EbsApp,
+    Header,
+  },
   data: () => {
     return {
       counter: 0,
@@ -61,11 +68,6 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-}
-
-header {
-  text-align: center;
-  flex: 0 150px;
 }
 
 content {
