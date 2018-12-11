@@ -94,7 +94,7 @@ yarn serve
 
 ### Running in Docker 
 
-TODO
+To start the application using Docker run `docker-compose up` and open [localhost:3000](http://localhost:3000) in your browser.
 
 # #Notes
 
