@@ -627,7 +627,7 @@ nav-level-2 {
 	display: grid;
 	width: 100%;
 	background-color: #fafafa;
-	grid-template-columns: 68px 159px 159px 159px 159px 159px 159px 159px 159px 159px;
+	grid-template-columns: 68px 159px 159px 159px 159px 159px ;
 	grid-gap: 0px;
 	letter-spacing: 0.5px;
 	

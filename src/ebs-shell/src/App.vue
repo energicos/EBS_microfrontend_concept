@@ -3,7 +3,10 @@
     <Header></Header>
     <main>
       <side-panel></side-panel>
-      <ebs-app src="/contacts"></ebs-app>
+      <div class="content">
+        <navigation></navigation>
+        <ebs-app src="/contacts"></ebs-app>
+      </div>
     </main>
   </div>
 </template>
@@ -13,6 +16,7 @@ import EbsApp from "./micro-frontends/EbsApp";
 import {connect} from './micro-frontends/EventBus';
 import Header from "./components/Header";
 import SidePanel from "./components/SidePanel";
+import Navigation from "./components/Navigation";
 
 import './css/fonts.css';
 import './css/form.css';
@@ -29,6 +33,7 @@ export default {
     EbsApp,
     Header,
     SidePanel,
+    Navigation,
   },
   data: () => {
     return {
@@ -60,21 +65,35 @@ export default {
 </script>
 
 <style>
-#app {
-  color: #2c3e50;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
+  #app {
+    color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 
-main {
-  flex: 1;
+  main {
+    flex: 1;
 
-  display: flex;
-}
+    display: flex;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  navigation {
+    flex: 0 50px;
+  }
+
+  ebs-app {
+    flex: 1;
+  }
 
 </style>

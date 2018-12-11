@@ -1,5 +1,5 @@
 <template>
-  <aside><!-- BEGIN SIDEBAR -->
+  <aside class="side-panel"><!-- BEGIN SIDEBAR -->
 
     <div class="energicos-logo"><!-- Start logo -->
       <img src="../assets/img/logo.png" width="149px" alt="logo"/>
@@ -111,8 +111,8 @@
 </script>
 
 <style>
-
-  aside {
+  .side-panel {
+    flex: 0 350px;
     width: 350px;
   }
 </style>
