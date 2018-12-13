@@ -71,6 +71,6 @@ module.exports = {
    * The app needs to be aware of the path it's served under to be return correct paths for its assets.
    */
   router: {
-    base: '/contacts/'
+    base: '/contacts-app/'
   }
 }

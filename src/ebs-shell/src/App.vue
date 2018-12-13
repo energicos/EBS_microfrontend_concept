@@ -5,14 +5,13 @@
       <side-panel></side-panel>
       <div class="content">
         <navigation></navigation>
-        <ebs-app src="/contacts"></ebs-app>
+        <router-view></router-view>
       </div>
     </main>
   </div>
 </template>
 
 <script>
-import EbsApp from "./micro-frontends/EbsApp";
 import {connect} from './micro-frontends/EventBus';
 import Header from "./components/Header";
 import SidePanel from "./components/SidePanel";
@@ -30,7 +29,6 @@ let unsubscribe;
 export default {
   name: 'app',
   components: {
-    EbsApp,
     Header,
     SidePanel,
     Navigation,
