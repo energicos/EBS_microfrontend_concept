@@ -36,9 +36,9 @@
 
           <ul id="menu-content">
 
-            <li class="active specific_module" onclick="location.href='contact-manager.html'">
+            <router-link tag="li" class="specific_module" to="/contacts" active-class="active">
               <a href="#"><i class="icon icon-side-nav icon-crm"></i>CRM <span class="arrow"></span></a>
-            </li>
+            </router-link>
 
 
             <li class="specific_module" onclick="location.href='#'">
@@ -85,9 +85,10 @@
               <a href="#"><i class="icon icon-side-nav icon-user-area"></i>User Area <span class="arrow"></span></a>
             </li>
 
-            <li class="specific_module" onclick="location.href='settings.html'">
+            <router-link tag="li" class="specific_module" to="/settings" active-class="active">
               <a href="#"><i class="icon icon-side-nav icon-settings"></i>Settings <span class="arrow"></span></a>
-            </li>
+            </router-link>
+
           </ul>
         </div>
       </div>

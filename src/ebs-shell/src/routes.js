@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import ContactsApp from "./components/apps/ContactsApp";
+import SettingsApp from "./components/apps/SettingsApp";
 
 Vue.use(Router);
 
@@ -12,6 +13,11 @@ export default new Router({
       path: '/contacts',
       name: 'contacts',
       component: ContactsApp,
+    },
+    {
+      path: '/settings',
+      name: 'settings',
+      component: SettingsApp,
     },
   ]
 })

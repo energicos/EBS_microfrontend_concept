@@ -10,6 +10,16 @@ services:
     environment:
       HOST: '0.0.0.0'
 
+  ebs-settings:
+    build: ebs-settings
+    image: ebs-settings
+    networks:
+      - local-network
+    ports:
+      - 3003:3002
+    environment:
+      HOST: '0.0.0.0'
+
   ebs-shell:
     build: ebs-shell
     image: ebs-shell
@@ -27,6 +37,7 @@ services:
       - local-network
     depends_on:
       - ebs-contacts
+      - ebs-settings
       - ebs-shell
 
 networks:
