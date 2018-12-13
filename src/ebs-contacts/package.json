@@ -15,6 +15,7 @@
     "cors": "^2.8.5",
     "cross-env": "^5.2.0",
     "express": "^4.16.3",
+    "faker": "^4.1.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
