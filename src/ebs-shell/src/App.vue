@@ -4,7 +4,6 @@
     <main>
       <side-panel></side-panel>
       <div class="content">
-        <navigation></navigation>
         <router-view></router-view>
       </div>
     </main>
@@ -15,7 +14,6 @@
 import {connect} from './micro-frontends/EventBus';
 import Header from "./components/Header";
 import SidePanel from "./components/SidePanel";
-import Navigation from "./components/Navigation";
 
 import './css/fonts.css';
 import './css/form.css';
@@ -31,7 +29,6 @@ export default {
   components: {
     Header,
     SidePanel,
-    Navigation,
   },
   data: () => {
     return {

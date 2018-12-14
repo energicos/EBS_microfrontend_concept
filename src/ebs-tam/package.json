@@ -1,13 +1,13 @@
 {
-  "name": "ebs-settings",
+  "name": "ebs-tam",
   "version": "1.0.0",
   "description": "My tiptop Nuxt.js project",
   "author": "pavel.yeliseev",
   "private": true,
   "scripts": {
-    "dev": "cross-env PORT=3003 NODE_ENV=development nodemon server/index.js --watch server",
+    "dev": "cross-env PORT=3004 NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
-    "start": "cross-env PORT=3003 NODE_ENV=production node server/index.js",
+    "start": "cross-env PORT=3004 NODE_ENV=production node server/index.js",
     "generate": "nuxt generate"
   },
   "dependencies": {

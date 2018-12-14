@@ -53,9 +53,9 @@
               <a href="#"><i class="icon icon-side-nav icon-telemetry"></i>Telemetry <span class="arrow"></span></a>
             </li>
 
-            <li class="specific_module" onclick="location.href='tam.html'">
+            <router-link tag="li" class="specific_module" to="/tam" active-class="active">
               <a href="#"><i class="icon icon-side-nav icon-tam"></i>TAM <span class="arrow"></span></a>
-            </li>
+            </router-link>
 
             <li class="specific_module" onclick="location.href='#'">
               <a href="#"><i class="icon icon-side-nav icon-products"></i>Products <span class="arrow"></span></a>

@@ -1,6 +1,26 @@
 <template>
   <section class="module-container">
     <main-content><!-- BEGIN MAIN CONTENT -->
+      <navigation-level-2><!-- Begin Nav Level 2 -->
+        <nav-level-2>
+          <!-- Start key nav tabs -->
+          <div class="container-body">
+            <div class="key-nav-tabs">
+              <button class="tab-home" onclick="location.href='#'"><i class="icon icon-nexus"></i></button>
+              <button class="sub_module" onclick="location.href='#'">CRM</button>
+              <button class="sub_module" onclick="location.href='#'">Finance</button>
+              <button class="sub_module" onclick="location.href='#'">Telemetry</button>
+              <button class="sub_module" onclick="location.href='#'">TAM</button>
+              <button class="sub_module" onclick="location.href='#'">Products</button>
+              <button class="sub_module" onclick="location.href='#'">References</button>
+              <button class="sub_module" onclick="location.href='#'">Analysis</button>
+              <button class="sub_module" onclick="location.href='#'">Algorithms</button>
+              <button class="sub_module active" onclick="location.href='#'">Database</button>
+            </div>
+          </div>
+          <!-- End key nav tabs -->
+        </nav-level-2>
+      </navigation-level-2><!-- End Nav Level 2 -->
 
       <div id="settings-database-tab" class="tabsets_section" style="display: block;"><!--======Start CONTACT MANAGER TAB ======-->
 

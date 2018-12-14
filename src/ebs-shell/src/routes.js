@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import ContactsApp from "./components/apps/ContactsApp";
 import SettingsApp from "./components/apps/SettingsApp";
+import TamApp from "./components/apps/TamApp";
 
 Vue.use(Router);
 
@@ -18,6 +19,11 @@ export default new Router({
       path: '/settings',
       name: 'settings',
       component: SettingsApp,
+    },
+    {
+      path: '/tam',
+      name: 'tam',
+      component: TamApp,
     },
   ]
 })

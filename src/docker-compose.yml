@@ -16,7 +16,17 @@ services:
     networks:
       - local-network
     ports:
-      - 3003:3002
+      - 3003:3003
+    environment:
+      HOST: '0.0.0.0'
+
+  ebs-tam:
+    build: ebs-tam
+    image: ebs-tam
+    networks:
+      - local-network
+    ports:
+      - 3004:3004
     environment:
       HOST: '0.0.0.0'
 
@@ -38,6 +48,7 @@ services:
     depends_on:
       - ebs-contacts
       - ebs-settings
+      - ebs-tam
       - ebs-shell
 
 networks:

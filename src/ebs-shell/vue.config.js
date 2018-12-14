@@ -11,6 +11,11 @@ module.exports = {
         ws: true,
         changeOrigin: true
       },
+      '/tam-app': {
+        target: 'http://127.0.0.1:3004/',
+        ws: true,
+        changeOrigin: true
+      },
     }
   }
 }
