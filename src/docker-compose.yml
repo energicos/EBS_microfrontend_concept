@@ -26,7 +26,7 @@ services:
     networks:
       - local-network
     ports:
-      - 3001:3001
+      - 3001:80
 
   ebs-proxy:
     build: ebs-proxy
