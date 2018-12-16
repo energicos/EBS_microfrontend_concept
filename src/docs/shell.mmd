@@ -8,14 +8,20 @@ ebsapp1[EbsApp Component]
 
 ebsapp2[EbsApp Component]
 
+ebsapp3[EbsApp Component]
+
 EventBus --- ebsapp1
 
 EventBus --- ebsapp2
 
+EventBus --- ebsapp3
+
 end
 
-contacts[Contact app]
-contracts[Contract app]
+contacts[Contact manager app]
+organization[Organization manager app]
+other[...]
 
 ebsapp1-->contacts
-ebsapp2-->contracts
+ebsapp2-->organization
+ebsapp3-->other

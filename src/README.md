@@ -15,7 +15,8 @@ A PoC implementation of the micro-frontend pattern. The main goals of the concep
 
 The solution consists of the following major components:
 - The "shell" application is implemented using Vue.js CLI
-- Two micro-frontends: contacts and contracts (TODO) are implemented using Nuxt.js and server-side rendering.
+- Several micro-frontends: contact manager, organization manager, pod manager, building manager, TAM and settings.
+- A reverse proxy to serve the shell and micro-frontends.
 
 
 ![Concept](docs/concepts.png)
@@ -70,13 +71,16 @@ The `type` property needs to start with `app.` to distinguish application messag
 
 ## Deployment view
 
-TODO
+Each micro-frontend the shell app is deployed as a separate Docker container. All of them a served via a single reverse Nginx proxy.
+The proxy is used to avoid limitations with loading resources from different domains. It can also be used for SSL and HTTP/2 termination.
+
+![Deployment](docs/deployment.png)
 
 ## Development
 
 ### Development mode
 
-1. Run the contact app:
+1. Run a micro-service that you need, e.g. contacts:
 
 ```bash
 cd ebs-contacts

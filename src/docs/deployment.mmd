@@ -1,0 +1,18 @@
+graph TB
+
+user[User]
+
+proxy[Nginx Proxy<br />Docker container]
+user --> |HTTP or HTTPS, HTTP/2| proxy
+
+shell[Shell app<br />Docker container]
+proxy --> |HTTP| shell
+
+contacts[Contact manager app<br />Docker container]
+proxy --> |HTTP| contacts
+
+organization[Organization manager app<br />Docker container]
+proxy --> |HTTP| organization
+
+other[Other apps ...<br />Docker container]
+proxy --> |HTTP| other
