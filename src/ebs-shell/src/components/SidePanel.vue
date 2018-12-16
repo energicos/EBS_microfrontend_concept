@@ -36,7 +36,7 @@
 
           <ul id="menu-content">
 
-            <router-link tag="li" class="specific_module" to="/contacts" active-class="active">
+            <router-link tag="li" class="specific_module" to="contacts" active-class="active">
               <a href="#"><i class="icon icon-side-nav icon-crm"></i>CRM <span class="arrow"></span></a>
             </router-link>
 

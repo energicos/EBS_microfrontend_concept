@@ -30,6 +30,36 @@ services:
     environment:
       HOST: '0.0.0.0'
 
+  ebs-pod:
+    build: ebs-pod
+    image: ebs-pod
+    networks:
+      - local-network
+    ports:
+      - 3005:3005
+    environment:
+      HOST: '0.0.0.0'
+
+  ebs-organization:
+    build: ebs-organization
+    image: ebs-organization
+    networks:
+      - local-network
+    ports:
+      - 3006:3006
+    environment:
+      HOST: '0.0.0.0'
+
+  ebs-building:
+    build: ebs-building
+    image: ebs-building
+    networks:
+      - local-network
+    ports:
+      - 3007:3007
+    environment:
+      HOST: '0.0.0.0'
+
   ebs-shell:
     build: ebs-shell
     image: ebs-shell
@@ -49,6 +79,9 @@ services:
       - ebs-contacts
       - ebs-settings
       - ebs-tam
+      - ebs-pod
+      - ebs-organization
+      - ebs-building
       - ebs-shell
 
 networks:
