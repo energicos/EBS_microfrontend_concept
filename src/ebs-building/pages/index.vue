@@ -1225,12 +1225,12 @@
 
                           <div class="data-input">
                             <label>Number of Floors<span class="required"></span></label>
-                            <input type="financial" name="floors_number" class="field-long field-autofill" placeholder=" - Autofill -" />
+                            <input type="text" name="floors_number" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Heating Areas Total<span class="required"></span></label>
-                            <input type="financial" name="heating_areas_total" class="field-long field-autofill" placeholder=" - Autofill -" />
+                            <input type="text" name="heating_areas_total" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
@@ -1271,12 +1271,12 @@
 
                           <div class="data-input">
                             <label>Number of Entrances<span class="required"></span></label>
-                            <input type="financial" name="entrances_total" class="field-long field-autofill" placeholder=" - Autofill -" />
+                            <input type="text" name="entrances_total" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Number of Apartments<span class="required"></span></label>
-                            <input type="financial" name="apartments_total" class="field-long field-autofill" placeholder=" - Autofill -" />
+                            <input type="text" name="apartments_total" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
@@ -6652,11 +6652,6 @@
                           </div>
 
                           <div class="data-input">
-                            <label>Room Volume</label>
-                            <input type="text" name="room_volume" class="field-long" placeholder=" - Input Value -" />
-                          </div>
-
-                          <div class="data-input">
                             <label>Number of Air Exchange</label>
                             <input type="text" name="air_exchange_number" class="field-long" placeholder=" - Input Value -" />
                           </div>
@@ -9411,7 +9406,7 @@
                     <div class="dataset-item-element specific_module" onclick="#">
                       <div class="contact-details"><!-- Start contact details -->
                         <ul class="contacts">
-                          <li><span class="most-important contact-person">Room ID #15347</span></li>
+                          <li><span class="most-important contact-person">Apartment ID #15347</span></li>
                           <li>
                             <dataset-sections>
                               <dataset-section-1>
@@ -9477,7 +9472,7 @@
                     <div class="dataset-item-element specific_module" onclick="#">
                       <div class="contact-details"><!-- Start contact details -->
                         <ul class="contacts">
-                          <li><span class="most-important contact-person">Room ID #15347</span></li>
+                          <li><span class="most-important contact-person">Apartment ID #15347</span></li>
                           <li>
                             <dataset-sections>
                               <dataset-section-1>
@@ -9543,7 +9538,7 @@
                     <div class="dataset-item-element specific_module" onclick="#">
                       <div class="contact-details"><!-- Start contact details -->
                         <ul class="contacts">
-                          <li><span class="most-important contact-person">Room ID #15347</span></li>
+                          <li><span class="most-important contact-person">Apartment ID #15347</span></li>
                           <li>
                             <dataset-sections>
                               <dataset-section-1>
@@ -9608,7 +9603,7 @@
                     <div class="dataset-item-element specific_module" onclick="#">
                       <div class="contact-details"><!-- Start contact details -->
                         <ul class="contacts">
-                          <li><span class="most-important contact-person">Room ID #15347</span></li>
+                          <li><span class="most-important contact-person">Apartment ID #15347</span></li>
                           <li>
                             <dataset-sections>
                               <dataset-section-1>
@@ -9674,7 +9669,7 @@
                     <div class="dataset-item-element specific_module" onclick="#">
                       <div class="contact-details"><!-- Start contact details -->
                         <ul class="contacts">
-                          <li><span class="most-important contact-person">Room ID #15347</span></li>
+                          <li><span class="most-important contact-person">Apartment ID #15347</span></li>
                           <li>
                             <dataset-sections>
                               <dataset-section-1>
@@ -9740,7 +9735,7 @@
                     <div class="dataset-item-element specific_module" onclick="#">
                       <div class="contact-details"><!-- Start contact details -->
                         <ul class="contacts">
-                          <li><span class="most-important contact-person">Room ID #15347</span></li>
+                          <li><span class="most-important contact-person">Apartment ID #15347</span></li>
                           <li>
                             <dataset-sections>
                               <dataset-section-1>
@@ -9806,7 +9801,7 @@
                     <div class="dataset-item-element specific_module" onclick="#">
                       <div class="contact-details"><!-- Start contact details -->
                         <ul class="contacts">
-                          <li><span class="most-important contact-person">Room ID #15347</span></li>
+                          <li><span class="most-important contact-person">Apartment ID #15347</span></li>
                           <li>
                             <dataset-sections>
                               <dataset-section-1>
@@ -18328,63 +18323,109 @@
                     </summary-field-6>
                     <summary-field-7>
                       <div class="container-summary-content">
-                        <label>Room Volume</label>
+                        <label>Room Area</label>
                         <div class="data-placeholder">Data</div>
                         <div class="label-underline"></div>
                       </div>
                     </summary-field-7>
                     <summary-field-8>
                       <div class="container-summary-content">
-                        <label>Room Area</label>
+                        <label>Number of Air Exchange</label>
                         <div class="data-placeholder">Data</div>
                         <div class="label-underline"></div>
                       </div>
                     </summary-field-8>
                     <summary-field-9>
                       <div class="container-summary-content">
-                        <label>Number of Air Exchange</label>
+                        <label>Room Height</label>
                         <div class="data-placeholder">Data</div>
                         <div class="label-underline"></div>
                       </div>
                     </summary-field-9>
                     <summary-field-10>
                       <div class="container-summary-content">
-                        <label>Room Height</label>
+                        <label>Room Perimeter Base Plate</label>
                         <div class="data-placeholder">Data</div>
                         <div class="label-underline"></div>
                       </div>
                     </summary-field-10>
                     <summary-field-11>
                       <div class="container-summary-content">
-                        <label>Room Perimeter Base Plate</label>
+                        <label>Zone</label>
                         <div class="data-placeholder">Data</div>
                         <div class="label-underline"></div>
                       </div>
                     </summary-field-11>
                     <summary-field-12>
                       <div class="container-summary-content">
-                        <label>Zone</label>
+                        <label>Top Edge Soil</label>
                         <div class="data-placeholder">Data</div>
                         <div class="label-underline"></div>
                       </div>
                     </summary-field-12>
                     <summary-field-13>
                       <div class="container-summary-content">
-                        <label>Top Edge Soil</label>
-                        <div class="data-placeholder">Data</div>
-                        <div class="label-underline"></div>
-                      </div>
-                    </summary-field-13>
-                    <summary-field-14>
-                      <div class="container-summary-content">
                         <label>Comment</label>
                         <div class="data-placeholder">Data</div>
                         <div class="label-underline"></div>
                       </div>
-                    </summary-field-14>
+                    </summary-field-13>
                   </summary-fields><!-- End ROOMS -->
                   <!--End LOCATION PROFILE -->
 
+
+                  <summary-form>
+                    <summary-sub-header>
+                      <div class="container-summary">
+                        <span class="energicos-dark capitalize most-important">Contract Profile</span>
+                      </div>
+                    </summary-sub-header>
+                  </summary-form>
+
+                  <summary-fields>
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>Title</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Last Name</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>Title</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>First Name</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>Name</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+                    <summary-field-6>
+                      <div class="container-summary-content">
+                        <label>Name</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-6>
+                  </summary-fields>
 
 
                   <!-- Begin APARTMENT PROFILES -->

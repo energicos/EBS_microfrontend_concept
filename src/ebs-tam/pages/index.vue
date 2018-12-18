@@ -2102,7 +2102,7 @@
 
 
 
-    </main-content>
+    </main-content><!-- END MAIN CONTENT -->
   </section>
 
 </template>

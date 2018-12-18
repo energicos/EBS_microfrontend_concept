@@ -1,6 +1,7 @@
 <template>
   <section class="module-container">
     <main-content><!-- BEGIN MAIN CONTENT -->
+
       <navigation-level-2><!-- Begin Nav Level 2 -->
         <nav-level-2>
           <!-- Start key nav tabs -->
@@ -22,6 +23,7 @@
         </nav-level-2>
       </navigation-level-2><!-- End Nav Level 2 -->
 
+
       <div id="settings-database-tab" class="tabsets_section" style="display: block;"><!--======Start CONTACT MANAGER TAB ======-->
 
 
@@ -30,7 +32,7 @@
               //                                //
               //      BEGIN TAG MANAGER PAGE     //
               //                                //
-            -- =========1======================= -->
+            -- ================================ -->
 
 
         <div id="tag-manager-page" class="pagesets_section" style="display: block;"><!--======Start TAG MANAGER PAGE ======-->
@@ -1583,7 +1585,7 @@
 
                   <mid-pane-key-title>
                     <div class="container-body">
-                      <span class="capitalize most-important energicos-red">Group Manager</span>
+                      <span class="capitalize most-important energicos-red">Role Manager</span>
                     </div>
                   </mid-pane-key-title>
 
@@ -2629,15 +2631,15 @@
 
                   <short-info-title><!-- Start Title -->
                     <div class="container-body">
-                      <span class="energicos-red most-important capitalize">Role Manager</span>
+                      <span class="energicos-red most-important capitalize">Group Manager</span>
                     </div>
                   </short-info-title><!-- End Title -->
 
                   <short-info-col-1>
                     <div class="container-body">
                       <ul class="contacts">
-                        <li><span class="most-important energicos-dark contact-person">Role Name</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-status">&nbsp;</i></span><span class="normal-font important energicos-darkgrey">Role Status</span></li>
+                        <li><span class="most-important energicos-dark contact-person">Group Name</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-status">&nbsp;</i></span><span class="normal-font important energicos-darkgrey">Group Status</span></li>
                       </ul>
                     </div>
                   </short-info-col-1>
@@ -10539,7 +10541,7 @@
                         <div class="form-part-2">
 
                           <div class="data-input">
-                            <label>Bookmark Name<span class="required"></span></label>
+                            <label>Bookmark Namer<span class="required"></span></label>
                             <input type="text" name="bookmark_name" class="field-long" placeholder=" - Input Value -" />
                           </div>
 

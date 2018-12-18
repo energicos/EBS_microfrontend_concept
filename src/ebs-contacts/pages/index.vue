@@ -1,9 +1,8 @@
 <template>
   <section class="module-container">
-    <main-content>
+    <main-content><!-- BEGIN MAIN CONTENT -->
 
-      <div id="contact-mgr-tab" class="tabsets_section" style="display: block;">
-        <!--======Start CONTACT MANAGER TAB ======-->
+      <div id="contact-mgr-tab" class="tabsets_section" style="display: block;"><!--======Start CONTACT MANAGER TAB ======-->
 
         <!-- ============================== --
               //                                //
@@ -12,8 +11,7 @@
             -- ================================ -->
 
 
-        <div id="contact-mgr-page" class="pagesets_section" style="display: block;">
-          <!--======Start CONTACT LIST ======-->
+        <div id="contact-mgr-page" class="pagesets_section" style="display: block;"><!--======Start CONTACT LIST ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -36,12 +34,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -51,12 +46,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -91,10 +83,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -122,9 +112,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -290,6 +278,8 @@
             -- ================================ -->
 
 
+
+
         <!-- ============================== --
               //                                //
               //     BEGIN BASIC PROFILE PAGE   //
@@ -297,8 +287,7 @@
             -- ================================ -->
 
 
-        <div id="basic-profile-page" class="pagesets_section" style="display: none;">
-          <!--======Start BASIC PROFILE PAGE ======-->
+        <div id="basic-profile-page" class="pagesets_section" style="display: none;"><!--======Start BASIC PROFILE PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -321,12 +310,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -336,12 +322,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -350,6 +333,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -366,10 +350,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -397,9 +379,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -423,20 +403,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a
-                            href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a
-                            href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a
-                            href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a
-                            href="#">Digital Identity Management (DIM)<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity Management (DIM)<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -578,6 +551,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -586,8 +561,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="javascript:void(0)" onclick="pagesetFunction(event, 'contact-mgr-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="javascript:void(0)" onclick="pagesetFunction(event, 'contact-mgr-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -598,8 +572,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="javascript:void(0)" onclick="pagesetFunction(event, 'personal-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="javascript:void(0)" onclick="pagesetFunction(event, 'personal-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -625,7 +598,7 @@
                           <div class="data-input">
                             <label>Title<span class="required"></span></label>
                             <select name="title" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -633,23 +606,22 @@
 
                           <div class="data-input">
                             <label>First Name<span class="required"></span></label>
-                            <input type="text" name="first_name" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="first_name" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Middle Name<span class="required"></span></label>
-                            <input type="text" name="middle_name" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="middle_name" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Last Name<span class="required"></span></label>
-                            <input type="text" name="last_name" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="last_name" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Comment<span class="required"></span></label>
-                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5"
-                                      placeholder=" - Text -"></textarea>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
                           </div>
 
                         </div>
@@ -658,7 +630,7 @@
                           <div class="data-input">
                             <label>Additional Title<span class="required"></span></label>
                             <select name="additional_title" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -667,7 +639,7 @@
                           <div class="data-input">
                             <label>Operational Status<span class="required"></span></label>
                             <select name="operational_status" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -676,7 +648,7 @@
                           <div class="data-input">
                             <label>Security Status<span class="required"></span></label>
                             <select name="security_status" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -700,12 +672,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -722,7 +694,9 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
 
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -730,14 +704,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab1" class="active" onclick="tab_1('tab1')"><a><i
-                          class="icon icon-clock"></i></a></button>
-                        <button id="li_tab2" class="" onclick="tab_1('tab2')"><a><i class="icon icon-activity"></i></a>
-                        </button>
+                        <button id="li_tab1" class="active" onclick="tab_1('tab1')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab2" class="" onclick="tab_1('tab2')"><a><i class="icon icon-activity"></i></a></button>
                         <button id="li_tab3" class="" onclick="tab_1('tab3')"><i class="icon icon-comment"></i></button>
                         <button id="li_tab4" class="" onclick="tab_1('tab4')"><i class="icon icon-folder"></i></button>
-                        <button id="li_tab5" class="" onclick="tab_1('tab5')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab5" class="" onclick="tab_1('tab5')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -754,7 +725,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -764,8 +735,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -773,6 +743,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -798,12 +769,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -812,8 +779,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -833,12 +799,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -847,8 +809,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -868,12 +829,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -882,8 +839,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -903,12 +859,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -917,8 +869,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -944,8 +895,7 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab1" class="active" onclick="sub_tab1('mini_tab1')"><a
-                                  href="#">Overdue</a></li>
+                                <li id="li_mini_tab1" class="active" onclick="sub_tab1('mini_tab1')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab2" onclick="sub_tab1('mini_tab2')"><a href="#">Flagged</a></li>
                                 <li id="li_mini_tab3" onclick="sub_tab1('mini_tab3')"><a href="#">Due this Week</a></li>
                               </ul>
@@ -1126,7 +1076,7 @@
                             </div>
 
 
-                            <div id="mini_tab2" style="display: none;">
+                            <div id="mini_tab2" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -1294,8 +1244,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -1336,8 +1285,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -1378,8 +1326,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -1422,12 +1369,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -1436,8 +1379,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -1459,12 +1401,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -1473,8 +1411,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -1497,12 +1434,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -1511,8 +1444,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -1648,6 +1580,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </basic-profile-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -1663,6 +1596,8 @@
             -- ================================ -->
 
 
+
+
         <!-- ================================== --
               //                                    //
               //     BEGIN PERSONAL PROFILE PAGE    //
@@ -1670,8 +1605,7 @@
             -- ==================================== -->
 
 
-        <div id="personal-profile-page" class="pagesets_section" style="display: none;">
-          <!--======Start PERSONAL PROFILE PAGE ======-->
+        <div id="personal-profile-page" class="pagesets_section" style="display: none;"><!--======Start PERSONAL PROFILE PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -1694,12 +1628,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -1709,12 +1640,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -1723,6 +1651,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -1739,10 +1668,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -1770,9 +1697,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -1796,20 +1721,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'personal-profile-page')">
-                            <a href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a
-                            href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a
-                            href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a
-                            href="#">Digital Identity Management (DIM)<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity Management (DIM)<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -1951,6 +1869,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -1959,8 +1879,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -1971,8 +1890,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'business-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'business-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -1997,13 +1915,13 @@
 
                           <div class="data-input">
                             <label>Birthday <span class="required"></span></label>
-                            <input type="date" name="birthday" class="field-long" placeholder=" - Select Date -"/>
+                            <input type="date" name="birthday" class="field-long" placeholder=" - Select Date -" />
                           </div>
 
                           <div class="data-input">
                             <label>Gender<span class="required"></span></label>
                             <select name="gender" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Male</option>
                               <option value="">Female</option>
                             </select>
@@ -2012,7 +1930,7 @@
                           <div class="data-input">
                             <label>Marital Status<span class="required"></span></label>
                             <select name="marital_status" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Single</option>
                               <option value="">Married</option>
                             </select>
@@ -2021,7 +1939,7 @@
                           <div class="data-input">
                             <label>Religion<span class="required"></span></label>
                             <select name="religion" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Christian</option>
                               <option value="">Muslim</option>
                             </select>
@@ -2030,7 +1948,7 @@
                           <div class="data-input">
                             <label>Political Orientation<span class="required"></span></label>
                             <select name="political_orientation" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Option 1</option>
                               <option value="">Option 2</option>
                             </select>
@@ -2038,13 +1956,12 @@
 
                           <div class="data-input">
                             <label>Hobby<span class="required"></span></label>
-                            <input type="text" name="hobby" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="hobby" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Comment<span class="required"></span></label>
-                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5"
-                                      placeholder=" - Text -"></textarea>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
                           </div>
 
                         </div>
@@ -2088,12 +2005,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -2110,6 +2027,8 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -2117,14 +2036,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab6" class="active" onclick="tab_2('tab6')"><a><i
-                          class="icon icon-clock"></i></a></button>
-                        <button id="li_tab7" class="" onclick="tab_2('tab7')"><a><i class="icon icon-activity"></i></a>
-                        </button>
+                        <button id="li_tab6" class="active" onclick="tab_2('tab6')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab7" class="" onclick="tab_2('tab7')"><a><i class="icon icon-activity"></i></a></button>
                         <button id="li_tab8" class="" onclick="tab_2('tab8')"><i class="icon icon-comment"></i></button>
                         <button id="li_tab9" class="" onclick="tab_2('tab9')"><i class="icon icon-folder"></i></button>
-                        <button id="li_tab10" class="" onclick="tab_2('tab10')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab10" class="" onclick="tab_2('tab10')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -2141,7 +2057,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -2151,8 +2067,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -2160,6 +2075,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -2185,12 +2101,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -2199,8 +2111,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -2220,12 +2131,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -2234,8 +2141,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -2255,12 +2161,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -2269,8 +2171,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -2290,12 +2191,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -2304,8 +2201,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -2331,8 +2227,7 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab4" class="active" onclick="sub_tab2('mini_tab4')"><a
-                                  href="#">Overdue</a></li>
+                                <li id="li_mini_tab4" class="active" onclick="sub_tab2('mini_tab4')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab5" onclick="sub_tab2('mini_tab5')"><a href="#">Flagged</a></li>
                                 <li id="li_mini_tab6" onclick="sub_tab2('mini_tab6')"><a href="#">Due this Week</a></li>
                               </ul>
@@ -2513,7 +2408,7 @@
                             </div>
 
 
-                            <div id="mini_tab5" style="display: none;">
+                            <div id="mini_tab5" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -2681,8 +2576,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -2723,8 +2617,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -2765,8 +2658,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -2808,12 +2700,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -2822,8 +2710,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -2845,12 +2732,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -2859,8 +2742,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -2883,12 +2765,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -2897,8 +2775,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -3033,6 +2910,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </personal-profile-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -3048,6 +2926,9 @@
             -- ==================================== -->
 
 
+
+
+
         <!-- ================================== --
               //                                    //
               //     BEGIN BUSINESS PROFILE PAGE    //
@@ -3055,8 +2936,7 @@
             -- ==================================== -->
 
 
-        <div id="business-profile-page" class="pagesets_section" style="display: none;">
-          <!--======Start BUSINESS PROFILE PAGE ======-->
+        <div id="business-profile-page" class="pagesets_section" style="display: none;"><!--======Start BUSINESS PROFILE PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -3079,12 +2959,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -3094,12 +2971,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -3108,6 +2982,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -3124,10 +2999,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -3155,9 +3028,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -3181,20 +3052,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a
-                            href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'business-profile-page')">
-                            <a href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a
-                            href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a
-                            href="#">Digital Identity Management (DIM)<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity Management (DIM)<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -3336,6 +3200,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -3344,8 +3210,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'personal-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'personal-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -3356,8 +3221,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'contact-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'contact-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -3382,17 +3246,16 @@
 
                           <div class="data-input">
                             <label>Member of Organization since<span class="required"></span></label>
-                            <input type="date" name="member_since" class="field-long" placeholder=" - Select Date -"/>
+                            <input type="date" name="member_since" class="field-long" placeholder=" - Select Date -" />
                           </div>
 
                           <div class="data-input">
                             <label>Name of the Organization&nbsp;
-                              <a href="#" class="tooltip-right"
-                                 data-tooltip="Magic Link - Shortcut to the Organization module">
+                              <a href="#" class="tooltip-right" data-tooltip="Magic Link - Shortcut to the Organization module">
                                 <i class="icon icon-form-details icon-hyperlink"></i></a>
                             </label>
                             <select name="organization_name" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -3401,7 +3264,7 @@
                           <div class="data-input">
                             <label>Function in Organization<span class="required"></span></label>
                             <select name="organization_function" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -3410,7 +3273,7 @@
                           <div class="data-input">
                             <label>Superior<span class="required"></span></label>
                             <select name="superior" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -3418,8 +3281,7 @@
 
                           <div class="data-input">
                             <label>Comment<span class="required"></span></label>
-                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5"
-                                      placeholder=" - Text -"></textarea>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
                           </div>
 
                         </div>
@@ -3429,7 +3291,7 @@
 
                           <div class="data-input">
                             <label>Member of Organization till<span class="required"></span></label>
-                            <input type="date" name="member_till" class="field-long" placeholder=" - Select Date -"/>
+                            <input type="date" name="member_till" class="field-long" placeholder=" - Select Date -" />
                           </div>
 
                         </div>
@@ -3440,12 +3302,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -3462,6 +3324,8 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -3469,16 +3333,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab11" class="active" onclick="tab_3('tab11')"><a><i class="icon icon-clock"></i></a>
-                        </button>
-                        <button id="li_tab12" class="" onclick="tab_3('tab12')"><a><i
-                          class="icon icon-activity"></i></a></button>
-                        <button id="li_tab13" class="" onclick="tab_3('tab13')"><i class="icon icon-comment"></i>
-                        </button>
-                        <button id="li_tab14" class="" onclick="tab_3('tab14')"><i class="icon icon-folder"></i>
-                        </button>
-                        <button id="li_tab15" class="" onclick="tab_3('tab15')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab11" class="active" onclick="tab_3('tab11')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab12" class="" onclick="tab_3('tab12')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab13" class="" onclick="tab_3('tab13')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab14" class="" onclick="tab_3('tab14')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab15" class="" onclick="tab_3('tab15')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -3495,7 +3354,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -3505,8 +3364,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -3514,6 +3372,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -3539,12 +3398,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -3553,8 +3408,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -3574,12 +3428,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -3588,8 +3438,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -3609,12 +3458,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -3623,8 +3468,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -3644,12 +3488,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -3658,8 +3498,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -3685,8 +3524,7 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab7" class="active" onclick="sub_tab3('mini_tab7')"><a
-                                  href="#">Overdue</a></li>
+                                <li id="li_mini_tab7" class="active" onclick="sub_tab3('mini_tab7')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab8" onclick="sub_tab3('mini_tab8')"><a href="#">Flagged</a></li>
                                 <li id="li_mini_tab9" onclick="sub_tab3('mini_tab9')"><a href="#">Due this Week</a></li>
                               </ul>
@@ -3867,7 +3705,7 @@
                             </div>
 
 
-                            <div id="mini_tab8" style="display: none;">
+                            <div id="mini_tab8" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -4035,8 +3873,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -4077,8 +3914,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -4119,8 +3955,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -4162,12 +3997,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -4176,8 +4007,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -4199,12 +4029,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -4213,8 +4039,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -4237,12 +4062,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -4251,8 +4072,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -4387,6 +4207,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </business-profile-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -4402,6 +4223,8 @@
             -- ==================================== -->
 
 
+
+
         <!-- =================================================== --
               //                                                   //
               //             BEGIN CONTACT-PROFILE-PAGE            //
@@ -4409,8 +4232,7 @@
             -- ==================================================== -->
 
 
-        <div id="contact-profile-page" class="pagesets_section" style="display: none;">
-          <!--======Start CONTACT BILLING ADDRESS PAGE ======-->
+        <div id="contact-profile-page" class="pagesets_section" style="display: none;"><!--======Start CONTACT BILLING ADDRESS PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -4434,12 +4256,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -4449,12 +4268,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -4463,6 +4279,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -4479,10 +4296,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -4510,9 +4325,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -4536,20 +4349,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a
-                            href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a
-                            href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a
-                            href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a
-                            href="#">Digital Identity<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -4718,6 +4524,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -4726,8 +4534,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'business-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'business-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -4738,8 +4545,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'delivery-address-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'delivery-address-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -4765,8 +4571,7 @@
                           <div class="data-input">
                             <div class="form-check-box-section">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="checkbox-1-1a" class="regular-checkbox"/><label
-                                for="checkbox-1-1a"></label>
+                                <input type="checkbox" id="checkbox-1-1a" class="regular-checkbox" /><label for="checkbox-1-1a"></label>
                               </div>
                               <div class="label-element">
                                 Billing Address differs<br/> from Delivery address
@@ -4780,7 +4585,7 @@
                                 <i class="icon icon-form-details icon-hyperlink"></i></a>
                             </label>
                             <select name="building_name" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -4789,7 +4594,7 @@
                           <div class="data-input">
                             <label>Street<span class="required"></span></label>
                             <select name="Street" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -4797,13 +4602,13 @@
 
                           <div class="data-input">
                             <label>Address Addon 1<span class="required"></span></label>
-                            <input type="text" name="address_addon" class="field-long" placeholder="- Input Value -"/>
+                            <input type="text" name="address_addon" class="field-long" placeholder="- Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>City<span class="required"></span></label>
                             <select name="city" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -4812,7 +4617,7 @@
                           <div class="data-input">
                             <label>State<span class="required"></span></label>
                             <select name="state" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -4820,8 +4625,7 @@
 
                           <div class="data-input">
                             <label>Comment<span class="required"></span></label>
-                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5"
-                                      placeholder=" - Text -"></textarea>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
                           </div>
 
                         </div>
@@ -4834,13 +4638,13 @@
 
                           <div class="data-input">
                             <label>Postal Box No<span class="required"></span></label>
-                            <input type="text" name="postal_box_no" class="field-long" placeholder="- Input Value -"/>
+                            <input type="text" name="postal_box_no" class="field-long" placeholder="- Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Entrance No<span class="required"></span></label>
                             <select name="entrance_no" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -4848,14 +4652,13 @@
 
                           <div class="data-input">
                             <label>Address Addon 2<span class="required"></span></label>
-                            <input type="text" name="address_addon_2" class="field-long"
-                                   placeholder=" - Input Value -"/>
+                            <input type="text" name="address_addon_2" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Zip Code<span class="required"></span></label>
                             <select name="zip_code" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -4864,7 +4667,7 @@
                           <div class="data-input">
                             <label>Country<span class="required"></span></label>
                             <select name="country" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -4878,12 +4681,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -4900,6 +4703,8 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -4907,16 +4712,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab16" class="active" onclick="tab_4('tab16')"><a><i class="icon icon-clock"></i></a>
-                        </button>
-                        <button id="li_tab17" class="" onclick="tab_4('tab17')"><a><i
-                          class="icon icon-activity"></i></a></button>
-                        <button id="li_tab18" class="" onclick="tab_4('tab18')"><i class="icon icon-comment"></i>
-                        </button>
-                        <button id="li_tab19" class="" onclick="tab_4('tab19')"><i class="icon icon-folder"></i>
-                        </button>
-                        <button id="li_tab20" class="" onclick="tab_4('tab20')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab16" class="active" onclick="tab_4('tab16')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab17" class="" onclick="tab_4('tab17')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab18" class="" onclick="tab_4('tab18')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab19" class="" onclick="tab_4('tab19')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab20" class="" onclick="tab_4('tab20')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -4933,7 +4733,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -4943,8 +4743,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -4952,6 +4751,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -4977,12 +4777,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -4991,8 +4787,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -5012,12 +4807,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -5026,8 +4817,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -5047,12 +4837,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -5061,8 +4847,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -5082,12 +4867,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -5096,8 +4877,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -5123,11 +4903,9 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab10" class="active" onclick="sub_tab4('mini_tab10')"><a href="#">Overdue</a>
-                                </li>
+                                <li id="li_mini_tab10" class="active" onclick="sub_tab4('mini_tab10')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab11" onclick="sub_tab4('mini_tab11')"><a href="#">Flagged</a></li>
-                                <li id="li_mini_tab12" onclick="sub_tab4('mini_tab12')"><a href="#">Due this Week</a>
-                                </li>
+                                <li id="li_mini_tab12" onclick="sub_tab4('mini_tab12')"><a href="#">Due this Week</a></li>
                               </ul>
                             </div>
                             <!-- End breadcrumbs -->
@@ -5306,7 +5084,7 @@
                             </div>
 
 
-                            <div id="mini_tab11" style="display: none;">
+                            <div id="mini_tab11" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -5474,8 +5252,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -5516,8 +5293,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -5558,8 +5334,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -5601,12 +5376,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -5615,8 +5386,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -5638,12 +5408,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -5652,8 +5418,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -5676,12 +5441,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -5690,8 +5451,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -5826,6 +5586,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </contact-profile-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -5841,6 +5602,8 @@
             -- ==================================================== -->
 
 
+
+
         <!-- =================================================== --
               //                                                   //
               //             BEGIN DELIVERY-ADDRESS-PAGE            //
@@ -5848,8 +5611,7 @@
             -- ==================================================== -->
 
 
-        <div id="delivery-address-page" class="pagesets_section" style="display: none;">
-          <!--======Start DELIVERY ADDRESS PAGE ======-->
+        <div id="delivery-address-page" class="pagesets_section" style="display: none;"><!--======Start DELIVERY ADDRESS PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -5873,12 +5635,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -5888,12 +5647,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -5902,6 +5658,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -5918,10 +5675,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -5949,9 +5704,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -5975,20 +5728,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a
-                            href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a
-                            href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a
-                            href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a
-                            href="#">Digital Identity<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -6157,6 +5903,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -6165,8 +5913,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'contact-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'contact-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -6177,8 +5924,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'communication-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'communication-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -6208,7 +5954,7 @@
                                 <i class="icon icon-form-details icon-hyperlink"></i></a>
                             </label>
                             <select name="building_name" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -6217,7 +5963,7 @@
                           <div class="data-input">
                             <label>Street<span class="required"></span></label>
                             <select name="Street" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -6225,13 +5971,13 @@
 
                           <div class="data-input">
                             <label>Address Addon 1<span class="required"></span></label>
-                            <input type="text" name="address_addon" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="address_addon" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>City<span class="required"></span></label>
                             <select name="city" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -6240,7 +5986,7 @@
                           <div class="data-input">
                             <label>State<span class="required"></span></label>
                             <select name="state" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -6248,8 +5994,7 @@
 
                           <div class="data-input">
                             <label>Comment<span class="required"></span></label>
-                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5"
-                                      placeholder=" - Text -"></textarea>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
                           </div>
 
                         </div>
@@ -6258,13 +6003,13 @@
 
                           <div class="data-input">
                             <label>Postal Box No<span class="required"></span></label>
-                            <input type="text" name="postal_box_no" class="field-long" placeholder="- Input Value -"/>
+                            <input type="text" name="postal_box_no" class="field-long" placeholder="- Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Entrance No<span class="required"></span></label>
                             <select name="entrance_no" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -6272,14 +6017,13 @@
 
                           <div class="data-input">
                             <label>Address Addon 2<span class="required"></span></label>
-                            <input type="text" name="address_addon_2" class="field-long"
-                                   placeholder=" - Input Value -"/>
+                            <input type="text" name="address_addon_2" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Zip Code<span class="required"></span></label>
                             <select name="zip_code" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -6288,7 +6032,7 @@
                           <div class="data-input">
                             <label>Country<span class="required"></span></label>
                             <select name="country" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -6302,12 +6046,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -6324,6 +6068,8 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -6331,16 +6077,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab21" class="active" onclick="tab_5('tab21')"><a><i class="icon icon-clock"></i></a>
-                        </button>
-                        <button id="li_tab22" class="" onclick="tab_5('tab22')"><a><i
-                          class="icon icon-activity"></i></a></button>
-                        <button id="li_tab23" class="" onclick="tab_5('tab23')"><i class="icon icon-comment"></i>
-                        </button>
-                        <button id="li_tab24" class="" onclick="tab_5('tab24')"><i class="icon icon-folder"></i>
-                        </button>
-                        <button id="li_tab25" class="" onclick="tab_5('tab25')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab21" class="active" onclick="tab_5('tab21')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab22" class="" onclick="tab_5('tab22')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab23" class="" onclick="tab_5('tab23')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab24" class="" onclick="tab_5('tab24')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab25" class="" onclick="tab_5('tab25')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -6357,7 +6098,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -6367,8 +6108,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -6376,6 +6116,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -6401,12 +6142,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -6415,8 +6152,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -6436,12 +6172,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -6450,8 +6182,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -6471,12 +6202,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -6485,8 +6212,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -6506,12 +6232,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -6520,8 +6242,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -6547,11 +6268,9 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab13" class="active" onclick="sub_tab5('mini_tab13')"><a href="#">Overdue</a>
-                                </li>
+                                <li id="li_mini_tab13" class="active" onclick="sub_tab5('mini_tab13')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab14" onclick="sub_tab5('mini_tab14')"><a href="#">Flagged</a></li>
-                                <li id="li_mini_tab15" onclick="sub_tab5('mini_tab15')"><a href="#">Due this Week</a>
-                                </li>
+                                <li id="li_mini_tab15" onclick="sub_tab5('mini_tab15')"><a href="#">Due this Week</a></li>
                               </ul>
                             </div>
                             <!-- End breadcrumbs -->
@@ -6730,7 +6449,7 @@
                             </div>
 
 
-                            <div id="mini_tab14" style="display: none;">
+                            <div id="mini_tab14" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -6898,8 +6617,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -6940,8 +6658,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -6982,8 +6699,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -7025,12 +6741,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -7039,8 +6751,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -7062,12 +6773,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -7076,8 +6783,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -7100,12 +6806,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -7114,8 +6816,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -7250,6 +6951,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </delivery-address-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -7265,6 +6967,9 @@
             -- ==================================================== -->
 
 
+
+
+
         <!-- =================================================== --
               //                                                   //
               //              BEGIN COMMUNICATION-PAGE             //
@@ -7272,8 +6977,7 @@
             -- ==================================================== -->
 
 
-        <div id="communication-page" class="pagesets_section" style="display: none;">
-          <!--======Start COMMUNICATION-PAGE ======-->
+        <div id="communication-page" class="pagesets_section" style="display: none;"><!--======Start COMMUNICATION-PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -7297,12 +7001,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -7312,12 +7013,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -7326,6 +7024,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -7342,10 +7041,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -7373,9 +7070,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -7399,20 +7094,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a
-                            href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a
-                            href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a
-                            href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a
-                            href="#">Digital Identity<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -7581,6 +7269,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -7589,8 +7279,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'delivery-address-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'delivery-address-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -7601,8 +7290,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'financial-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'financial-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -7628,17 +7316,17 @@
 
                           <div class="data-input">
                             <label>Mobile Phone<span class="required"></span></label>
-                            <input type="text" name="mobile_phone" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="mobile_phone" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Landline Phone<span class="required"></span></label>
-                            <input type="text" name="landline_phone" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="landline_phone" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Fax<span class="required"></span></label>
-                            <input type="text" name="fax" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="fax" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
 
@@ -7649,20 +7337,20 @@
 
                           <div class="data-input">
                             <label>Email<span class="required"></span></label>
-                            <input type="text" name="email" class="field-long" placeholder="- Input Value -"/>
+                            <input type="text" name="email" class="field-long" placeholder="- Input Value -" />
                           </div>
+
 
 
                           <div class="data-input">
                             <label>IM Name<span class="required"></span></label>
-                            <input type="text" name="im_name" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="im_name" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
 
                           <div class="data-input">
                             <label>Comment<span class="required"></span></label>
-                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5"
-                                      placeholder=" - Text -"></textarea>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
                           </div>
 
                         </div>
@@ -7673,12 +7361,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -7695,6 +7383,8 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -7702,16 +7392,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab26" class="active" onclick="tab_6('tab26')"><a><i class="icon icon-clock"></i></a>
-                        </button>
-                        <button id="li_tab27" class="" onclick="tab_6('tab27')"><a><i
-                          class="icon icon-activity"></i></a></button>
-                        <button id="li_tab28" class="" onclick="tab_6('tab28')"><i class="icon icon-comment"></i>
-                        </button>
-                        <button id="li_tab29" class="" onclick="tab_6('tab29')"><i class="icon icon-folder"></i>
-                        </button>
-                        <button id="li_tab30" class="" onclick="tab_6('tab30')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab26" class="active" onclick="tab_6('tab26')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab27" class="" onclick="tab_6('tab27')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab28" class="" onclick="tab_6('tab28')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab29" class="" onclick="tab_6('tab29')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab30" class="" onclick="tab_6('tab30')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -7728,7 +7413,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -7738,8 +7423,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -7747,6 +7431,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -7772,12 +7457,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -7786,8 +7467,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -7807,12 +7487,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -7821,8 +7497,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -7842,12 +7517,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -7856,8 +7527,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -7877,12 +7547,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -7891,8 +7557,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -7918,11 +7583,9 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab16" class="active" onclick="sub_tab6('mini_tab16')"><a href="#">Overdue</a>
-                                </li>
+                                <li id="li_mini_tab16" class="active" onclick="sub_tab6('mini_tab16')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab17" onclick="sub_tab6('mini_tab17')"><a href="#">Flagged</a></li>
-                                <li id="li_mini_tab18" onclick="sub_tab6('mini_tab18')"><a href="#">Due this Week</a>
-                                </li>
+                                <li id="li_mini_tab18" onclick="sub_tab6('mini_tab18')"><a href="#">Due this Week</a></li>
                               </ul>
                             </div>
                             <!-- End breadcrumbs -->
@@ -8101,7 +7764,7 @@
                             </div>
 
 
-                            <div id="mini_tab17" style="display: none;">
+                            <div id="mini_tab17" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -8269,8 +7932,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -8311,8 +7973,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -8353,8 +8014,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -8396,12 +8056,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -8410,8 +8066,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -8433,12 +8088,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -8447,8 +8098,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -8471,12 +8121,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -8485,8 +8131,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -8621,6 +8266,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </communication-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -8636,6 +8282,9 @@
             -- ==================================================== -->
 
 
+
+
+
         <!-- =================================================== --
               //                                                     //
               //              BEGIN FINANCIAL-PROFILE-PAGE           //
@@ -8643,8 +8292,7 @@
             -- ==================================================== -->
 
 
-        <div id="financial-profile-page" class="pagesets_section" style="display: none;">
-          <!--======Start FINANCIAL PROFILE PAGE ======-->
+        <div id="financial-profile-page" class="pagesets_section" style="display: none;"><!--======Start FINANCIAL PROFILE PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -8668,12 +8316,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -8683,12 +8328,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -8697,6 +8339,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -8713,10 +8356,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -8744,9 +8385,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -8770,20 +8409,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a
-                            href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a
-                            href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'financial-profile-page')">
-                            <a href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a
-                            href="#">Digital Identity<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -8952,6 +8584,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -8960,8 +8594,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'communication-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'communication-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -8972,8 +8605,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'credit-card-details-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'credit-card-details-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -8999,19 +8631,17 @@
 
                           <div class="data-input">
                             <label>Payment Category <span class="required"></span></label>
-                            <input type="financial" name="payment_category" class="field-long field-autofill"
-                                   placeholder=" - Autofill -"/>
+                            <input type="financial" name="payment_category" class="field-long field-autofill" placeholder=" - Autofill -" />
                           </div>
 
                           <div class="data-input">
                             <label>IBAN<span class="required"></span></label>
-                            <input type="text" name="IBAN" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="IBAN" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Bank <span class="required"></span></label>
-                            <input type="financial" name="bank" class="field-long field-autofill"
-                                   placeholder=" - Autofill -"/>
+                            <input type="financial" name="bank" class="field-long field-autofill" placeholder=" - Autofill -" />
                           </div>
 
 
@@ -9022,21 +8652,19 @@
 
                           <div class="data-input">
                             <label>Bank Account Holder<span class="required"></span></label>
-                            <input type="text" name="account_holder" class="field-long" placeholder="- Input Value -"/>
+                            <input type="text" name="account_holder" class="field-long" placeholder="- Input Value -" />
                           </div>
 
 
                           <div class="data-input">
                             <label>BIC / SWIFT<span class="required"></span></label>
-                            <input type="financial" name="im_name" class="field-long field-autofill"
-                                   placeholder=" - Autofill -"/>
+                            <input type="financial" name="im_name" class="field-long field-autofill" placeholder=" - Autofill -" />
                           </div>
 
 
                           <div class="data-input">
                             <label>Comment<span class="required"></span></label>
-                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5"
-                                      placeholder=" - Text -"></textarea>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
                           </div>
 
                         </div>
@@ -9047,12 +8675,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -9069,6 +8697,8 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -9076,16 +8706,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab31" class="" onclick="tab_7('tab31')"><a><i class="icon icon-clock"></i></a>
-                        </button>
-                        <button id="li_tab32" class="" onclick="tab_7('tab32')"><a><i
-                          class="icon icon-activity"></i></a></button>
-                        <button id="li_tab33" class="" onclick="tab_7('tab33')"><i class="icon icon-comment"></i>
-                        </button>
-                        <button id="li_tab34" class="" onclick="tab_7('tab34')"><i class="icon icon-folder"></i>
-                        </button>
-                        <button id="li_tab35" class="active" onclick="tab_7('tab35')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab31" class="" onclick="tab_7('tab31')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab32" class="" onclick="tab_7('tab32')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab33" class="" onclick="tab_7('tab33')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab34" class="" onclick="tab_7('tab34')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab35" class="active" onclick="tab_7('tab35')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -9102,7 +8727,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -9112,8 +8737,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -9121,6 +8745,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -9146,12 +8771,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -9160,8 +8781,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -9181,12 +8801,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -9195,8 +8811,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -9216,12 +8831,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -9230,8 +8841,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -9251,12 +8861,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -9265,8 +8871,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -9292,11 +8897,9 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab19" class="active" onclick="sub_tab7('mini_tab19')"><a href="#">Overdue</a>
-                                </li>
+                                <li id="li_mini_tab19" class="active" onclick="sub_tab7('mini_tab19')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab20" onclick="sub_tab7('mini_tab20')"><a href="#">Flagged</a></li>
-                                <li id="li_mini_tab21" onclick="sub_tab7('mini_tab21')"><a href="#">Due this Week</a>
-                                </li>
+                                <li id="li_mini_tab21" onclick="sub_tab7('mini_tab21')"><a href="#">Due this Week</a></li>
                               </ul>
                             </div>
                             <!-- End breadcrumbs -->
@@ -9475,7 +9078,7 @@
                             </div>
 
 
-                            <div id="mini_tab20" style="display: none;">
+                            <div id="mini_tab20" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -9643,8 +9246,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -9685,8 +9287,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -9727,8 +9328,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -9770,12 +9370,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -9784,8 +9380,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -9807,12 +9402,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -9821,8 +9412,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -9845,12 +9435,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -9859,8 +9445,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -9995,6 +9580,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </financial-profile-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -10010,6 +9596,9 @@
             -- ==================================================== -->
 
 
+
+
+
         <!-- =================================================== --
               //                                                     //
               //            BEGIN CREDIT CARD DETAILS PAGE           //
@@ -10017,8 +9606,7 @@
             -- ==================================================== -->
 
 
-        <div id="credit-card-details-page" class="pagesets_section" style="display: none;">
-          <!--======Start CREDIT CARD DETAILS PAGE ======-->
+        <div id="credit-card-details-page" class="pagesets_section" style="display: none;"><!--======Start CREDIT CARD DETAILS PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -10042,12 +9630,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -10057,12 +9642,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -10071,6 +9653,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -10087,10 +9670,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -10118,9 +9699,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -10144,20 +9723,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a
-                            href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a
-                            href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'financial-profile-page')">
-                            <a href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a
-                            href="#">Digital Identity<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -10179,8 +9751,7 @@
                           <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')">
                             <a href="#">Bank Details<span class="arrow"></span></a>
                           </li>
-                          <li class="active specific_module"
-                              onclick="pagesetFunction(event, 'credit-card-details-page')">
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'credit-card-details-page')">
                             <a href="#">Credit Card Details<span class="arrow"></span></a>
                           </li>
                           <li class="specific_module" onclick="pagesetFunction(event, 'SEPA-mandate-page')">
@@ -10327,6 +9898,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -10335,8 +9908,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'financial-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'financial-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -10347,8 +9919,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'SEPA-mandate-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'SEPA-mandate-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -10375,7 +9946,7 @@
                           <div class="data-input">
                             <label>Credit Card Type<span class="required"></span></label>
                             <select name="credit_card_type" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -10383,13 +9954,12 @@
 
                           <div class="data-input">
                             <label>Name on Credit Card<span class="required"></span></label>
-                            <input type="text" name="card_holder_name" class="field-long"
-                                   placeholder=" - Input Value -"/>
+                            <input type="text" name="card_holder_name" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>CVC<span class="required"></span></label>
-                            <input type="text" name="cvc" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="cvc" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
 
@@ -10400,20 +9970,19 @@
 
                           <div class="data-input">
                             <label>Card Number<span class="required"></span></label>
-                            <input type="text" name="card_number" class="field-long" placeholder="- Input Value -"/>
+                            <input type="text" name="card_number" class="field-long" placeholder="- Input Value -" />
                           </div>
 
 
                           <div class="data-input">
                             <label>Expiration Date<span class="required"></span></label>
-                            <input type="date" name="expiry_date" class="field-long" placeholder=" - Select Date -"/>
+                            <input type="date" name="expiry_date" class="field-long" placeholder=" - Select Date -" />
                           </div>
 
 
                           <div class="data-input">
                             <label>Comment<span class="required"></span></label>
-                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5"
-                                      placeholder=" - Text -"></textarea>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
                           </div>
 
                         </div>
@@ -10424,12 +9993,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -10446,6 +10015,8 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -10453,16 +10024,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab36" class="" onclick="tab_8('tab36')"><a><i class="icon icon-clock"></i></a>
-                        </button>
-                        <button id="li_tab37" class="" onclick="tab_8('tab37')"><a><i
-                          class="icon icon-activity"></i></a></button>
-                        <button id="li_tab38" class="" onclick="tab_8('tab38')"><i class="icon icon-comment"></i>
-                        </button>
-                        <button id="li_tab39" class="" onclick="tab_8('tab39')"><i class="icon icon-folder"></i>
-                        </button>
-                        <button id="li_tab40" class="active" onclick="tab_8('tab40')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab36" class="" onclick="tab_8('tab36')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab37" class="" onclick="tab_8('tab37')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab38" class="" onclick="tab_8('tab38')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab39" class="" onclick="tab_8('tab39')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab40" class="active" onclick="tab_8('tab40')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -10479,7 +10045,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -10489,8 +10055,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -10498,6 +10063,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -10523,12 +10089,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -10537,8 +10099,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -10558,12 +10119,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -10572,8 +10129,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -10593,12 +10149,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -10607,8 +10159,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -10628,12 +10179,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -10642,8 +10189,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -10669,11 +10215,9 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab22" class="active" onclick="sub_tab8('mini_tab22')"><a href="#">Overdue</a>
-                                </li>
+                                <li id="li_mini_tab22" class="active" onclick="sub_tab8('mini_tab22')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab23" onclick="sub_tab8('mini_tab23')"><a href="#">Flagged</a></li>
-                                <li id="li_mini_tab24" onclick="sub_tab8('mini_tab24')"><a href="#">Due this Week</a>
-                                </li>
+                                <li id="li_mini_tab24" onclick="sub_tab8('mini_tab24')"><a href="#">Due this Week</a></li>
                               </ul>
                             </div>
                             <!-- End breadcrumbs -->
@@ -10852,7 +10396,7 @@
                             </div>
 
 
-                            <div id="mini_tab23" style="display: none;">
+                            <div id="mini_tab23" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -11020,8 +10564,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -11062,8 +10605,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -11104,8 +10646,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -11147,12 +10688,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -11161,8 +10698,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -11184,12 +10720,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -11198,8 +10730,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -11222,12 +10753,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -11236,8 +10763,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -11372,6 +10898,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </credit-card-details-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -11387,6 +10914,10 @@
             -- ==================================================== -->
 
 
+
+
+
+
         <!-- =================================================== --
               //                                                     //
               //                BEGIN SEPA MANDATE PAGE              //
@@ -11394,8 +10925,7 @@
             -- ==================================================== -->
 
 
-        <div id="SEPA-mandate-page" class="pagesets_section" style="display: none;">
-          <!--======Start SEPA MANDATE PAGE ======-->
+        <div id="SEPA-mandate-page" class="pagesets_section" style="display: none;"><!--======Start SEPA MANDATE PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -11419,12 +10949,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -11434,12 +10961,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -11448,6 +10972,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -11464,10 +10989,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -11495,9 +11018,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -11521,20 +11042,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a
-                            href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a
-                            href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'financial-profile-page')">
-                            <a href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a
-                            href="#">Digital Identity<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -11703,6 +11217,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -11711,8 +11227,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'credit-card-details-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'credit-card-details-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -11723,8 +11238,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'network-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'network-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -11751,7 +11265,7 @@
                           <div class="data-input">
                             <label>SEPA Mode<span class="required"></span></label>
                             <select name="SEPA_mode" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -11759,18 +11273,17 @@
 
                           <div class="data-input">
                             <label>Mandat Reference<span class="required"></span></label>
-                            <input type="text" name="mandat_reference" class="field-long"
-                                   placeholder=" - Input Value -"/>
+                            <input type="text" name="mandat_reference" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Valid To<span class="required"></span></label>
-                            <input type="date" name="valid_till" class="field-long" placeholder=" - Select Date -"/>
+                            <input type="date" name="valid_till" class="field-long" placeholder=" - Select Date -" />
                           </div>
 
                           <div class="data-input">
                             <label>Suffix<span class="required"></span></label>
-                            <input type="text" name="suffix" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="suffix" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
 
@@ -11781,7 +11294,7 @@
                           <div class="data-input">
                             <label>Bank Account<span class="required"></span></label>
                             <select name="bank_account" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -11790,15 +11303,15 @@
 
                           <div class="data-input">
                             <label>Valid From<span class="required"></span></label>
-                            <input type="date" name="valid_from" class="field-long" placeholder=" - Select Date -"/>
+                            <input type="date" name="valid_from" class="field-long" placeholder=" - Select Date -" />
                           </div>
 
 
                           <div class="data-input">
                             <label>Disabled Check Box</label>
-                            <input type="checkbox" id="checkbox-1-1z" class="regular-checkbox"/><label
-                            for="checkbox-1-1z"></label>
+                            <input type="checkbox" id="checkbox-1-1z" class="regular-checkbox"/><label for="checkbox-1-1z"></label>
                           </div>
+
 
 
                         </div>
@@ -11809,12 +11322,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -11831,6 +11344,8 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -11838,16 +11353,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab41" class="" onclick="tab_9('tab41')"><a><i class="icon icon-clock"></i></a>
-                        </button>
-                        <button id="li_tab42" class="" onclick="tab_9('tab42')"><a><i
-                          class="icon icon-activity"></i></a></button>
-                        <button id="li_tab43" class="" onclick="tab_9('tab43')"><i class="icon icon-comment"></i>
-                        </button>
-                        <button id="li_tab44" class="" onclick="tab_9('tab44')"><i class="icon icon-folder"></i>
-                        </button>
-                        <button id="li_tab45" class="active" onclick="tab_9('tab45')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab41" class="" onclick="tab_9('tab41')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab42" class="" onclick="tab_9('tab42')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab43" class="" onclick="tab_9('tab43')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab44" class="" onclick="tab_9('tab44')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab45" class="active" onclick="tab_9('tab45')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -11864,7 +11374,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -11874,8 +11384,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -11883,6 +11392,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -11908,12 +11418,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -11922,8 +11428,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -11943,12 +11448,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -11957,8 +11458,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -11978,12 +11478,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -11992,8 +11488,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -12013,12 +11508,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -12027,8 +11518,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -12054,11 +11544,9 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab25" class="active" onclick="sub_tab9('mini_tab25')"><a href="#">Overdue</a>
-                                </li>
+                                <li id="li_mini_tab25" class="active" onclick="sub_tab9('mini_tab25')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab26" onclick="sub_tab9('mini_tab26')"><a href="#">Flagged</a></li>
-                                <li id="li_mini_tab27" onclick="sub_tab9('mini_tab27')"><a href="#">Due this Week</a>
-                                </li>
+                                <li id="li_mini_tab27" onclick="sub_tab9('mini_tab27')"><a href="#">Due this Week</a></li>
                               </ul>
                             </div>
                             <!-- End breadcrumbs -->
@@ -12237,7 +11725,7 @@
                             </div>
 
 
-                            <div id="mini_tab26" style="display: none;">
+                            <div id="mini_tab26" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -12405,8 +11893,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -12447,8 +11934,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -12489,8 +11975,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -12532,12 +12017,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -12546,8 +12027,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -12569,12 +12049,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -12583,8 +12059,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -12607,12 +12082,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -12621,8 +12092,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -12757,6 +12227,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </SEPA-mandate-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -12772,6 +12243,8 @@
             -- ==================================================== -->
 
 
+
+
         <!-- =================================================== --
               //                                                     //
               //              BEGIN NETWORK PROFILE PAGE             //
@@ -12779,8 +12252,7 @@
             -- ==================================================== -->
 
 
-        <div id="network-profile-page" class="pagesets_section" style="display: none;">
-          <!--======Start NETWORK PROFILE PAGE ======-->
+        <div id="network-profile-page" class="pagesets_section" style="display: none;"><!--======Start NETWORK PROFILE PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -12803,12 +12275,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -12818,12 +12287,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -12832,6 +12298,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -12848,10 +12315,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -12879,9 +12344,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -12905,20 +12368,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a
-                            href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a
-                            href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a
-                            href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a
-                            href="#">Digital Identity Management (DIM)<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity Management (DIM)<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -13061,6 +12517,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -13069,8 +12527,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'SEPA-mandate-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'SEPA-mandate-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -13081,8 +12538,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'digital-identity-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'digital-identity-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -13109,7 +12565,7 @@
                           <div class="data-input">
                             <label>Type of Network Member<span class="required"></span></label>
                             <select name="network_member_type" class="field-select">
-                              <option value=""> - Contact/POD/Orga -</option>
+                              <option value=""> - Contact/POD/Orga - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -13118,7 +12574,7 @@
                           <div class="data-input">
                             <label>Nature of Relationship<span class="required"></span></label>
                             <select name="relationship_nature" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -13126,8 +12582,7 @@
 
                           <div class="data-input">
                             <label>Comment<span class="required"></span></label>
-                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5"
-                                      placeholder=" - Text -"></textarea>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
                           </div>
 
 
@@ -13138,7 +12593,7 @@
                           <div class="data-input">
                             <label>Choose ID of Member<span class="required"></span></label>
                             <select name="member_id" class="field-select">
-                              <option value=""> - Contact/POD/Orga -</option>
+                              <option value=""> - Contact/POD/Orga - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -13147,7 +12602,7 @@
 
                           <div class="data-input">
                             <label>Verified By<span class="required"></span></label>
-                            <input type="text" name="verified_by" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="verified_by" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
 
@@ -13159,12 +12614,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -13181,6 +12636,8 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -13188,16 +12645,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab46" class="" onclick="tab_10('tab46')"><a><i class="icon icon-clock"></i></a>
-                        </button>
-                        <button id="li_tab47" class="" onclick="tab_10('tab47')"><a><i
-                          class="icon icon-activity"></i></a></button>
-                        <button id="li_tab48" class="active" onclick="tab_10('tab48')"><i class="icon icon-comment"></i>
-                        </button>
-                        <button id="li_tab49" class="" onclick="tab_10('tab49')"><i class="icon icon-folder"></i>
-                        </button>
-                        <button id="li_tab50" class="" onclick="tab_10('tab50')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab46" class="" onclick="tab_10('tab46')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab47" class="" onclick="tab_10('tab47')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab48" class="active" onclick="tab_10('tab48')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab49" class="" onclick="tab_10('tab49')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab50" class="" onclick="tab_10('tab50')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -13214,7 +12666,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -13224,8 +12676,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -13233,6 +12684,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -13258,12 +12710,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -13272,8 +12720,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -13293,12 +12740,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -13307,8 +12750,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -13328,12 +12770,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -13342,8 +12780,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -13363,12 +12800,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -13377,8 +12810,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -13404,11 +12836,9 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab28" class="active" onclick="sub_tab10('mini_tab28')"><a href="#">Overdue</a>
-                                </li>
+                                <li id="li_mini_tab28" class="active" onclick="sub_tab10('mini_tab28')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab29" onclick="sub_tab10('mini_tab29')"><a href="#">Flagged</a></li>
-                                <li id="li_mini_tab30" onclick="sub_tab10('mini_tab30')"><a href="#">Due this Week</a>
-                                </li>
+                                <li id="li_mini_tab30" onclick="sub_tab10('mini_tab30')"><a href="#">Due this Week</a></li>
                               </ul>
                             </div>
                             <!-- End breadcrumbs -->
@@ -13587,7 +13017,7 @@
                             </div>
 
 
-                            <div id="mini_tab29" style="display: none;">
+                            <div id="mini_tab29" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -13755,8 +13185,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -13797,8 +13226,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -13839,8 +13267,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -13882,12 +13309,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -13896,8 +13319,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -13919,12 +13341,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -13933,8 +13351,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -13957,12 +13374,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -13971,8 +13384,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -14107,6 +13519,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </network-profile-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -14122,6 +13535,10 @@
             -- ==================================================== -->
 
 
+
+
+
+
         <!-- =================================================== --
               //                                                     //
               //              BEGIN DIGITAL IDENTITY PAGE            //
@@ -14129,8 +13546,7 @@
             -- ==================================================== -->
 
 
-        <div id="digital-identity-page" class="pagesets_section" style="display: none;">
-          <!--======Start DIGITAL IDENTITY PAGE ======-->
+        <div id="digital-identity-page" class="pagesets_section" style="display: none;"><!--======Start DIGITAL IDENTITY PAGE ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -14153,12 +13569,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -14168,12 +13581,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -14182,6 +13592,7 @@
               <module-identity-title><!-- Begin MODULE TITLE -->
                 <div align="center"><span class="module-name">Contact Manager</span></div>
               </module-identity-title><!-- End MODULE TITLE -->
+
 
 
               <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
@@ -14198,10 +13609,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -14229,9 +13638,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -14255,20 +13662,13 @@
 
                         <ul id="mid-menu-content" class="menu-content collapse out">
 
-                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a
-                            href="#">Basic Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a
-                            href="#">Personal Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a
-                            href="#">Business Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a
-                            href="#">Contact Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a
-                            href="#">Financial Profile<span class="arrow"></span></a></li>
-                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a
-                            href="#">Network Profile<span class="arrow"></span></a></li>
-                          <li class="active specific_module" onclick="pagesetFunction(event, 'digital-identity-page')">
-                            <a href="#">Digital Identity Management (DIM)<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'personal-profile-page')"><a href="#">Personal Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'network-profile-page')"><a href="#">Network Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'digital-identity-page')"><a href="#">Digital Identity Management (DIM)<span class="arrow"></span></a></li>
 
                         </ul>
                       </div>
@@ -14411,6 +13811,8 @@
               </pane-small-first><!-- END PANE-SMALL-FIRST -->
 
 
+
+
               <pane-large><!-- Begin PANE-LARGE -->
 
                 <mid-pane>
@@ -14419,8 +13821,7 @@
                       <mid-pane-tools>
                         <page-prv>
                           <div class="previous-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'network-profile-page')"><i
-                              class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'network-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                           </div>
                         </page-prv>
                         <quick-tools>
@@ -14431,8 +13832,7 @@
                         </quick-tools>
                         <page-nxt>
                           <div class="next-arrow">
-                            <a href="#" onclick="pagesetFunction(event, 'contact-mgr-summary')"><i
-                              class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                            <a href="#" onclick="pagesetFunction(event, 'contact-mgr-summary')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                           </div>
                         </page-nxt>
                       </mid-pane-tools>
@@ -14458,14 +13858,13 @@
 
                           <div class="data-input">
                             <label>Contact ID<span class="required"></span></label>
-                            <input type="financial" name="contact_id" class="field-long field-autofill"
-                                   placeholder=" - Autofill -"/>
+                            <input type="financial" name="contact_id" class="field-long field-autofill" placeholder=" - Autofill -" />
                           </div>
 
                           <div class="data-input">
                             <label>Role<span class="required"></span></label>
                             <select name="role" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -14474,7 +13873,7 @@
                           <div class="data-input">
                             <label>Operational Status<span class="required"></span></label>
                             <select name="operational_status" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -14483,7 +13882,7 @@
                           <div class="data-input">
                             <label>Security Status<span class="required"></span></label>
                             <select name="security_status" class="field-select">
-                              <option value=""> - Select Value -</option>
+                              <option value=""> - Select Value - </option>
                               <option value="">Value 1</option>
                               <option value="">Value 2</option>
                             </select>
@@ -14491,8 +13890,7 @@
 
                           <div class="data-input">
                             <label>Comment<span class="required"></span></label>
-                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5"
-                                      placeholder=" - Text -"></textarea>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
                           </div>
 
 
@@ -14502,12 +13900,12 @@
 
                           <div class="data-input">
                             <label>Username / Log in Name<span class="required"></span></label>
-                            <input type="text" name="username" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="username" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
                             <label>Passphrase<span class="required"></span></label>
-                            <input type="text" name="passphrase" class="field-long" placeholder=" - Input Value -"/>
+                            <input type="text" name="passphrase" class="field-long" placeholder=" - Input Value -" />
                           </div>
 
                           <div class="data-input">
@@ -14536,12 +13934,12 @@
                   </mid-content><!--End Mid Content -->
 
 
+
                   <applied-tags><!--Start Applied Tags -->
                     <div class="container-body">
                       <div class="tags-line"></div>
                       <div class="group-tags-section">
-                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i
-                          class="icon icon-arrow-down"></i></span>
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
                         <ul class="group-tags">
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
                           <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
@@ -14558,6 +13956,8 @@
               </pane-large><!-- End PANE-LARGE -->
 
 
+
+
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
 
                 <mini-panels><!-- Begin MINI-PANELS -->
@@ -14565,16 +13965,11 @@
                     <div class="upper-pane-header">
                       <!--Start tabs -->
                       <div class="pane-tabs">
-                        <button id="li_tab51" class="" onclick="tab_11('tab51')"><a><i class="icon icon-clock"></i></a>
-                        </button>
-                        <button id="li_tab52" class="" onclick="tab_11('tab52')"><a><i
-                          class="icon icon-activity"></i></a></button>
-                        <button id="li_tab53" class="active" onclick="tab_11('tab53')"><i class="icon icon-comment"></i>
-                        </button>
-                        <button id="li_tab54" class="" onclick="tab_11('tab54')"><i class="icon icon-folder"></i>
-                        </button>
-                        <button id="li_tab55" class="" onclick="tab_11('tab55')"><i class="icon icon-instance"></i>
-                        </button>
+                        <button id="li_tab51" class="" onclick="tab_11('tab51')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab52" class="" onclick="tab_11('tab52')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab53" class="active" onclick="tab_11('tab53')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab54" class="" onclick="tab_11('tab54')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab55" class="" onclick="tab_11('tab55')"><i class="icon icon-instance"></i></button>
                       </div>
                       <!--End tabs -->
                     </div>
@@ -14591,7 +13986,7 @@
                         <search-box-input>
                           <form class="search-box specific_module" method="get" action="#">
                             <span class="searching-icon"><i class="icon icon-search"></i></span>
-                            <input placeholder="Search something ..." class="main-search-text" id="mySearch">
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
                           </form>
 
                         </search-box-input>
@@ -14601,8 +13996,7 @@
                         </sorting-key>
 
                         <reset-key>
-                          <a onclick="document.getElementById('mySearch').value = ''"><i
-                            class="icon symbol-nav-section icon-reset"></i></a>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
                         </reset-key>
 
                       </mini-search-area>
@@ -14610,6 +14004,7 @@
                   </search-filter-section><!--End SEARCH AREA -->
 
                   <pane-content>
+
 
 
                     <!-- Begin ACTIVITY LOG TABBED CONTENT-->
@@ -14635,12 +14030,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -14649,8 +14040,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -14670,12 +14060,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -14684,8 +14070,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -14705,12 +14090,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -14719,8 +14100,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -14740,12 +14120,8 @@
 
                                       <ul>
                                         <li><span class="kind most-important">Kind : File Report</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -14754,8 +14130,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span
-                                      class="important">important</span></div>
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
                                 </div>
@@ -14781,11 +14156,9 @@
                             <!-- Start breadcrumbs -->
                             <div class="section-breadcrumbs">
                               <ul class="breadcrumb-task">
-                                <li id="li_mini_tab31" class="active" onclick="sub_tab11('mini_tab31')"><a href="#">Overdue</a>
-                                </li>
+                                <li id="li_mini_tab31" class="active" onclick="sub_tab11('mini_tab31')"><a href="#">Overdue</a></li>
                                 <li id="li_mini_tab32" onclick="sub_tab11('mini_tab32')"><a href="#">Flagged</a></li>
-                                <li id="li_mini_tab33" onclick="sub_tab11('mini_tab33')"><a href="#">Due this Week</a>
-                                </li>
+                                <li id="li_mini_tab33" onclick="sub_tab11('mini_tab33')"><a href="#">Due this Week</a></li>
                               </ul>
                             </div>
                             <!-- End breadcrumbs -->
@@ -14964,7 +14337,7 @@
                             </div>
 
 
-                            <div id="mini_tab32" style="display: none;">
+                            <div id="mini_tab32" style="display: none;" >
                               <div class="flagged-area">
                                 <div class="task" id="scroll">
                                   <div class="container-body">
@@ -15132,8 +14505,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -15174,8 +14546,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -15216,8 +14587,7 @@
                               <div class="comment-content">
                                 <div class="comment-section-1">
                                   <div class="container-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                      incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
                                   </div>
 
                                 </div>
@@ -15259,12 +14629,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -15273,8 +14639,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -15296,12 +14661,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -15310,8 +14671,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -15334,12 +14694,8 @@
                                       <ul>
                                         <li><span class="kind most-important">Stored by : John Doe</span></li>
                                         <li><span class="kind most-important">Size : 106 Kb</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-calendar"></i>&nbsp;</span><span
-                                          class="date">27.05.2017</span></li>
-                                        <li><span class="energicos-red"><i
-                                          class="icon icon-clock"></i>&nbsp;</span><span
-                                          class="time-ago">2 Days ago</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
                                       </ul>
                                     </div>
 
@@ -15348,8 +14704,7 @@
                                   <div class="timeline-section-2"></div>
 
                                   <div class="timeline-section-3">
-                                    <div class="energicos-red timeline-important"><span class="important">Tags</span>
-                                    </div>
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
                                     <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
                                   </div>
@@ -15484,6 +14839,7 @@
               </pane-small-last><!-- End PANE-SMALL-LAST -->
 
 
+
             </digital-identity-page>
 
           </nav-level-2-tab-content><!-- END MAIN CONTENT -->
@@ -15499,6 +14855,10 @@
             -- ==================================================== -->
 
 
+
+
+
+
         <!-- =================================== --
               //                                    //
               //     BEGIN CONTACT SUMMARY PAGE     //
@@ -15506,8 +14866,7 @@
             -- ==================================== -->
 
 
-        <div id="contact-mgr-summary" class="pagesets_section" style="display: none;">
-          <!--======Start CONTACT SUMMARY ======-->
+        <div id="contact-mgr-summary" class="pagesets_section" style="display: none;"><!--======Start CONTACT SUMMARY ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -15518,8 +14877,7 @@
                 <div class="section-breadcrumbs">
                   <ul class="breadcrumb">
                     <li><i class="icon icon-arrow-left"></i></li>
-                    <li class="specific_module" onclick="pagesetFunction(event, 'crm-page')"><a
-                      href="crm/crm.html">CRM</a></li>
+                    <li class="specific_module" onclick="pagesetFunction(event, 'crm-page')"><a href="crm/crm.html">CRM</a></li>
                     <li class="specific_module" onclick="#"><a href="#">Contact Manager</a></li>
                     <li class="active"><a href="#">Summary</a></li>
                   </ul>
@@ -15531,12 +14889,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -15546,12 +14901,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -15568,8 +14920,7 @@
                     <large-pane-tools>
                       <page-prv>
                         <div class="previous-arrow">
-                          <a href="#" onclick="pagesetFunction(event, 'digital-identity-page')"><i
-                            class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          <a href="#" onclick="pagesetFunction(event, 'digital-identity-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                         </div>
                       </page-prv>
                       <page-title>
@@ -15583,8 +14934,7 @@
                       </quick-tools>
                       <page-nxt>
                         <div class="next-arrow">
-                          <a href="#" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                            class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          <a href="#" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                         </div>
                       </page-nxt>
                     </large-pane-tools>
@@ -15782,6 +15132,7 @@
                   </summary-fields>
 
 
+
                   <!-- Begin CONTACT PROFILE -->
                   <summary-form>
                     <summary-sub-header>
@@ -15899,6 +15250,7 @@
                   </summary-fields><!-- End BILLING -->
 
 
+
                   <div class="container-body"><!-- Begin DELIVERY ADDRESS -->
                     <mid-pane-random-title>
                       <span class="most-important summary-sub-title energicos-red capitalize">Delivery Address</span>
@@ -15999,6 +15351,7 @@
                   </summary-fields><!-- End DELIVERY ADDRESS -->
 
 
+
                   <div class="container-body"><!-- Begin COMMUNICATION -->
                     <mid-pane-random-title>
                       <span class="most-important summary-sub-title energicos-red capitalize">Communication</span>
@@ -16058,6 +15411,7 @@
 
                   </summary-fields><!-- End COMMUNICATION -->
                   <!-- End CONTACT PROFILE -->
+
 
 
                   <!--Begin FINANCIAL PROFILE -->
@@ -16128,6 +15482,7 @@
                   </summary-fields><!-- Edit BANK DETAILS -->
 
 
+
                   <div class="container-body"><!-- Begin CREDIT CARD DETAILS -->
                     <mid-pane-random-title>
                       <span class="most-important summary-sub-title energicos-red capitalize">Credit Card Details</span>
@@ -16184,6 +15539,7 @@
                       </div>
                     </summary-field-6>
                   </summary-fields><!-- Edit CREDIT CARD DETAILS -->
+
 
 
                   <div class="container-body"><!-- Begin SEPA MANDATE -->
@@ -16254,6 +15610,8 @@
                   <!--End FINANCIAL PROFILE -->
 
 
+
+
                   <!--Begin NETWORK PROFILE -->
                   <summary-form>
                     <summary-sub-header>
@@ -16307,6 +15665,7 @@
                   </summary-fields>
 
                   <!--End NETWORK PROFILE -->
+
 
 
                   <!--Begin DIGITAL IDENTITY MANAGEMENT (DIM) -->
@@ -16390,6 +15749,7 @@
                 </div>
 
 
+
               </pane-large><!-- End PANE-LARGE -->
 
               <pane-small-last><!-- Begin PANE-SMALL-LAST -->
@@ -16405,10 +15765,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -16436,9 +15794,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -16604,6 +15960,11 @@
             -- ==================================== -->
 
 
+
+
+
+
+
         <!-- ======================================== --
               //                                          //
               //        BEGIN CONTACT OVERVIEW PAGE       //
@@ -16611,8 +15972,7 @@
             -- ========================================== -->
 
 
-        <div id="contact-mgr-overview" class="pagesets_section" style="display: none;">
-          <!--======Start CONTACT OVERVIEW ======-->
+        <div id="contact-mgr-overview" class="pagesets_section" style="display: none;"><!--======Start CONTACT OVERVIEW ======-->
 
 
           <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
@@ -16623,8 +15983,7 @@
                 <div class="section-breadcrumbs">
                   <ul class="breadcrumb">
                     <li><i class="icon icon-arrow-left"></i></li>
-                    <li class="specific_module" onclick="pagesetFunction(event, 'crm-page')"><a
-                      href="crm/crm.html">CRM</a></li>
+                    <li class="specific_module" onclick="pagesetFunction(event, 'crm-page')"><a href="crm/crm.html">CRM</a></li>
                     <li class="specific_module" onclick="#"><a href="#">Contact Manager</a></li>
                     <li class="active"><a href="#">Overview</a></li>
                   </ul>
@@ -16636,12 +15995,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Bookmarks</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -16651,12 +16007,9 @@
                 <div class="container-body">
                   <ul>
                     <li><span class="most-important">Favorites</span></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span
-                      class="icon icon-arrow-down"></span></a></li>
-                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span
-                      class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
                     <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
                   </ul>
                 </div>
@@ -16671,12 +16024,9 @@
                 <overview-section>
                   <overview-header-functions>
                     <div class="dataset-function-tabs"><!-- Start dataset function tabs -->
-                      <button class="tab-export tooltip-top" data-tooltip="Export" onclick="location.href='#'"><i
-                        class="icon symbol-dataset icon-export"></i></button>
-                      <button class="tab-analytics tooltip-top" data-tooltip="Analytics" onclick="location.href='#'"><i
-                        class="icon symbol-tab-nav symbol-dataset icon-analytics"></i></button>
-                      <button class="tab-link tooltip-top" data-tooltip="Link" onclick="location.href='#'"><i
-                        class="icon symbol-tab-nav symbol-dataset icon-hyperlink"></i></button>
+                      <button class="tab-export tooltip-top" data-tooltip="Export" onclick="location.href='#'"><i class="icon symbol-dataset icon-export"></i></button>
+                      <button class="tab-analytics tooltip-top" data-tooltip="Analytics" onclick="location.href='#'"><i class="icon symbol-tab-nav symbol-dataset icon-analytics"></i></button>
+                      <button class="tab-link tooltip-top" data-tooltip="Link" onclick="location.href='#'"><i class="icon symbol-tab-nav symbol-dataset icon-hyperlink"></i></button>
 
                     </div><!-- End dataset function tabs -->
                   </overview-header-functions>
@@ -16724,7 +16074,7 @@
                           <tr onclick="#"><!-- Begin row 1 -->
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="1a" class="fav-checkbox"/><label for="1a"></label>
+                                <input type="checkbox" id="1a" class="fav-checkbox" /><label for="1a"></label>
                               </div>
                             </td>
 
@@ -16750,8 +16100,7 @@
                             <td class="table-text">text</td>
                             <td>
                               <div class="next-arrow">
-                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                                  class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                               </div>
                             </td>
                           </tr><!--End row 1 -->
@@ -16759,19 +16108,19 @@
                           <tr onclick="#"><!-- Begin row 2 -->
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="4a" class="fav-checkbox"/><label for="4a"></label>
+                                <input type="checkbox" id="4a" class="fav-checkbox" /><label for="4a"></label>
                               </div>
                             </td>
 
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="5a" class="flag-checkbox"/><label for="5a"></label>
+                                <input type="checkbox" id="5a" class="flag-checkbox" /><label for="5a"></label>
                               </div>
                             </td>
 
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="6a" class="white-checkbox"/><label for="6a"></label>
+                                <input type="checkbox" id="6a" class="white-checkbox" /><label for="6a"></label>
                               </div>
                             </td>
                             <td class="table-text">text</td>
@@ -16785,8 +16134,7 @@
                             <td class="table-text">text</td>
                             <td>
                               <div class="next-arrow">
-                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                                  class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                               </div>
                             </td>
                           </tr><!--End row 2 -->
@@ -16820,8 +16168,7 @@
                             <td class="table-text">text</td>
                             <td>
                               <div class="next-arrow">
-                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                                  class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                               </div>
                             </td>
                           </tr><!--End row 3 -->
@@ -16829,7 +16176,7 @@
                           <tr onclick="#"><!-- Begin row 4 -->
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="10a" class="fav-checkbox"/><label for="10a"></label>
+                                <input type="checkbox" id="10a" class="fav-checkbox" /><label for="10a"></label>
                               </div>
                             </td>
 
@@ -16855,8 +16202,7 @@
                             <td class="table-text">text</td>
                             <td>
                               <div class="next-arrow">
-                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                                  class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                               </div>
                             </td>
                           </tr><!--End row 4 -->
@@ -16864,7 +16210,7 @@
                           <tr onclick="#"><!-- Begin row 5 -->
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="13a" class="fav-checkbox"/><label for="13a"></label>
+                                <input type="checkbox" id="13a" class="fav-checkbox" /><label for="13a"></label>
                               </div>
                             </td>
 
@@ -16890,8 +16236,7 @@
                             <td class="table-text">text</td>
                             <td>
                               <div class="next-arrow">
-                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                                  class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                               </div>
                             </td>
                           </tr><!--End row 5 -->
@@ -16899,7 +16244,7 @@
                           <tr onclick="#"><!-- Begin row 6 -->
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="16a" class="fav-checkbox"/><label for="16a"></label>
+                                <input type="checkbox" id="16a" class="fav-checkbox" /><label for="16a"></label>
                               </div>
                             </td>
 
@@ -16925,8 +16270,7 @@
                             <td class="table-text">text</td>
                             <td>
                               <div class="next-arrow">
-                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                                  class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                               </div>
                             </td>
                           </tr><!--End row 6 -->
@@ -16934,7 +16278,7 @@
                           <tr onclick="#"><!-- Begin row 7 -->
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="19a" class="fav-checkbox"/><label for="19a"></label>
+                                <input type="checkbox" id="19a" class="fav-checkbox" /><label for="19a"></label>
                               </div>
                             </td>
 
@@ -16960,8 +16304,7 @@
                             <td class="table-text">text</td>
                             <td>
                               <div class="next-arrow">
-                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                                  class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                               </div>
                             </td>
                           </tr><!--End row 7 -->
@@ -16969,7 +16312,7 @@
                           <tr onclick="#"><!-- Begin row 8 -->
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="22a" class="fav-checkbox"/><label for="22a"></label>
+                                <input type="checkbox" id="22a" class="fav-checkbox" /><label for="22a"></label>
                               </div>
                             </td>
 
@@ -16995,8 +16338,7 @@
                             <td class="table-text">text</td>
                             <td>
                               <div class="next-arrow">
-                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                                  class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                               </div>
                             </td>
                           </tr><!--End row 8 -->
@@ -17004,7 +16346,7 @@
                           <tr onclick="#"><!-- Begin row 9 -->
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="25a" class="fav-checkbox"/><label for="25a"></label>
+                                <input type="checkbox" id="25a" class="fav-checkbox" /><label for="25a"></label>
                               </div>
                             </td>
 
@@ -17030,8 +16372,7 @@
                             <td class="table-text">text</td>
                             <td>
                               <div class="next-arrow">
-                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                                  class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                               </div>
                             </td>
                           </tr><!--End row 9 -->
@@ -17039,7 +16380,7 @@
                           <tr onclick="#"><!-- Begin row 10 -->
                             <td align="center">
                               <div class="checkbox-element">
-                                <input type="checkbox" id="28a" class="fav-checkbox"/><label for="28a"></label>
+                                <input type="checkbox" id="28a" class="fav-checkbox" /><label for="28a"></label>
                               </div>
                             </td>
 
@@ -17065,8 +16406,7 @@
                             <td class="table-text">text</td>
                             <td>
                               <div class="next-arrow">
-                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i
-                                  class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                                <a class="specific_module" onclick="pagesetFunction(event, 'basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                               </div>
                             </td>
                           </tr><!--End row 10 -->
@@ -17123,10 +16463,8 @@
                     <div class="container-body">
                       <ul class="contacts">
                         <li><span class="most-important energicos-dark contact-person">Mr Alexander Puschkin</span></li>
-                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span
-                          class="contact-email">kasa@gmail.com</span></li>
-                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span
-                          class="phone-no">+49 30 52 00522125</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
                         <li>
                           <!--Start Rating -->
                           <div class="rating">
@@ -17154,9 +16492,7 @@
                           <span class="normal">8</span>
                         </li>
                         <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
-                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span
-                            class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span
-                            class="energicos-darkgrey normal-font">8</span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
                         </li>
                       </ul>
                     </div>
@@ -17323,6 +16659,9 @@
 
 
       </div><!--======End CONTACT MANAGER TAB ======-->
+
+
+
     </main-content>
   </section>
 

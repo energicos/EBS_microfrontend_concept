@@ -14345,7 +14345,7 @@
                     <large-pane-tools>
                       <page-prv>
                         <div class="previous-arrow">
-                          <a href="#" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          <a href="#" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                         </div>
                       </page-prv>
                       <page-title>
@@ -14359,7 +14359,7 @@
                       </quick-tools>
                       <page-nxt>
                         <div class="next-arrow">
-                          <a href="#" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          <a href="#" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                         </div>
                       </page-nxt>
                     </large-pane-tools>

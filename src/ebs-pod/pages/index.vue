@@ -2768,8 +2768,8 @@
 
 
                           <div class="data-input">
-                            <label>Building Name<span class="required"></span></label>
-                            <input type="financial" name="building_name" class="field-long field-autofill" placeholder=" - Autofill -" />
+                            <label>POD ID<span class="required"></span></label>
+                            <input type="financial" name="pod_id" class="field-long field-autofill" placeholder=" - Autofill -" />
                           </div>
 
                           <div class="data-input">
@@ -19756,7 +19756,7 @@
                     <large-pane-tools>
                       <page-prv>
                         <div class="previous-arrow">
-                          <a href="#" onclick="pagesetFunction(event, 'pod-network-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          <a href="#" onclick="pagesetFunction(event, 'pod-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
                         </div>
                       </page-prv>
                       <page-title>
@@ -19770,7 +19770,7 @@
                       </quick-tools>
                       <page-nxt>
                         <div class="next-arrow">
-                          <a href="#" onclick="pagesetFunction(event, 'pod-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          <a href="#" onclick="pagesetFunction(event, 'pod-network-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
                         </div>
                       </page-nxt>
                     </large-pane-tools>
@@ -19852,14 +19852,14 @@
                   <summary-fields>
                     <summary-field-1>
                       <div class="container-summary-content">
-                        <label>Building ID</label>
-                        <div class="data-placeholder">Data</div>
+                        <label>Title</label>
+                        <div class="data-placeholder">Building ID</div>
                         <div class="label-underline"></div>
                       </div>
                     </summary-field-1>
                     <summary-field-2>
                       <div class="container-summary-content">
-                        <label>Building Name</label>
+                        <label>POD ID</label>
                         <div class="data-placeholder">Data</div>
                         <div class="label-underline"></div>
                       </div>

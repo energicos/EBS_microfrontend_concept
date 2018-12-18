@@ -84,7 +84,7 @@
             <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a>
           </div>
         </div>
-k
+
       </div>
     </div>
 

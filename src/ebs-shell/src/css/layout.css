@@ -251,7 +251,7 @@ aside {
 						 "client-area";
 
 	grid-template-rows: 84px
-						169px
+						179px
 						40px
 						1fr
 						48px;
@@ -283,7 +283,6 @@ contact-list-page, contact-summary-page, contact-overview-page, sales-overview-p
 	width: 100%;
 	grid-template-columns: 26% 24% 24% 26%;
 	grid-gap: 0px;
-	height: 87vh;
 	grid-template-areas: "breadcrumbs breadcrumbs breadcrumbs breadcrumbs"
 		                 "bookmarks bookmarks favorites favorites"
 		                 "module-identity-title module-identity-title module-identity-title module-identity-title"
@@ -294,6 +293,8 @@ contact-list-page, contact-summary-page, contact-overview-page, sales-overview-p
 		                42px
 		                41px
 		                1fr;
+	
+	height: 965px;
 }
 
 
@@ -302,7 +303,6 @@ basic-profile-page, personal-profile-page, business-profile-page, contact-profil
 	width: 100%;
 	grid-template-columns: 26% 24% 24% 26%;
 	grid-gap: 0px;
-	height: 87vh;
 	grid-template-areas: "breadcrumbs breadcrumbs breadcrumbs breadcrumbs"
 		                 "bookmarks bookmarks favorites favorites"
 		                 "module-identity-title module-identity-title module-identity-title module-identity-title"
@@ -313,6 +313,8 @@ basic-profile-page, personal-profile-page, business-profile-page, contact-profil
 		                42px
 		                41px
 		                1fr;
+	
+	height: 965px;
 }
 
 
@@ -321,7 +323,6 @@ bldg-revit-schedule-page, bldg-apartment-schedule-page, bldg-room-schedule-page 
 	width: 100%;
 	grid-template-columns: 26% 24% 24% 26%;
 	grid-gap: 0px;
-	height: 87vh;
 	grid-template-areas: "breadcrumbs breadcrumbs breadcrumbs breadcrumbs"
 		                 "bookmarks bookmarks favorites favorites"
 		                 "module-identity-title module-identity-title module-identity-title module-identity-title"
@@ -332,6 +333,8 @@ bldg-revit-schedule-page, bldg-apartment-schedule-page, bldg-room-schedule-page 
 		                42px
 		                41px
 		                1fr;
+	
+	height: 965px;
 }
 
 
@@ -407,7 +410,7 @@ overview-section {
 	display: grid;
 	width: 100%;
 	margin: 0 auto;
-	height: 74vh;
+	height: 840px;
 	grid-gap: 0px;
 	grid-template-columns: auto;
 	grid-template-areas: "overview-functions"
@@ -457,7 +460,7 @@ button-fields-area {
 	width: 100%;
 	margin: 0 auto;
 	background-color: rgb(250, 250, 250);
-	box-shadow: 0px 0px 1px 0px rgba(149, 149, 150, 0.85);
+	box-shadow: 0px 0px 0px 0px rgba(149, 149, 150, 0.25);
 	border-top: 1px solid #e6e6e6;
 	min-height: 86px;
 	grid-gap: 15px;
@@ -591,13 +594,12 @@ task-panel {
 /* 
   ##SCREEN = 1920PX RESOLUTION SCREENS
 */
-@media (min-width: 1920px) {
+@media screen and (min-width: 1920px){
 	
 	/*START MAIN PAGE FRAMEWORK*/
 	.module-container {
 		display: grid;
 		width: 100%;
-		height: 100vh;
 		margin: 0 auto;
 		letter-spacing: 0.7px;
 		grid-template-columns: 16% 23% auto 26%;
@@ -607,18 +609,12 @@ task-panel {
 							 "footer footer footer footer";
 
 		grid-template-rows: 60px
-							90.4vh
+							1fr
 							50px;
 
-		min-height: 100vh;
+		height: 100vh;
 
 	}
-
-
-	.module-container div {
-	}
-	
-	
 	/*END MAIN PAGE FRAMEWORK*/
 	
   
@@ -637,7 +633,6 @@ task-panel {
 	.module-container {
 		display: grid;
 		width: 100%;
-		height: 100vh;
 		margin: 0 auto;
 		letter-spacing: 0.7px;
 		grid-template-columns: 16% 23% auto 26%;
@@ -647,10 +642,10 @@ task-panel {
 							 "footer footer footer footer";
 
 		grid-template-rows: 60px
-							90.4vh
+							1fr
 							50px;
 
-		min-height: 100vh;
+		min-height: 100%;
 
 	}
 
