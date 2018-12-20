@@ -9,6 +9,7 @@
     "test": "jest --watch"
   },
   "dependencies": {
+    "iframe-resizer": "^3.6.3",
     "vue": "^2.5.17",
     "vue-router": "^3.0.2"
   },

@@ -4,6 +4,8 @@
 
 <script>
 import {connect} from "./EventBus";
+import iFrameResize from 'iframe-resizer/js/iframeResizer'
+
 
 let unsubscribe;
 
@@ -14,6 +16,11 @@ export default {
   },
   mounted() {
     unsubscribe = connect(this.$refs.iframe.contentWindow);
+
+    iFrameResize({
+      log: true,
+    }, this.$refs.iframe)
+
   },
   beforeDestroy() {
     unsubscribe();
