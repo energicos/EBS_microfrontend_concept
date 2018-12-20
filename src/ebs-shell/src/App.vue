@@ -7,6 +7,13 @@
         <router-view></router-view>
       </div>
     </main>
+    <footer>
+      <div class="container">
+        <credit>
+          &copy; 2018 <span class="most-important">Energicos.</span> All rights reserved
+        </credit>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -64,7 +71,7 @@ export default {
     color: #2c3e50;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh + 50px);
   }
 
   main {
