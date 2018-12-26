@@ -19,14 +19,14 @@ The solution consists of the following major components:
 - A reverse proxy to serve the shell and micro-frontends.
 
 
-![Concept](docs/concepts.png)
+![Concept](img/concepts.png)
 
 ### Shell
 
 The shell app contains an `EbsApp` Vue.js component to render each micro-frontend and a `EventBus` to enable 
 communication between micr-frontends.
 
-![Shell](docs/shell.mmd.svg)
+![Shell](img/shell.mmd.svg)
 
 ## Runtime view
 
@@ -49,7 +49,7 @@ There is a native [window.postMessage()](https://developer.mozilla.org/en-US/doc
 communicate between different `window` objects. Consumers can subscribe to messages by listening to the `message` event. 
 
 Messaging between different `window` objects is seamlessly integrated
-together using a simple [event bus](ebs-shell/src/micro-frontends/EventBus.js) that listens to messages on each of the windows
+together using a simple [event bus](../src/ebs-shell/src/micro-frontends/EventBus.js) that listens to messages on each of the windows
 and broadcasts them to others. This way the applications won't even know that they are talking to a different application.
 
 #### Message envelope
@@ -62,19 +62,19 @@ Messages are represented using objects with a `type` property and any other payl
     customProperty: 'some-value'
 }
 ```
-
+k
 The `type` property needs to start with `app.` to distinguish application messages from the rest.
 
 #### Messaging sequence diagram
 
-![Messaging](docs/messaging.mmd.svg)
+![Messaging](img/messaging.mmd.svg)
 
 ## Deployment view
 
 Each micro-frontend the shell app is deployed as a separate Docker container. All of them a served via a single reverse Nginx proxy.
 The proxy is used to avoid limitations with loading resources from different domains. It can also be used for SSL and HTTP/2 termination.
 
-![Deployment](docs/deployment.png)
+![Deployment](img/deployment.png)
 
 ## Development
 
