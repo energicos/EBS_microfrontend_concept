@@ -84,16 +84,16 @@ The proxy is used to avoid limitations with loading resources from different dom
 
 ```bash
 cd ebs-contacts
-yarn
-yarn dev
+npm i
+npm run dev
 ```
 
 1. Run the shell app:
 
 ```bash
 cd ebs-shell
-yarn
-yarn serve
+npm i
+npm run serve
 ```
 
 ### Running in Docker 
