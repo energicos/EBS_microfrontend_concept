@@ -3,13 +3,13 @@ FROM node:10.4.0-alpine as build-stage
 
 WORKDIR /opt/app
 
-COPY yarn.lock package.json ./
+COPY package*.json ./
 
-RUN yarn
+RUN npm ci
 
 COPY . .
 
-RUN yarn build
+RUN npm run build
 
 # production stage
 FROM nginx:1.13.12-alpine as production-stage
