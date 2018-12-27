@@ -12,11 +12,16 @@ let unsubscribe;
 export default {
   name: 'ebs-app',
   props: {
+    /**
+     * Url to load the app from.
+     */
     src: String
   },
   mounted() {
+    // connect the iframe to the event bus to send and receive messages
     unsubscribe = connect(this.$refs.iframe.contentWindow);
 
+    // resize the iframe according to its content
     iFrameResize({
       log: true,
     }, this.$refs.iframe)

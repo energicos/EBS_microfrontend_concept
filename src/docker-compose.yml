@@ -60,6 +60,8 @@ services:
     environment:
       HOST: '0.0.0.0'
 
+  # Adding a new micro-frontend? Don't forget to add it to the depends_on list of the proxy!
+
   ebs-shell:
     build: ebs-shell
     image: ebs-shell

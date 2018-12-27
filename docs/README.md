@@ -23,22 +23,31 @@ The solution consists of the following major components:
 
 ### Shell
 
-The shell app contains an `EbsApp` Vue.js component to render each micro-frontend and a `EventBus` to enable 
-communication between micr-frontends.
+The shell app is generated using [Vue CLI](https://cli.vuejs.org/) to avoid maintaining a custom project setup.
+
+The shell app uses the [EbsApp](../src/ebs-shell/src/micro-frontends/EbsApp.vue) component Vue.js component to render each micro-frontend 
+and the [EventBus](../src/ebs-shell/src/micro-frontends/EventBus.js) to enable communication between micro-frontends.
 
 ![Shell](img/shell.mmd.svg)
 
+### Micro-frontends
+
+Each micro-frontend is based on [Nuxt.js](https://nuxtjs.org/guide) as the most popular out of the box implementation of
+server-side rendering for Vue.js. 
+
 ## Runtime view
 
-### Rendering mico-frontends
+### Rendering micro-frontends
 
-Micro-frontends are rendered using iframes. This allows to:
+Micro-frontends are rendered by embedding remote applications using iframes. This allows to:
 1. Easily embed remote applications in the shell.
 2. Encapsulate its HTML and CSS.
 3. Completely isolate its JavaScript runtime.
 
 From the downsides of this approach one can note that some additional efforts might be required to make the iframe
 fit nicely in the overall layout of the application.
+
+The logic of working with iframes is encapsulated in the [EbsApp](../src/ebs-shell/src/micro-frontends/EbsApp.vue) app component.
 
 ### Communication
 
@@ -100,7 +109,32 @@ npm run serve
 
 To start the application using Docker run `docker-compose up` and open [localhost:3000](http://localhost:3000) in your browser.
 
-# #Notes
+### Adding new micro-frontends
+
+To add a new micro-frontend using Nuxt.js follow these steps:
+1. Generate a new project. Choose SSR and use npm as the package manager.
+```
+npx create-nuxt-app <project-name>
+```
+2. Configure the base URL for the app to properly serve assets by adding the following code to the `nuxt.config.js` file:
+```js
+  router: {
+    base: '/<app-url>/'
+  }
+```
+3. Choose and configure a unique port for the app. 
+4. You should now be able to run the app using `npm run dev` and open it on 
+`http://localhost:<port>/<app-url>/`
+5. Create a proxy in the `ebs-shell` `vue.config.js` to serve the app in development mode. Verify that its working by running the shell and opening `/<app-url/`.
+6. Render the micro-frontend in the shell-app using the `EbsApp` component.
+
+#### Production setup
+1. Add a `Dockerfile` to the new project.
+1. Configure the app in the `ebs-proxy`. 
+1. Add the new app to `docker-compose.yml`.
+
+
+# Notes
 
 ### Web Components
 
