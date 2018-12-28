@@ -18,7 +18,6 @@ The solution consists of the following major components:
 - Several micro-frontends: contact manager, organization manager, pod manager, building manager, TAM and settings.
 - A reverse proxy to serve the shell and micro-frontends.
 
-
 ![Concept](img/concepts.png)
 
 ### Shell
@@ -119,7 +118,8 @@ As mentioned before, loading iframes comes with an extra overhead that wouldn't 
 Performance will be affected of course, and caching methods should be used under the nginx proxy and the server side renderer in order to improve this loading fact.
 You can use a loading spinner while the content is loaded or something, but it has to be treated somehow.
 
-Internally inside every micrfrontend, all the scripts will be scoped to the iframe and should be loaded asynchronously. That was one of the reasons to avoid the WebComponent approach, since all the scripts would need to be loaded globally and under the same scope, leading to potential integrations problems whenever two microfrontends could use the same namespace or a global object.
+Internally inside every microfrontend, all the scripts will be scoped to the iframe and should be loaded asynchronously. That was one of the reasons to avoid the WebComponent approach, since all the scripts would need to be loaded globally and under the same scope, leading to potential integrations problems whenever two microfrontends could use the same namespace or a global object.
+
 Using iframes this is completely isolated, so the javascript scripts can be loaded separately. This avoids also problems with libraries compatibility, it needs to be assumed that every component is isolated and MUST be able to exist in a separated environment. The dependency between components should be avoided with maximum effort since we want a plug and play architecture in which if I dettach a component, the rest of the system needs to be remain working.
 
 #### Message envelope
