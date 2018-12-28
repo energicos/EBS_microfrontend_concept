@@ -1,14 +1,15 @@
 # micro-frontend concept
 
 A PoC implementation of the micro-frontend pattern. The main goals of the concept are:
-- Ease of maintenance;
-- Stability;
-- Freedom to choose different tech stacks.
+- Ease of maintenance
+- Stability
+- Extensibility
+- Freedom to choose different tech stacks
 
 ## Concept
 
 - The main part of each screen is separated in its own micro-frontend
-- Micro-frontends are renders inside a "shell" application.
+- Micro-frontends are rendered inside a "shell" application.
 - Each micro-frontend is hosted as a separate application to allow for an independent life cycle.
 
 ## Building block view
@@ -20,18 +21,19 @@ The solution consists of the following major components:
 
 ![Concept](img/concepts.png)
 
-### Shell
+### Shell Component
 
 The shell app is generated using [Vue CLI](https://cli.vuejs.org/) to avoid maintaining a custom project setup.
 
-The shell app uses the [EbsApp](../src/ebs-shell/src/micro-frontends/EbsApp.vue) component Vue.js component to render each micro-frontend
-and the [EventBus](../src/ebs-shell/src/micro-frontends/EventBus.js) to enable communication between micro-frontends.
+The shell app uses the [EbsApp](../src/ebs-shell/src/micro-frontends/EbsApp.vue) component Vue.js component to render each micro-frontend and the [EventBus](../src/ebs-shell/src/micro-frontends/EventBus.js) to enable communication between micro-frontends.
 
 ![Shell](img/shell.mmd.svg)
 
 Currently, all the microfronts are rendered as normal components under the Shell app, who is going to be aware of which microfrontends need to be rendered. [See the folder](https://github.com/jelisejev/microfrontend_concept/tree/master/src/ebs-shell/src/components/apps).
 
-Taking the Settings microfrontend component, which is an element under the left side menu, [this is the implementation from the perspective of the shell](https://github.com/jelisejev/microfrontend_concept/blob/master/src/ebs-shell/src/components/apps/SettingsApp.vue).
+Every time you add a new component to the architecture, you'll need to add it to the shell component.
+
+Taking the Settings microfrontend component as an example, [this is the implementation from the perspective of the shell](https://github.com/jelisejev/microfrontend_concept/blob/master/src/ebs-shell/src/components/apps/SettingsApp.vue).
 
 ```vue
 <template>
@@ -46,9 +48,10 @@ Using iframes comes with extra efforts, and one of them is the fact of responsiv
 
 ### Micro-frontends
 
-Each micro-frontend is based on [Nuxt.js](https://nuxtjs.org/guide) as the most popular out of the box implementation of server-side rendering for Vue.js. The decision of using this tool was lead by the fact of preferring the usage of vuejs for our applications, but there's the flexibility of using any Server Side rendering framework or even your own custom server side rendering solution.
+Each micro-frontend is based on [Nuxt.js](https://nuxtjs.org/guide) as the most popular out of the box implementation of server-side rendering for Vue.js. The decision of using this tool was taking because of the fact that we prefer vuejs for our applications, but there's the flexibility and possibility of using any Server Side rendering framework or even your own custom server side rendering solution.
 
-Using libraries like React is allowed to and any potential framework that could appear in the inconming years can be adapted into any microservice, only respecting the communication protocols and the iframe rendering. We isolate with the iframes the technologies that are going to be used. Actually, the Shell microfrontend does not care about the implementation of each Iframe.
+Using libraries like React is allowed and any potential framework that can appear in the future can be adapted too.
+It only has to respect the communication protocols and the iframe rendering. We isolate every component with the iframes. Actually, the Shell microfrontend does not care about the implementation of each Iframe.
 
 ## Runtime view
 
@@ -72,7 +75,7 @@ integration of new micro-frontends, the communication is done using an event-bas
 Since iframes are used to render the microfrontends, there is a native communication method named [window.postMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) that allows to
 communicate between different `window` objects. Consumers can subscribe to messages by listening to the `message` event.
 
-Since we have a Master/Shell component that is responsible for rendering another components, the communication is allowed in both ways. From parent to the children and from children to the parent.
+Since we have a Master/Shell component that is responsible for rendering another components, the communication is allowed in both ways: From parent to the children and from children to the parent.
 
 These are native specifications implemented by all the browsers, so having this communication method is more secure compared to the others that are library-based.
 
@@ -81,20 +84,18 @@ The methods are:
 1. **window.parent.postMessage()**: Message from child to parent
 2. **iframe.contentWindow.postMessage()**: Message from parent to child
 
-The relationship between the elements is as follows:
-
-- The parent can have access to the content of the child, but not on the contrary direction.
+The relationship between the elements is unidrectional: The parent can have access to the content of the child, but not on the contrary direction.
 
 Messaging between different `window` objects is seamlessly integrated together using a simple [event bus](../src/ebs-shell/src/micro-frontends/EventBus.js) that listens to messages on each of the windows
 and broadcasts them to others. This way the applications won't even know that they are talking to a different application.
 
 ### Communication between Components and Server
 
-Communicating between microfrontend and server side is also allowed and eventually needed, since of course the data is going to be retrieved from the server.
+Communicating between micro-frontend and server side is also allowed and will be needed, since of course the data is going to be retrieved from the server.
 
 The way of doing that will depend on the tool that you're using, but this can be achieved using the well known HTTP/HTTPS protocol.
 
-In vuejs, you have to declare some actions that will be dispatched from the View components, and these actions will trigger a side-effect, that in this case is a server call.
+In vuejs, you have to declare some actions that will be dispatched from the View components, and these actions will trigger a side-effect, in this case is a server call.
 
 Libraries like Vuejs need the usage of Vuex, since Vue only takes care of the renderization. Vuex comes into play to deal with the model of the application, and uses the Reactive pattern explained [here](https://vuejs.org/v2/guide/reactivity.html) in detail.
 
@@ -194,6 +195,32 @@ npx create-nuxt-app <project-name>
 1. Configure the app in the `ebs-proxy`.
 1. Add the new app to `docker-compose.yml`.
 
+### Extending the architecture
+
+Every micro-frondend should contain the following basic structure. Additional folders and files will depend on the library or framework that you'll use, but you should stick at least to the following structure.
+
+```
+.
+├── Dockerfile
+├── README.md
+├── assets
+│   ├── README.md
+│   ├── css
+│   ├── fonts
+│   └── img
+│   └── js
+├── components
+│   ├── Component.vue
+│   └── README.md
+├── package.json
+├── server
+│   └── index.js
+├── static
+│   ├── README.md
+│   └── favicon.ico
+├── store
+│   └── README.md
+```
 
 # Notes
 
