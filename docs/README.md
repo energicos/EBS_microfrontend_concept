@@ -107,9 +107,9 @@ Vuex needs three actors in order to be able to fetch data from the server:
 
 The whole story comes into play in the following order:
 
-1. An initial state is created. This state will be responsible to store the current state/date of you application.
+1. An initial state is created. This state will be responsible to store the current state/data of you application.
 2. Actions are created in order to represent how the state can be changed. Actions are dispatched/triggered from the components, but the actions won't modify the state, they're just like an API definition of how the state can be mutated.
-3. Mutations are functions that are the only ones allowed to mutate the state. The are called when actions are triggered.
+3. Mutations are functions that are the only ones allowed to mutate the state. They are called when actions are triggered.
 
 In general terms, Redux(Model library for React) works in the same way and respect the same flow principles.
 
