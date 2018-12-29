@@ -133,7 +133,7 @@ Messages are represented using objects with a `type` property and any other payl
     customProperty: 'some-value'
 }
 ```
-k
+
 The `type` property needs to start with `app.` to distinguish application messages from the rest.
 
 #### Messaging sequence diagram
@@ -190,13 +190,6 @@ npx create-nuxt-app <project-name>
 5. Create a proxy in the `ebs-shell` `vue.config.js` to serve the app in development mode. Verify that its working by running the shell and opening `/<app-url/`.
 6. Render the micro-frontend in the shell-app using the `EbsApp` component.
 
-#### Production setup
-1. Add a `Dockerfile` to the new project.
-1. Configure the app in the `ebs-proxy`.
-1. Add the new app to `docker-compose.yml`.
-
-### Extending the architecture
-
 Every micro-frondend should contain the following basic structure. Additional folders and files will depend on the library or framework that you'll use, but you should stick at least to the following structure.
 
 ```
@@ -221,6 +214,11 @@ Every micro-frondend should contain the following basic structure. Additional fo
 ├── store
 │   └── README.md
 ```
+
+#### Production setup
+1. Add a `Dockerfile` to the new project.
+1. Configure the app in the `ebs-proxy`.
+1. Add the new app to `docker-compose.yml`.
 
 # Notes
 
