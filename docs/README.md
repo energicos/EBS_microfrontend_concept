@@ -169,7 +169,12 @@ npm run serve
 
 ### Running in Docker
 
-To start the application using Docker run `docker-compose up` and open [localhost:3000](http://localhost:3000) in your browser.
+```bash
+cd src
+docker-compose up --build
+```
+ 
+The app will be available at [localhost:3000](http://localhost:3000).
 
 ### Adding new micro-frontends
 
