@@ -1,0 +1,25 @@
+sequenceDiagram
+
+Note left of Shell: Connect shell
+Shell->>EventBus: connect(window)
+EventBus->>Shell: addEventListener('message')
+
+Note right of EbsApp: Connect app
+EbsApp->>EventBus: connect(iframe.contentWindow)
+EventBus->>Iframe: addEventListener('message')
+
+Note left of Shell: Message from shell
+Shell->>Shell: window.postMessage(...)
+Shell->>EventBus: trigger 'message' event
+EventBus->>Iframe: window.postMessage()
+Iframe->>Iframe: trigger local 'message' event listeners
+
+
+Note right of Iframe: New message from app
+Iframe->>Iframe: window.postMessage(...)
+Iframe->>EventBus: trigger 'message' event
+EventBus->>Shell: window.postMessage()
+Shell->>Shell: trigger local 'message' event listeners
+
+EbsApp->>EbsApp: EbsApp.destroy()
+EbsApp->>EventBus: unsubscribe()

@@ -1,0 +1,90 @@
+version: '2'
+services:
+  ebs-contacts:
+    build: ebs-contacts
+    image: ebs-contacts
+    networks:
+      - local-network
+    ports:
+      - 3002:3002
+    environment:
+      HOST: '0.0.0.0'
+
+  ebs-settings:
+    build: ebs-settings
+    image: ebs-settings
+    networks:
+      - local-network
+    ports:
+      - 3003:3003
+    environment:
+      HOST: '0.0.0.0'
+
+  ebs-tam:
+    build: ebs-tam
+    image: ebs-tam
+    networks:
+      - local-network
+    ports:
+      - 3004:3004
+    environment:
+      HOST: '0.0.0.0'
+
+  ebs-pod:
+    build: ebs-pod
+    image: ebs-pod
+    networks:
+      - local-network
+    ports:
+      - 3005:3005
+    environment:
+      HOST: '0.0.0.0'
+
+  ebs-organization:
+    build: ebs-organization
+    image: ebs-organization
+    networks:
+      - local-network
+    ports:
+      - 3006:3006
+    environment:
+      HOST: '0.0.0.0'
+
+  ebs-building:
+    build: ebs-building
+    image: ebs-building
+    networks:
+      - local-network
+    ports:
+      - 3007:3007
+    environment:
+      HOST: '0.0.0.0'
+
+  # Adding a new micro-frontend? Don't forget to add it to the depends_on list of the proxy!
+
+  ebs-shell:
+    build: ebs-shell
+    image: ebs-shell
+    networks:
+      - local-network
+    ports:
+      - 3001:80
+
+  ebs-proxy:
+    build: ebs-proxy
+    image: ebs-proxy
+    ports:
+      - 3000:80
+    networks:
+      - local-network
+    depends_on:
+      - ebs-contacts
+      - ebs-settings
+      - ebs-tam
+      - ebs-pod
+      - ebs-organization
+      - ebs-building
+      - ebs-shell
+
+networks:
+  local-network:

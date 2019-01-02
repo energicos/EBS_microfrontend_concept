@@ -1,0 +1,84 @@
+/* CSS Document */
+
+@font-face {
+    font-family: 'roboto-black';
+    src: url('../fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'roboto-light';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+      font-family: 'energicos-icons';
+      src: url('../fonts/fontello.eot?6257324');
+      src: url('../fonts/fontello.eot?6257324#iefix') format('embedded-opentype'),
+           url('../fonts/fontello.woff?6257324') format('woff'),
+           url('../fonts/fontello.ttf?6257324') format('truetype'),
+           url('../fonts/fontello.svg?6257324#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+
+@font-face {
+  font-family: 'energicos-iconss';
+  src: url('../fonts/energicos-icon.eot');
+  src: url('../fonts/energicos-icon.eot') format('embedded-opentype'),
+       url('../fonts/energicos-icon.woff2') format('woff2'),
+       url('../fonts/energicos-icon.woff') format('woff'),
+       url('../fonts/energicos-icon.ttf') format('truetype'),
+       url('../fonts/energicos-icon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
