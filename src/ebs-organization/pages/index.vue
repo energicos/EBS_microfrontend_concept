@@ -1,0 +1,16041 @@
+<template>
+  <section class="module-container">
+    <main-content><!-- BEGIN MAIN CONTENT -->
+
+      <div id="org-mgr-tab" class="tabsets_section" style="display: block;"><!--======Start ORGANIZATION MANAGER TAB ======-->
+
+        <!-- ===================================== --
+              //                                      //
+              //      BEGIN ORGANIZATION LIST PAGE    //
+              //                                      //
+            -- ====================================== -->
+
+
+        <div id="org-list-page" class="pagesets_section" style="display: block;"><!--======Start CONTACT LIST ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-list-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="active"><a href="#">Start</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <div class="datasets" id="scroll">
+
+                  <!-- Start Dataset 1 -->
+                  <div class="dataset-item specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')">
+                    <div class="contact-details"><!-- Start contact details -->
+                      <ul class="contacts">
+                        <li><span class="most-important contact-person">Import Export Ltd</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2"></i></span>
+                          <span class="contact-email">kasa@gmail.com</span>
+                        </li>
+                        <li><span class="energicos-green"><i class="icon icon-phone"></i></span>
+                          <span class="phone-no">+49 30 52 00522125</span>
+                        </li>
+                      </ul>
+                    </div><!-- End contact details -->
+
+                    <div class="completeness-degree"><!-- Start completeness percentage -->
+                      <img src="assets/img/completeness.svg" height="80px" alt="completeness percentage"/>
+                    </div><!-- End completeness percentage -->
+
+                    <div class="mid-dataset-content">
+                      <div class="counts-data">
+                        <div class="upper-dataset-content">
+                          <div class="upper-dataset-content-side-1">
+                            <!--Start Rating -->
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                            <!--End Rating -->
+                          </div>
+
+                          <div class="upper-dataset-content-side-2">
+                            <ul class="contacts">
+                              <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                                <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="upper-dataset-content-side-3">
+                            <ul class="contacts">
+                              <li>
+                                <span class="counter-2 alerts-comments"><div class="figure-2">8</div></span>
+                                <span class="energicos-red"><i class="icon icon-comment"></i></span>
+                              </li>
+                              <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                                <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+
+                        <div class="horizontal-line"></div>
+
+                        <div class="lower-dataset-content">
+                          <div class="rating-lower-left ">
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-green icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="tags-left">
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                          </div>
+
+                          <div class="group-tags-right">
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="view-more-dataset-info">
+                      <div class="next-arrow">
+                        <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Dataset 1 -->
+
+                  <!-- Start Dataset 2 -->
+                  <div class="dataset-item specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')">
+                    <div class="contact-details"><!-- Start contact details -->
+                      <ul class="contacts">
+                        <li><span class="most-important contact-person">Import Export Ltd</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2"></i></span>
+                          <span class="contact-email">kasa@gmail.com</span>
+                        </li>
+                        <li><span class="energicos-green"><i class="icon icon-phone"></i></span>
+                          <span class="phone-no">+49 30 52 00522125</span>
+                        </li>
+                      </ul>
+                    </div><!-- End contact details -->
+
+                    <div class="completeness-degree"><!-- Start completeness percentage -->
+                      <img src="assets/img/completeness.svg" height="80px" alt="completeness percentage"/>
+                    </div><!-- End completeness percentage -->
+
+                    <div class="mid-dataset-content">
+                      <div class="counts-data">
+                        <div class="upper-dataset-content">
+                          <div class="upper-dataset-content-side-1">
+                            <!--Start Rating -->
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                            <!--End Rating -->
+                          </div>
+
+                          <div class="upper-dataset-content-side-2">
+                            <ul class="contacts">
+                              <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                                <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="upper-dataset-content-side-3">
+                            <ul class="contacts">
+                              <li>
+                                <span class="counter-2 alerts-comments"><div class="figure-2">8</div></span>
+                                <span class="energicos-red"><i class="icon icon-comment"></i></span>
+                              </li>
+                              <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                                <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+
+                        <div class="horizontal-line"></div>
+
+                        <div class="lower-dataset-content">
+                          <div class="rating-lower-left ">
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-green icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="tags-left">
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                          </div>
+
+                          <div class="group-tags-right">
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="view-more-dataset-info">
+                      <div class="next-arrow">
+                        <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Dataset 2 -->
+
+
+                  <!-- Start Dataset 3 -->
+                  <div class="dataset-item specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')">
+                    <div class="contact-details"><!-- Start contact details -->
+                      <ul class="contacts">
+                        <li><span class="most-important contact-person">Import Export Ltd</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2"></i></span>
+                          <span class="contact-email">kasa@gmail.com</span>
+                        </li>
+                        <li><span class="energicos-green"><i class="icon icon-phone"></i></span>
+                          <span class="phone-no">+49 30 52 00522125</span>
+                        </li>
+                      </ul>
+                    </div><!-- End contact details -->
+
+                    <div class="completeness-degree"><!-- Start completeness percentage -->
+                      <img src="assets/img/completeness.svg" height="80px" alt="completeness percentage"/>
+                    </div><!-- End completeness percentage -->
+
+                    <div class="mid-dataset-content">
+                      <div class="counts-data">
+                        <div class="upper-dataset-content">
+                          <div class="upper-dataset-content-side-1">
+                            <!--Start Rating -->
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                            <!--End Rating -->
+                          </div>
+
+                          <div class="upper-dataset-content-side-2">
+                            <ul class="contacts">
+                              <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                                <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="upper-dataset-content-side-3">
+                            <ul class="contacts">
+                              <li>
+                                <span class="counter-2 alerts-comments"><div class="figure-2">8</div></span>
+                                <span class="energicos-red"><i class="icon icon-comment"></i></span>
+                              </li>
+                              <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                                <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+
+                        <div class="horizontal-line"></div>
+
+                        <div class="lower-dataset-content">
+                          <div class="rating-lower-left ">
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-green icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="tags-left">
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                          </div>
+
+                          <div class="group-tags-right">
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="view-more-dataset-info">
+                      <div class="next-arrow">
+                        <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Dataset 3 -->
+
+                  <!-- Start Dataset 4 -->
+                  <div class="dataset-item specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')">
+                    <div class="contact-details"><!-- Start contact details -->
+                      <ul class="contacts">
+                        <li><span class="most-important contact-person">Import Export Ltd</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2"></i></span>
+                          <span class="contact-email">kasa@gmail.com</span>
+                        </li>
+                        <li><span class="energicos-green"><i class="icon icon-phone"></i></span>
+                          <span class="phone-no">+49 30 52 00522125</span>
+                        </li>
+                      </ul>
+                    </div><!-- End contact details -->
+
+                    <div class="completeness-degree"><!-- Start completeness percentage -->
+                      <img src="assets/img/completeness.svg" height="80px" alt="completeness percentage"/>
+                    </div><!-- End completeness percentage -->
+
+                    <div class="mid-dataset-content">
+                      <div class="counts-data">
+                        <div class="upper-dataset-content">
+                          <div class="upper-dataset-content-side-1">
+                            <!--Start Rating -->
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                            <!--End Rating -->
+                          </div>
+
+                          <div class="upper-dataset-content-side-2">
+                            <ul class="contacts">
+                              <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                                <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="upper-dataset-content-side-3">
+                            <ul class="contacts">
+                              <li>
+                                <span class="counter-2 alerts-comments"><div class="figure-2">8</div></span>
+                                <span class="energicos-red"><i class="icon icon-comment"></i></span>
+                              </li>
+                              <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                                <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+
+                        <div class="horizontal-line"></div>
+
+                        <div class="lower-dataset-content">
+                          <div class="rating-lower-left ">
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-green icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="tags-left">
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                          </div>
+
+                          <div class="group-tags-right">
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="view-more-dataset-info">
+                      <div class="next-arrow">
+                        <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Dataset 4 -->
+
+
+                  <!-- Start Dataset 5 -->
+                  <div class="dataset-item specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')">
+                    <div class="contact-details"><!-- Start contact details -->
+                      <ul class="contacts">
+                        <li><span class="most-important contact-person">Import Export Ltd</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2"></i></span>
+                          <span class="contact-email">kasa@gmail.com</span>
+                        </li>
+                        <li><span class="energicos-green"><i class="icon icon-phone"></i></span>
+                          <span class="phone-no">+49 30 52 00522125</span>
+                        </li>
+                      </ul>
+                    </div><!-- End contact details -->
+
+                    <div class="completeness-degree"><!-- Start completeness percentage -->
+                      <img src="assets/img/completeness.svg" height="80px" alt="completeness percentage"/>
+                    </div><!-- End completeness percentage -->
+
+                    <div class="mid-dataset-content">
+                      <div class="counts-data">
+                        <div class="upper-dataset-content">
+                          <div class="upper-dataset-content-side-1">
+                            <!--Start Rating -->
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                            <!--End Rating -->
+                          </div>
+
+                          <div class="upper-dataset-content-side-2">
+                            <ul class="contacts">
+                              <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                                <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="upper-dataset-content-side-3">
+                            <ul class="contacts">
+                              <li>
+                                <span class="counter-2 alerts-comments"><div class="figure-2">8</div></span>
+                                <span class="energicos-red"><i class="icon icon-comment"></i></span>
+                              </li>
+                              <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                                <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+
+                        <div class="horizontal-line"></div>
+
+                        <div class="lower-dataset-content">
+                          <div class="rating-lower-left ">
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-green icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="tags-left">
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                          </div>
+
+                          <div class="group-tags-right">
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="view-more-dataset-info">
+                      <div class="next-arrow">
+                        <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Dataset 5 -->
+
+
+                  <!-- Start Dataset 6 -->
+                  <div class="dataset-item specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')">
+                    <div class="contact-details"><!-- Start contact details -->
+                      <ul class="contacts">
+                        <li><span class="most-important contact-person">Import Export Ltd</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2"></i></span>
+                          <span class="contact-email">kasa@gmail.com</span>
+                        </li>
+                        <li><span class="energicos-green"><i class="icon icon-phone"></i></span>
+                          <span class="phone-no">+49 30 52 00522125</span>
+                        </li>
+                      </ul>
+                    </div><!-- End contact details -->
+
+                    <div class="completeness-degree"><!-- Start completeness percentage -->
+                      <img src="assets/img/completeness.svg" height="80px" alt="completeness percentage"/>
+                    </div><!-- End completeness percentage -->
+
+                    <div class="mid-dataset-content">
+                      <div class="counts-data">
+                        <div class="upper-dataset-content">
+                          <div class="upper-dataset-content-side-1">
+                            <!--Start Rating -->
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                            <!--End Rating -->
+                          </div>
+
+                          <div class="upper-dataset-content-side-2">
+                            <ul class="contacts">
+                              <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                                <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="upper-dataset-content-side-3">
+                            <ul class="contacts">
+                              <li>
+                                <span class="counter-2 alerts-comments"><div class="figure-2">8</div></span>
+                                <span class="energicos-red"><i class="icon icon-comment"></i></span>
+                              </li>
+                              <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                                <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+
+                        <div class="horizontal-line"></div>
+
+                        <div class="lower-dataset-content">
+                          <div class="rating-lower-left ">
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-green icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="tags-left">
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                          </div>
+
+                          <div class="group-tags-right">
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="view-more-dataset-info">
+                      <div class="next-arrow">
+                        <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Dataset 6 -->
+
+
+                  <!-- Start Dataset 7 -->
+                  <div class="dataset-item specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')">
+                    <div class="contact-details"><!-- Start contact details -->
+                      <ul class="contacts">
+                        <li><span class="most-important contact-person">Import Export Ltd</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2"></i></span>
+                          <span class="contact-email">kasa@gmail.com</span>
+                        </li>
+                        <li><span class="energicos-green"><i class="icon icon-phone"></i></span>
+                          <span class="phone-no">+49 30 52 00522125</span>
+                        </li>
+                      </ul>
+                    </div><!-- End contact details -->
+
+                    <div class="completeness-degree"><!-- Start completeness percentage -->
+                      <img src="assets/img/completeness.svg" height="80px" alt="completeness percentage"/>
+                    </div><!-- End completeness percentage -->
+
+                    <div class="mid-dataset-content">
+                      <div class="counts-data">
+                        <div class="upper-dataset-content">
+                          <div class="upper-dataset-content-side-1">
+                            <!--Start Rating -->
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                            <!--End Rating -->
+                          </div>
+
+                          <div class="upper-dataset-content-side-2">
+                            <ul class="contacts">
+                              <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                                <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="upper-dataset-content-side-3">
+                            <ul class="contacts">
+                              <li>
+                                <span class="counter-2 alerts-comments"><div class="figure-2">8</div></span>
+                                <span class="energicos-red"><i class="icon icon-comment"></i></span>
+                              </li>
+                              <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                                <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+
+                        <div class="horizontal-line"></div>
+
+                        <div class="lower-dataset-content">
+                          <div class="rating-lower-left ">
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-green icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="tags-left">
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                          </div>
+
+                          <div class="group-tags-right">
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="view-more-dataset-info">
+                      <div class="next-arrow">
+                        <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Dataset 7 -->
+
+
+                  <!-- Start Dataset 8 -->
+                  <div class="dataset-item specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')">
+                    <div class="contact-details"><!-- Start contact details -->
+                      <ul class="contacts">
+                        <li><span class="most-important contact-person">Import Export Ltd</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2"></i></span>
+                          <span class="contact-email">kasa@gmail.com</span>
+                        </li>
+                        <li><span class="energicos-green"><i class="icon icon-phone"></i></span>
+                          <span class="phone-no">+49 30 52 00522125</span>
+                        </li>
+                      </ul>
+                    </div><!-- End contact details -->
+
+                    <div class="completeness-degree"><!-- Start completeness percentage -->
+                      <img src="assets/img/completeness.svg" height="80px" alt="completeness percentage"/>
+                    </div><!-- End completeness percentage -->
+
+                    <div class="mid-dataset-content">
+                      <div class="counts-data">
+                        <div class="upper-dataset-content">
+                          <div class="upper-dataset-content-side-1">
+                            <!--Start Rating -->
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                            <!--End Rating -->
+                          </div>
+
+                          <div class="upper-dataset-content-side-2">
+                            <ul class="contacts">
+                              <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                                <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="upper-dataset-content-side-3">
+                            <ul class="contacts">
+                              <li>
+                                <span class="counter-2 alerts-comments"><div class="figure-2">8</div></span>
+                                <span class="energicos-red"><i class="icon icon-comment"></i></span>
+                              </li>
+                              <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                                <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+
+                        <div class="horizontal-line"></div>
+
+                        <div class="lower-dataset-content">
+                          <div class="rating-lower-left ">
+                            <div class="rating">
+                              <ul>
+                                <li><a href="#"><i class="icon energicos-green icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                                <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="tags-left">
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                            <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                          </div>
+
+                          <div class="group-tags-right">
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a>
+                            <a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="view-more-dataset-info">
+                      <div class="next-arrow">
+                        <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Dataset 8 -->
+
+
+
+                </div>
+              </pane-large><!-- End PANE-LARGE -->
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <dataset-short-info><!-- Begin DATASET-SHORT-INFO -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important">Organization</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info><!-- Begin DATASET-SHORT-INFO -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+            </org-list-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORGANIZATION LIST======-->
+
+
+        <!-- ===================================== --
+              //                                      //
+              //       END ORGANIZATION LIST PAGE     //
+              //                                      //
+            -- ====================================== -->
+
+
+
+
+        <!-- =================================== --
+              //                                     //
+              //     BEGIN ORG BASIC PROFILE PAGE    //
+              //                                     //
+            -- ===================================== -->
+
+
+        <div id="org-basic-profile-page" class="pagesets_section" style="display: none;"><!--======Start ORG BASIC PROFILE PAGE ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-basic-profile-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="active"><a href="#">Basic Profile</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+
+
+              <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
+
+                <dataset-short-info-1><!-- Begin DATASET-SHORT-INFO-1 -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important capitalize">Basic Profile</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <menu-level-3><!--Start MENU LEVEL 3 -->
+                    <div class="main-mid-menu"><!--Start Mid menu -->
+                      <div class="menu-list">
+
+                        <ul id="mid-menu-content" class="menu-content collapse out">
+
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-management-profile-page')"><a href="#">Management Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><a href="#">Organization Identifier Profile<span class="arrow"></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div><!--End mid Menu -->
+                  </menu-level-3><!--End MENU LEVEL 3  -->
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info-1><!-- End DATASET-SHORT-INFO-1 -->
+
+              </pane-small-first><!-- END PANE-SMALL-FIRST -->
+
+
+
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <mid-pane>
+                  <mid-upper-pane-area>
+                    <div class="upper-pane-header">
+                      <mid-pane-tools>
+                        <page-prv>
+                          <div class="previous-arrow">
+                            <a href="javascript:void(0)" onclick="pagesetFunction(event, 'org-list-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          </div>
+                        </page-prv>
+                        <quick-tools>
+                          <ul>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                          </ul>
+                        </quick-tools>
+                        <page-nxt>
+                          <div class="next-arrow">
+                            <a href="javascript:void(0)" onclick="pagesetFunction(event, 'org-business-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          </div>
+                        </page-nxt>
+                      </mid-pane-tools>
+                    </div>
+                  </mid-upper-pane-area>
+
+                  <mid-pane-key-title>
+                    <div class="container-body">
+                      <span class="capitalize most-important energicos-red">Basic Profile</span>
+                    </div>
+                  </mid-pane-key-title>
+
+                  <mid-pane-title-line></mid-pane-title-line>
+
+
+                  <mid-content><!--Start Mid Content -->
+                    <div class="container-body">
+
+
+                      <form class="form-style-1 form-sitewide" method="post" action="#"><!-- Begin Form -->
+                        <div class="form-part-1">
+
+                          <div class="data-input">
+                            <label>Name of Organization<span class="required"></span></label>
+                            <input type="text" name="organization_name" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Legal Form<span class="required"></span></label>
+                            <select name="legal_form" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Incorporated in (Place)<span class="required"></span></label>
+                            <input type="text" name="incorporation_place" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Registry Date<span class="required"></span></label>
+                            <input type="date" name="registry_date" class="field-long" placeholder=" - Select Date -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Status<span class="required"></span></label>
+                            <select name="status" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Comment<span class="required"></span></label>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
+                          </div>
+
+                        </div>
+
+                        <div class="form-part-2">
+
+                          <div class="data-input">
+                            <label>Organization ID <span class="required"></span></label>
+                            <input type="financial" name="organization_id" class="field-long field-autofill" placeholder=" - Autofill -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Tax Number<span class="required"></span></label>
+                            <input type="text" name="tax_number" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Registered in (Country)<span class="required"></span></label>
+                            <input type="text" name="registration_country" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+
+                          <div class="data-input">
+                            <label>File Upload</label>
+                            <div class="form-upload">
+                              <input type="file" name="" class="file-area" multiple>
+                              <p><i class="icon energicos-red file-upload-icon icon-upload"></i><br/>
+                                Drag files here to upload
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+                      </form><!-- End Form -->
+
+
+                    </div>
+                  </mid-content><!--End Mid Content -->
+
+
+
+                  <applied-tags><!--Start Applied Tags -->
+                    <div class="container-body">
+                      <div class="tags-line"></div>
+                      <div class="group-tags-section">
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
+                        <ul class="group-tags">
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 4</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-tags><!--End Applied Tags -->
+
+                </mid-pane>
+
+              </pane-large><!-- End PANE-LARGE -->
+
+
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <mini-panels><!-- Begin MINI-PANELS -->
+                  <pane-header>
+                    <div class="upper-pane-header">
+                      <!--Start tabs -->
+                      <div class="pane-tabs">
+                        <button id="li_tab1" class="active" onclick="tab_1('tab1')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab2" class="" onclick="tab_1('tab2')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab3" class="" onclick="tab_1('tab3')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab4" class="" onclick="tab_1('tab4')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab5" class="" onclick="tab_1('tab5')"><i class="icon icon-instance"></i></button>
+                      </div>
+                      <!--End tabs -->
+                    </div>
+                  </pane-header>
+
+                  <search-filter-section><!--Begin SEARCH AREA -->
+                    <div class="container-body">
+                      <mini-search-area>
+
+                        <filter-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-filter"></i></a>
+                        </filter-key>
+
+                        <search-box-input>
+                          <form class="search-box specific_module" method="get" action="#">
+                            <span class="searching-icon"><i class="icon icon-search"></i></span>
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
+                          </form>
+
+                        </search-box-input>
+
+                        <sorting-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-sorting"></i></a>
+                        </sorting-key>
+
+                        <reset-key>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
+                        </reset-key>
+
+                      </mini-search-area>
+                    </div>
+                  </search-filter-section><!--End SEARCH AREA -->
+
+                  <pane-content>
+
+
+
+                    <!-- Begin ACTIVITY LOG TABBED CONTENT-->
+
+                    <div id="tab1"><!--Begin ACTIVITY LOG-->
+                      <div id="activity-log-panel"><!--Start Activity log panel -->
+
+                        <div class="energicos-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start Activity Log Panel 1 -->
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 1</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 1-->
+
+                            <!-- Start Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-grey-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 2</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 2-->
+
+                            <!-- Start Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 3</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 3-->
+
+                            <!-- Start Timeline 4 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 4</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 4-->
+
+                            <!-- End Activity Log Panel 1 -->
+
+                          </div>
+                        </div>
+
+                      </div><!--End Activity log Panel -->
+
+                    </div><!--End ACTIVITY LOG-->
+
+
+                    <div id="tab2" style="display: none;">
+                      <div id="task-panel"><!--Start Task Panel -->
+                        <task-panel>
+
+                          <task-panel-nav>
+                            <!-- Start breadcrumbs -->
+                            <div class="section-breadcrumbs">
+                              <ul class="breadcrumb-task">
+                                <li id="li_mini_tab1" class="active" onclick="sub_tab1('mini_tab1')"><a href="#">Overdue</a></li>
+                                <li id="li_mini_tab2" onclick="sub_tab1('mini_tab2')"><a href="#">Flagged</a></li>
+                                <li id="li_mini_tab3" onclick="sub_tab1('mini_tab3')"><a href="#">Due this Week</a></li>
+                              </ul>
+                            </div>
+                            <!-- End breadcrumbs -->
+                          </task-panel-nav>
+
+                          <task-panel-content><!-- Begin Task Panel Content -->
+
+                            <div id="mini_tab1">
+                              <div class="overdue-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+
+                                    <task-outlook><!-- Begin Task 5 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 5 -->
+
+                                    <task-outlook><!-- Begin Task 6 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 6 -->
+
+                                    <task-outlook><!-- Begin Task 7 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 7 -->
+
+                                    <task-outlook><!-- Begin Task 8 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 8 -->
+
+                                    <task-outlook><!-- Begin Task 9 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 9 -->
+
+                                    <task-outlook><!-- Begin Task 10 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 10 -->
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab2" style="display: none;" >
+                              <div class="flagged-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab3" style="display: none;">
+                              <div id="due-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </task-panel-content><!-- End Task Panel Content -->
+
+                        </task-panel>
+                      </div><!--End Task Panel -->
+                    </div>
+
+
+                    <div id="tab3" style="display: none;">
+                      <div id="comment-panel"><!-- Begin Comment Panel -->
+                        <div class="comments" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start comment 1 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 1 -->
+
+                            <!-- Start comment 2 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 2 -->
+
+                            <!-- Start comment 3 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 3 -->
+
+                          </div>
+                        </div>
+                      </div><!-- End Comment Panel -->
+                    </div>
+
+                    <div id="tab4" style="display: none;">
+                      <div class="file-panel"><!--Start File Panel -->
+                        <div class="file-panel-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start File Panel Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 1 -->
+
+                            <!-- Start File Panel Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 2 -->
+
+
+                            <!-- Start File Panel Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 3 -->
+
+                          </div>
+                        </div>
+                      </div><!--End File Panel -->
+                    </div>
+
+                    <div id="tab5" style="display: none;">
+                      <div id="instance-panel"><!--Start instance Panel -->
+
+                        <div class="instance" id="scroll">
+
+                          <div class="container-body">
+                            <table class="pure-table pure-table-bordered" id="example">
+                              <thead>
+                              <tr>
+                                <th>Reason</th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 1 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 1 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 2 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 2 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 3 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 3 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 4 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 4 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 5 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 5 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 6 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 6 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 7 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 7 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 8 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 8 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 9 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 9 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 10 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 10 -->
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+
+                        </div>
+
+
+                      </div><!--End instance Panel -->
+                    </div>
+
+
+                    <!-- End FILE INSTANCE CONTENT -->
+
+
+                  </pane-content>
+
+                </mini-panels><!-- End MINI-PANELS -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+
+
+
+            </org-basic-profile-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORG PROFILE PAGE======-->
+
+
+        <!-- =================================== --
+              //                                     //
+              //      END ORG BASIC PROFILE PAGE     //
+              //                                     //
+            -- ===================================== -->
+
+
+
+
+
+
+        <!-- ======================================= --
+              //                                        //
+              //     BEGIN ORG BUSINESS PROFILE PAGE    //
+              //                                        //
+            -- ========================================= -->
+
+
+        <div id="org-business-profile-page" class="pagesets_section" style="display: none;"><!--======Start ORG BUSINESS PROFILE PAGE ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-business-profile-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="active"><a href="#">Business Profile</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+
+
+              <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
+
+                <dataset-short-info-1><!-- Begin DATASET-SHORT-INFO-1 -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important capitalize">Business Profile</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <menu-level-3><!--Start MENU LEVEL 3 -->
+                    <div class="main-mid-menu"><!--Start Mid menu -->
+                      <div class="menu-list">
+
+                        <ul id="mid-menu-content" class="menu-content collapse out">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-management-profile-page')"><a href="#">Management Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><a href="#">Organization Identifier Profile<span class="arrow"></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div><!--End mid Menu -->
+                  </menu-level-3><!--End MENU LEVEL 3  -->
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info-1><!-- End DATASET-SHORT-INFO-1 -->
+
+              </pane-small-first><!-- END PANE-SMALL-FIRST -->
+
+
+
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <mid-pane>
+                  <mid-upper-pane-area>
+                    <div class="upper-pane-header">
+                      <mid-pane-tools>
+                        <page-prv>
+                          <div class="previous-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          </div>
+                        </page-prv>
+                        <quick-tools>
+                          <ul>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                          </ul>
+                        </quick-tools>
+                        <page-nxt>
+                          <div class="next-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-management-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          </div>
+                        </page-nxt>
+                      </mid-pane-tools>
+                    </div>
+                  </mid-upper-pane-area>
+
+                  <mid-pane-key-title>
+                    <div class="container-body">
+                      <span class="capitalize most-important energicos-red">Business Profile</span>
+                    </div>
+                  </mid-pane-key-title>
+
+                  <mid-pane-title-line></mid-pane-title-line>
+
+
+                  <mid-content><!--Start Mid Content -->
+                    <div class="container-body">
+
+
+                      <form class="form-style-1 form-sitewide" method="post" action="#"><!-- Begin Form -->
+                        <div class="form-part-1">
+
+                          <div class="data-input">
+                            <label>Main Business Activity<span class="required"></span></label>
+                            <select name="business_activity" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Industry Group<span class="required"></span></label>
+                            <select name="Industry Group" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Sub Industries<span class="required"></span></label>
+                            <select name="sub_industries" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                        </div>
+
+                        <div class="form-part-2">
+
+
+                          <div class="data-input">
+                            <label>Sector<span class="required"></span></label>
+                            <select name="sector" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Industries<span class="required"></span></label>
+                            <select name="industries" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Comment<span class="required"></span></label>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
+                          </div>
+
+                        </div>
+                      </form><!-- End Form -->
+
+
+                    </div>
+                  </mid-content><!--End Mid Content -->
+
+
+
+                  <applied-tags><!--Start Applied Tags -->
+                    <div class="container-body">
+                      <div class="tags-line"></div>
+                      <div class="group-tags-section">
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
+                        <ul class="group-tags">
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 4</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-tags><!--End Applied Tags -->
+
+                </mid-pane>
+
+              </pane-large><!-- End PANE-LARGE -->
+
+
+
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <mini-panels><!-- Begin MINI-PANELS -->
+                  <pane-header>
+                    <div class="upper-pane-header">
+                      <!--Start tabs -->
+                      <div class="pane-tabs">
+                        <button id="li_tab6" class="active" onclick="tab_2('tab6')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab7" class="" onclick="tab_2('tab7')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab8" class="" onclick="tab_2('tab8')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab9" class="" onclick="tab_2('tab9')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab10" class="" onclick="tab_2('tab10')"><i class="icon icon-instance"></i></button>
+                      </div>
+                      <!--End tabs -->
+                    </div>
+                  </pane-header>
+
+                  <search-filter-section><!--Begin SEARCH AREA -->
+                    <div class="container-body">
+                      <mini-search-area>
+
+                        <filter-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-filter"></i></a>
+                        </filter-key>
+
+                        <search-box-input>
+                          <form class="search-box specific_module" method="get" action="#">
+                            <span class="searching-icon"><i class="icon icon-search"></i></span>
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
+                          </form>
+
+                        </search-box-input>
+
+                        <sorting-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-sorting"></i></a>
+                        </sorting-key>
+
+                        <reset-key>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
+                        </reset-key>
+
+                      </mini-search-area>
+                    </div>
+                  </search-filter-section><!--End SEARCH AREA -->
+
+                  <pane-content>
+
+
+
+                    <!-- Begin ACTIVITY LOG TABBED CONTENT-->
+
+                    <div id="tab6"><!--Begin ACTIVITY LOG-->
+                      <div class="activity-log-panel"><!--Start Activity log panel -->
+
+                        <div class="energicos-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start Activity Log Panel 1 -->
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 1</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 1-->
+
+                            <!-- Start Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-grey-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 2</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 2-->
+
+                            <!-- Start Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 3</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 3-->
+
+                            <!-- Start Timeline 4 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 4</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 4-->
+
+                            <!-- End Activity Log Panel 1 -->
+
+                          </div>
+                        </div>
+
+                      </div><!--End Activity log Panel -->
+
+                    </div><!--End ACTIVITY LOG-->
+
+
+                    <div id="tab7" style="display: none;">
+                      <div class="task-panel"><!--Start Task Panel -->
+                        <task-panel>
+
+                          <task-panel-nav>
+                            <!-- Start breadcrumbs -->
+                            <div class="section-breadcrumbs">
+                              <ul class="breadcrumb-task">
+                                <li id="li_mini_tab4" class="active" onclick="sub_tab2('mini_tab4')"><a href="#">Overdue</a></li>
+                                <li id="li_mini_tab5" onclick="sub_tab2('mini_tab5')"><a href="#">Flagged</a></li>
+                                <li id="li_mini_tab6" onclick="sub_tab2('mini_tab6')"><a href="#">Due this Week</a></li>
+                              </ul>
+                            </div>
+                            <!-- End breadcrumbs -->
+                          </task-panel-nav>
+
+                          <task-panel-content><!-- Begin Task Panel Content -->
+
+                            <div id="mini_tab4">
+                              <div class="overdue-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+
+                                    <task-outlook><!-- Begin Task 5 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 5 -->
+
+                                    <task-outlook><!-- Begin Task 6 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 6 -->
+
+                                    <task-outlook><!-- Begin Task 7 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 7 -->
+
+                                    <task-outlook><!-- Begin Task 8 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 8 -->
+
+                                    <task-outlook><!-- Begin Task 9 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 9 -->
+
+                                    <task-outlook><!-- Begin Task 10 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 10 -->
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab5" style="display: none;" >
+                              <div class="flagged-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab6" style="display: none;">
+                              <div id="due-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </task-panel-content><!-- End Task Panel Content -->
+
+                        </task-panel>
+                      </div><!--End Task Panel -->
+                    </div>
+
+
+                    <div id="tab8" style="display: none;">
+                      <div class="comment-panel"><!-- Begin Comment Panel -->
+                        <div class="comments" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start comment 1 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 1 -->
+
+                            <!-- Start comment 2 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 2 -->
+
+                            <!-- Start comment 3 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 3 -->
+
+                          </div>
+                        </div>
+                      </div><!-- End Comment Panel -->
+                    </div>
+
+                    <div id="tab9" style="display: none;">
+                      <div class="file-panel"><!--Start File Panel -->
+                        <div class="file-panel-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start File Panel Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 1 -->
+
+                            <!-- Start File Panel Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 2 -->
+
+
+                            <!-- Start File Panel Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 3 -->
+
+                          </div>
+                        </div>
+                      </div><!--End File Panel -->
+                    </div>
+
+                    <div id="tab10" style="display: none;">
+                      <div class="instance-panel"><!--Start instance Panel -->
+
+                        <div class="instance" id="scroll">
+
+                          <div class="container-body">
+                            <table class="pure-table pure-table-bordered" id="example">
+                              <thead>
+                              <tr>
+                                <th>Reason</th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 1 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 1 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 2 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 2 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 3 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 3 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 4 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 4 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 5 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 5 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 6 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 6 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 7 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 7 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 8 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 8 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 9 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 9 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 10 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 10 -->
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+
+                        </div>
+
+
+                      </div><!--End instance Panel -->
+                    </div>
+
+
+                    <!-- End FILE INSTANCE CONTENT -->
+
+
+                  </pane-content>
+
+                </mini-panels><!-- End MINI-PANELS -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+
+
+
+            </org-business-profile-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORG PERSONAL PROFILE PAGE======-->
+
+
+        <!-- ======================================= --
+              //                                        //
+              //      END ORG BUSINESS PROFILE PAGE     //
+              //                                        //
+            -- ========================================= -->
+
+
+
+
+        <!-- ======================================== --
+              //                                          //
+              //     BEGIN ORG MANAGEMENT PROFILE PAGE    //
+              //                                          //
+            -- ========================================== -->
+
+
+        <div id="org-management-profile-page" class="pagesets_section" style="display: none;"><!--======Start ORG MANAGEMENT PROFILE PAGE ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-management-profile-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="active"><a href="#">Management Profile</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+
+
+              <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
+
+                <dataset-short-info-1><!-- Begin DATASET-SHORT-INFO-1 -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important capitalize">Management Profile</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <menu-level-3><!--Start MENU LEVEL 3 -->
+                    <div class="main-mid-menu"><!--Start Mid menu -->
+                      <div class="menu-list">
+
+                        <ul id="mid-menu-content" class="menu-content collapse out">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-management-profile-page')"><a href="#">Management Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><a href="#">Organization Identifier Profile<span class="arrow"></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div><!--End mid Menu -->
+                  </menu-level-3><!--End MENU LEVEL 3  -->
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info-1><!-- End DATASET-SHORT-INFO-1 -->
+
+              </pane-small-first><!-- END PANE-SMALL-FIRST -->
+
+
+
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <mid-pane>
+                  <mid-upper-pane-area>
+                    <div class="upper-pane-header">
+                      <mid-pane-tools>
+                        <page-prv>
+                          <div class="previous-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-business-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          </div>
+                        </page-prv>
+                        <quick-tools>
+                          <ul>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                          </ul>
+                        </quick-tools>
+                        <page-nxt>
+                          <div class="next-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-contact-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          </div>
+                        </page-nxt>
+                      </mid-pane-tools>
+                    </div>
+                  </mid-upper-pane-area>
+
+                  <mid-pane-key-title>
+                    <div class="container-body">
+                      <span class="capitalize most-important energicos-red">Management Profile</span>
+                    </div>
+                  </mid-pane-key-title>
+
+                  <mid-pane-title-line></mid-pane-title-line>
+
+
+                  <mid-content><!--Start Mid Content -->
+                    <div class="container-body">
+
+
+                      <form class="form-style-1 form-sitewide" method="post" action="#"><!-- Begin Form -->
+                        <div class="form-part-1">
+
+                          <div class="data-input">
+                            <label>Majority Shareholder<span class="required"></span></label>
+                            <input type="text" name="majority_shareholder" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>CEO / Managing Director<span class="required"></span></label>
+                            <input type="text" name="ceo_managing_director" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Comment<span class="required"></span></label>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
+                          </div>
+
+                        </div>
+
+                        <div class="form-part-2">
+
+
+                          <div class="data-input">
+                            <label>Exchange Listed<span class="required"></span></label>
+                            <select name="exchange_listed" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Chairman of Board of Directors<span class="required"></span></label>
+                            <input type="text" name="chairman_directors_board" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+
+
+                        </div>
+                      </form><!-- End Form -->
+
+
+                    </div>
+                  </mid-content><!--End Mid Content -->
+
+
+
+                  <applied-tags><!--Start Applied Tags -->
+                    <div class="container-body">
+                      <div class="tags-line"></div>
+                      <div class="group-tags-section">
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
+                        <ul class="group-tags">
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 4</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-tags><!--End Applied Tags -->
+
+                </mid-pane>
+
+              </pane-large><!-- End PANE-LARGE -->
+
+
+
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <mini-panels><!-- Begin MINI-PANELS -->
+                  <pane-header>
+                    <div class="upper-pane-header">
+                      <!--Start tabs -->
+                      <div class="pane-tabs">
+                        <button id="li_tab11" class="active" onclick="tab_3('tab11')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab12" class="" onclick="tab_3('tab12')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab13" class="" onclick="tab_3('tab13')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab14" class="" onclick="tab_3('tab14')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab15" class="" onclick="tab_3('tab15')"><i class="icon icon-instance"></i></button>
+                      </div>
+                      <!--End tabs -->
+                    </div>
+                  </pane-header>
+
+                  <search-filter-section><!--Begin SEARCH AREA -->
+                    <div class="container-body">
+                      <mini-search-area>
+
+                        <filter-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-filter"></i></a>
+                        </filter-key>
+
+                        <search-box-input>
+                          <form class="search-box specific_module" method="get" action="#">
+                            <span class="searching-icon"><i class="icon icon-search"></i></span>
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
+                          </form>
+
+                        </search-box-input>
+
+                        <sorting-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-sorting"></i></a>
+                        </sorting-key>
+
+                        <reset-key>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
+                        </reset-key>
+
+                      </mini-search-area>
+                    </div>
+                  </search-filter-section><!--End SEARCH AREA -->
+
+                  <pane-content>
+
+
+
+                    <!-- Begin ACTIVITY LOG TABBED CONTENT-->
+
+                    <div id="tab11"><!--Begin ACTIVITY LOG-->
+                      <div class="activity-log-panel"><!--Start Activity log panel -->
+
+                        <div class="energicos-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start Activity Log Panel 1 -->
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 1</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 1-->
+
+                            <!-- Start Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-grey-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 2</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 2-->
+
+                            <!-- Start Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 3</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 3-->
+
+                            <!-- Start Timeline 4 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 4</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 4-->
+
+                            <!-- End Activity Log Panel 1 -->
+
+                          </div>
+                        </div>
+
+                      </div><!--End Activity log Panel -->
+
+                    </div><!--End ACTIVITY LOG-->
+
+
+                    <div id="tab12" style="display: none;">
+                      <div class="task-panel"><!--Start Task Panel -->
+                        <task-panel>
+
+                          <task-panel-nav>
+                            <!-- Start breadcrumbs -->
+                            <div class="section-breadcrumbs">
+                              <ul class="breadcrumb-task">
+                                <li id="li_mini_tab7" class="active" onclick="sub_tab3('mini_tab7')"><a href="#">Overdue</a></li>
+                                <li id="li_mini_tab8" onclick="sub_tab3('mini_tab8')"><a href="#">Flagged</a></li>
+                                <li id="li_mini_tab9" onclick="sub_tab3('mini_tab9')"><a href="#">Due this Week</a></li>
+                              </ul>
+                            </div>
+                            <!-- End breadcrumbs -->
+                          </task-panel-nav>
+
+                          <task-panel-content><!-- Begin Task Panel Content -->
+
+                            <div id="mini_tab7">
+                              <div class="overdue-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+
+                                    <task-outlook><!-- Begin Task 5 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 5 -->
+
+                                    <task-outlook><!-- Begin Task 6 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 6 -->
+
+                                    <task-outlook><!-- Begin Task 7 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 7 -->
+
+                                    <task-outlook><!-- Begin Task 8 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 8 -->
+
+                                    <task-outlook><!-- Begin Task 9 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 9 -->
+
+                                    <task-outlook><!-- Begin Task 10 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 10 -->
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab8" style="display: none;" >
+                              <div class="flagged-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab9" style="display: none;">
+                              <div id="due-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </task-panel-content><!-- End Task Panel Content -->
+
+                        </task-panel>
+                      </div><!--End Task Panel -->
+                    </div>
+
+
+                    <div id="tab13" style="display: none;">
+                      <div class="comment-panel"><!-- Begin Comment Panel -->
+                        <div class="comments" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start comment 1 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 1 -->
+
+                            <!-- Start comment 2 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 2 -->
+
+                            <!-- Start comment 3 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 3 -->
+
+                          </div>
+                        </div>
+                      </div><!-- End Comment Panel -->
+                    </div>
+
+                    <div id="tab14" style="display: none;">
+                      <div class="file-panel"><!--Start File Panel -->
+                        <div class="file-panel-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start File Panel Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 1 -->
+
+                            <!-- Start File Panel Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 2 -->
+
+
+                            <!-- Start File Panel Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 3 -->
+
+                          </div>
+                        </div>
+                      </div><!--End File Panel -->
+                    </div>
+
+                    <div id="tab15" style="display: none;">
+                      <div class="instance-panel"><!--Start instance Panel -->
+
+                        <div class="instance" id="scroll">
+
+                          <div class="container-body">
+                            <table class="pure-table pure-table-bordered" id="example">
+                              <thead>
+                              <tr>
+                                <th>Reason</th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 1 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 1 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 2 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 2 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 3 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 3 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 4 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 4 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 5 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 5 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 6 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 6 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 7 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 7 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 8 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 8 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 9 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 9 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 10 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 10 -->
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+
+                        </div>
+
+
+                      </div><!--End instance Panel -->
+                    </div>
+
+
+                    <!-- End FILE INSTANCE CONTENT -->
+
+
+                  </pane-content>
+
+                </mini-panels><!-- End MINI-PANELS -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+
+
+
+            </org-management-profile-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORG MANAGEMENT PROFILE PAGE======-->
+
+
+        <!-- ======================================== --
+              //                                          //
+              //      END ORG MANAGEMENT PROFILE PAGE     //
+              //                                          //
+            -- ========================================== -->
+
+
+
+
+        <!-- =================================================== --
+              //                                                   //
+              //           BEGIN ORG-CONTACT-PROFILE-PAGE          //
+              //                                                   //
+            -- ==================================================== -->
+
+
+        <div id="org-contact-profile-page" class="pagesets_section" style="display: none;"><!--======Start ORG CONTACT BILLING ADDRESS PAGE ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-contact-profile-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Contact Profile</a></li>
+                    <li class="active"><a href="#">Billing Address</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+
+
+              <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
+
+                <dataset-short-info-2><!-- Begin DATASET-SHORT-INFO-2 -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important">Contact Details - Billing Address</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <menu-level-3><!--Start MENU LEVEL 3 -->
+                    <div class="main-mid-menu"><!--Start Mid menu -->
+                      <div class="menu-list">
+
+                        <ul id="mid-menu-content" class="menu-content collapse out">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-management-profile-page')"><a href="#">Management Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><a href="#">Organization Identifier<span></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div><!--End mid Menu -->
+                  </menu-level-3><!--End MENU LEVEL 3  -->
+
+                  <sub-menu-level-3><!-- Begin SUB-MENU-LEVEL 3 -->
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Component Instances</h5>
+                      </div>
+                    </div>
+
+                    <div class="main-mid-menu">
+                      <div class="menu-list">
+
+                        <ul id="sub-menu-content">
+
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')">
+                            <a href="#">Billing Address<span class="arrow"></span></a>
+                          </li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-delivery-address-page')">
+                            <a href="#">Delivery Address<span class="arrow"></span></a>
+                          </li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-communication-page')">
+                            <a href="#">Communication<span class="arrow"></span></a>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </sub-menu-level-3><!-- End SUB-MENU-LEVEL 3 -->
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info-2><!-- End DATASET-SHORT-INFO-2 -->
+
+              </pane-small-first><!-- END PANE-SMALL-FIRST -->
+
+
+
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <mid-pane>
+                  <mid-upper-pane-area>
+                    <div class="upper-pane-header">
+                      <mid-pane-tools>
+                        <page-prv>
+                          <div class="previous-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-management-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          </div>
+                        </page-prv>
+                        <quick-tools>
+                          <ul>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                          </ul>
+                        </quick-tools>
+                        <page-nxt>
+                          <div class="next-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-delivery-address-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          </div>
+                        </page-nxt>
+                      </mid-pane-tools>
+                    </div>
+                  </mid-upper-pane-area>
+
+                  <mid-pane-key-title>
+                    <div class="container-body">
+                      <span class="capitalize most-important energicos-red">Billing Address</span>
+                    </div>
+                  </mid-pane-key-title>
+
+                  <mid-pane-title-line></mid-pane-title-line>
+
+
+                  <mid-content><!--Start Mid Content -->
+                    <div class="container-body">
+
+
+                      <form class="form-style-1 form-sitewide" method="post" action="#"><!-- Begin Form -->
+                        <div class="form-part-1">
+
+                          <div class="data-input">
+                            <div class="form-check-box-section">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="checkbox-1-1a" class="regular-checkbox" /><label for="checkbox-1-1a"></label>
+                              </div>
+                              <div class="label-element">
+                                Billing Address differs<br/> from Delivery address
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Building Name&nbsp;
+                              <a href="#" class="tooltip-right" data-tooltip="Tooltip goes here">
+                                <i class="icon icon-form-details icon-hyperlink"></i></a>
+                            </label>
+                            <select name="building_name" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Street<span class="required"></span></label>
+                            <select name="Street" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Address Addon 1<span class="required"></span></label>
+                            <input type="text" name="address_addon" class="field-long" placeholder="- Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>City<span class="required"></span></label>
+                            <select name="city" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Country<span class="required"></span></label>
+                            <select name="country" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Comment<span class="required"></span></label>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
+                          </div>
+
+                        </div>
+
+                        <div class="form-part-2">
+
+                          <div class="data-input">
+                            <div class="form-spacer"></div>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Postal Box No<span class="required"></span></label>
+                            <input type="text" name="postal_box_no" class="field-long" placeholder="- Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Street No<span class="required"></span></label>
+                            <select name="street_no" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Address Addon 2<span class="required"></span></label>
+                            <input type="text" name="address_addon_2" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Zip Code<span class="required"></span></label>
+                            <select name="zip_code" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>State<span class="required"></span></label>
+                            <select name="state" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                        </div>
+                      </form><!-- End Form -->
+
+
+                    </div>
+                  </mid-content><!--End Mid Content -->
+
+
+
+                  <applied-tags><!--Start Applied Tags -->
+                    <div class="container-body">
+                      <div class="tags-line"></div>
+                      <div class="group-tags-section">
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
+                        <ul class="group-tags">
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 4</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-tags><!--End Applied Tags -->
+
+                </mid-pane>
+
+              </pane-large><!-- End PANE-LARGE -->
+
+
+
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <mini-panels><!-- Begin MINI-PANELS -->
+                  <pane-header>
+                    <div class="upper-pane-header">
+                      <!--Start tabs -->
+                      <div class="pane-tabs">
+                        <button id="li_tab16" class="active" onclick="tab_4('tab16')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab17" class="" onclick="tab_4('tab17')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab18" class="" onclick="tab_4('tab18')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab19" class="" onclick="tab_4('tab19')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab20" class="" onclick="tab_4('tab20')"><i class="icon icon-instance"></i></button>
+                      </div>
+                      <!--End tabs -->
+                    </div>
+                  </pane-header>
+
+                  <search-filter-section><!--Begin SEARCH AREA -->
+                    <div class="container-body">
+                      <mini-search-area>
+
+                        <filter-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-filter"></i></a>
+                        </filter-key>
+
+                        <search-box-input>
+                          <form class="search-box specific_module" method="get" action="#">
+                            <span class="searching-icon"><i class="icon icon-search"></i></span>
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
+                          </form>
+
+                        </search-box-input>
+
+                        <sorting-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-sorting"></i></a>
+                        </sorting-key>
+
+                        <reset-key>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
+                        </reset-key>
+
+                      </mini-search-area>
+                    </div>
+                  </search-filter-section><!--End SEARCH AREA -->
+
+                  <pane-content>
+
+
+
+                    <!-- Begin ACTIVITY LOG TABBED CONTENT-->
+
+                    <div id="tab16"><!--Begin ACTIVITY LOG-->
+                      <div class="activity-log-panel"><!--Start Activity log panel -->
+
+                        <div class="energicos-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start Activity Log Panel 1 -->
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 1</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 1-->
+
+                            <!-- Start Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-grey-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 2</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 2-->
+
+                            <!-- Start Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 3</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 3-->
+
+                            <!-- Start Timeline 4 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 4</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 4-->
+
+                            <!-- End Activity Log Panel 1 -->
+
+                          </div>
+                        </div>
+
+                      </div><!--End Activity log Panel -->
+
+                    </div><!--End ACTIVITY LOG-->
+
+
+                    <div id="tab17" style="display: none;">
+                      <div class="task-panel"><!--Start Task Panel -->
+                        <task-panel>
+
+                          <task-panel-nav>
+                            <!-- Start breadcrumbs -->
+                            <div class="section-breadcrumbs">
+                              <ul class="breadcrumb-task">
+                                <li id="li_mini_tab10" class="active" onclick="sub_tab4('mini_tab10')"><a href="#">Overdue</a></li>
+                                <li id="li_mini_tab11" onclick="sub_tab4('mini_tab11')"><a href="#">Flagged</a></li>
+                                <li id="li_mini_tab12" onclick="sub_tab4('mini_tab12')"><a href="#">Due this Week</a></li>
+                              </ul>
+                            </div>
+                            <!-- End breadcrumbs -->
+                          </task-panel-nav>
+
+                          <task-panel-content><!-- Begin Task Panel Content -->
+
+                            <div id="mini_tab10">
+                              <div class="overdue-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+
+                                    <task-outlook><!-- Begin Task 5 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 5 -->
+
+                                    <task-outlook><!-- Begin Task 6 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 6 -->
+
+                                    <task-outlook><!-- Begin Task 7 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 7 -->
+
+                                    <task-outlook><!-- Begin Task 8 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 8 -->
+
+                                    <task-outlook><!-- Begin Task 9 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 9 -->
+
+                                    <task-outlook><!-- Begin Task 10 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 10 -->
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab11" style="display: none;" >
+                              <div class="flagged-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab12" style="display: none;">
+                              <div id="due-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </task-panel-content><!-- End Task Panel Content -->
+
+                        </task-panel>
+                      </div><!--End Task Panel -->
+                    </div>
+
+
+                    <div id="tab18" style="display: none;">
+                      <div class="comment-panel"><!-- Begin Comment Panel -->
+                        <div class="comments" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start comment 1 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 1 -->
+
+                            <!-- Start comment 2 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 2 -->
+
+                            <!-- Start comment 3 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 3 -->
+
+                          </div>
+                        </div>
+                      </div><!-- End Comment Panel -->
+                    </div>
+
+                    <div id="tab19" style="display: none;">
+                      <div class="file-panel"><!--Start File Panel -->
+                        <div class="file-panel-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start File Panel Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 1 -->
+
+                            <!-- Start File Panel Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 2 -->
+
+
+                            <!-- Start File Panel Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 3 -->
+
+                          </div>
+                        </div>
+                      </div><!--End File Panel -->
+                    </div>
+
+                    <div id="tab20" style="display: none;">
+                      <div class="instance-panel"><!--Start instance Panel -->
+
+                        <div class="instance" id="scroll">
+
+                          <div class="container-body">
+                            <table class="pure-table pure-table-bordered" id="example">
+                              <thead>
+                              <tr>
+                                <th>Reason</th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 1 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 1 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 2 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 2 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 3 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 3 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 4 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 4 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 5 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 5 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 6 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 6 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 7 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 7 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 8 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 8 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 9 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 9 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 10 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 10 -->
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+
+                        </div>
+
+
+                      </div><!--End instance Panel -->
+                    </div>
+
+
+                    <!-- End FILE INSTANCE CONTENT -->
+
+
+                  </pane-content>
+
+                </mini-panels><!-- End MINI-PANELS -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+
+
+
+            </org-contact-profile-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORG CONTACT-PROFILE-PAGE======-->
+
+
+        <!-- =================================================== --
+              //                                                   //
+              //            END ORG CONTACT-PROFILE-PAGE           //
+              //                                                   //
+            -- ==================================================== -->
+
+
+
+
+        <!-- =================================================== --
+              //                                                   //
+              //          BEGIN ORG-DELIVERY-ADDRESS-PAGE          //
+              //                                                   //
+            -- ==================================================== -->
+
+
+        <div id="org-delivery-address-page" class="pagesets_section" style="display: none;"><!--======Start ORG DELIVERY ADDRESS PAGE ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-delivery-address-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="pagesetFunction(event, '#')"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Contact Profile</a></li>
+                    <li class="active"><a href="#">Delivery Address</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+
+
+              <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
+
+                <dataset-short-info-2><!-- Begin DATASET-SHORT-INFO-2 -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important">Contact Details - Delivery Address</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <menu-level-3><!--Start MENU LEVEL 3 -->
+                    <div class="main-mid-menu"><!--Start Mid menu -->
+                      <div class="menu-list">
+
+                        <ul id="mid-menu-content" class="menu-content collapse out">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-management-profile-page')"><a href="#">Management Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><a href="#">Organization Identifier<span></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div><!--End mid Menu -->
+                  </menu-level-3><!--End MENU LEVEL 3  -->
+
+                  <sub-menu-level-3><!-- Begin SUB-MENU-LEVEL 3 -->
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Component Instances</h5>
+                      </div>
+                    </div>
+
+                    <div class="main-mid-menu">
+                      <div class="menu-list">
+
+                        <ul id="sub-menu-content">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')">
+                            <a href="#">Billing Address<span class="arrow"></span></a>
+                          </li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-delivery-address-page')">
+                            <a href="#">Delivery Address<span class="arrow"></span></a>
+                          </li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-communication-page')">
+                            <a href="#">Communication<span class="arrow"></span></a>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </sub-menu-level-3><!-- End SUB-MENU-LEVEL 3 -->
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info-2><!-- End DATASET-SHORT-INFO-2 -->
+
+              </pane-small-first><!-- END PANE-SMALL-FIRST -->
+
+
+
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <mid-pane>
+                  <mid-upper-pane-area>
+                    <div class="upper-pane-header">
+                      <mid-pane-tools>
+                        <page-prv>
+                          <div class="previous-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-contact-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          </div>
+                        </page-prv>
+                        <quick-tools>
+                          <ul>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                          </ul>
+                        </quick-tools>
+                        <page-nxt>
+                          <div class="next-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-communication-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          </div>
+                        </page-nxt>
+                      </mid-pane-tools>
+                    </div>
+                  </mid-upper-pane-area>
+
+                  <mid-pane-key-title>
+                    <div class="container-body">
+                      <span class="capitalize most-important energicos-red">Delivery Address</span>
+                    </div>
+                  </mid-pane-key-title>
+
+                  <mid-pane-title-line></mid-pane-title-line>
+
+
+                  <mid-content><!--Start Mid Content -->
+                    <div class="container-body">
+
+
+                      <form class="form-style-1 form-sitewide" method="post" action="#"><!-- Begin Form -->
+                        <div class="form-part-1">
+
+
+                          <div class="data-input">
+                            <label>Building Name</label>
+                            <select name="building_name" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Street<span class="required"></span></label>
+                            <select name="Street" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Address Addon 1<span class="required"></span></label>
+                            <input type="text" name="address_addon" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>City<span class="required"></span></label>
+                            <select name="city" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Country<span class="required"></span></label>
+                            <select name="country" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Comment<span class="required"></span></label>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
+                          </div>
+
+                        </div>
+
+                        <div class="form-part-2">
+
+                          <div class="data-input">
+                            <label>Postal Box No<span class="required"></span></label>
+                            <input type="text" name="postal_box_no" class="field-long" placeholder="- Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Street Number<span class="required"></span></label>
+                            <select name="street_no" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Address Addon 2<span class="required"></span></label>
+                            <input type="text" name="address_addon_2" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Zip Code<span class="required"></span></label>
+                            <select name="zip_code" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>State<span class="required"></span></label>
+                            <select name="state" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                        </div>
+                      </form><!-- End Form -->
+
+
+                    </div>
+                  </mid-content><!--End Mid Content -->
+
+
+
+                  <applied-tags><!--Start Applied Tags -->
+                    <div class="container-body">
+                      <div class="tags-line"></div>
+                      <div class="group-tags-section">
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
+                        <ul class="group-tags">
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 4</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-tags><!--End Applied Tags -->
+
+                </mid-pane>
+
+              </pane-large><!-- End PANE-LARGE -->
+
+
+
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <mini-panels><!-- Begin MINI-PANELS -->
+                  <pane-header>
+                    <div class="upper-pane-header">
+                      <!--Start tabs -->
+                      <div class="pane-tabs">
+                        <button id="li_tab21" class="active" onclick="tab_5('tab21')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab22" class="" onclick="tab_5('tab22')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab23" class="" onclick="tab_5('tab23')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab24" class="" onclick="tab_5('tab24')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab25" class="" onclick="tab_5('tab25')"><i class="icon icon-instance"></i></button>
+                      </div>
+                      <!--End tabs -->
+                    </div>
+                  </pane-header>
+
+                  <search-filter-section><!--Begin SEARCH AREA -->
+                    <div class="container-body">
+                      <mini-search-area>
+
+                        <filter-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-filter"></i></a>
+                        </filter-key>
+
+                        <search-box-input>
+                          <form class="search-box specific_module" method="get" action="#">
+                            <span class="searching-icon"><i class="icon icon-search"></i></span>
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
+                          </form>
+
+                        </search-box-input>
+
+                        <sorting-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-sorting"></i></a>
+                        </sorting-key>
+
+                        <reset-key>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
+                        </reset-key>
+
+                      </mini-search-area>
+                    </div>
+                  </search-filter-section><!--End SEARCH AREA -->
+
+                  <pane-content>
+
+
+
+                    <!-- Begin ACTIVITY LOG TABBED CONTENT-->
+
+                    <div id="tab21"><!--Begin ACTIVITY LOG-->
+                      <div class="activity-log-panel"><!--Start Activity log panel -->
+
+                        <div class="energicos-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start Activity Log Panel 1 -->
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 1</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 1-->
+
+                            <!-- Start Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-grey-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 2</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 2-->
+
+                            <!-- Start Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 3</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 3-->
+
+                            <!-- Start Timeline 4 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 4</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 4-->
+
+                            <!-- End Activity Log Panel 1 -->
+
+                          </div>
+                        </div>
+
+                      </div><!--End Activity log Panel -->
+
+                    </div><!--End ACTIVITY LOG-->
+
+
+                    <div id="tab22" style="display: none;">
+                      <div class="task-panel"><!--Start Task Panel -->
+                        <task-panel>
+
+                          <task-panel-nav>
+                            <!-- Start breadcrumbs -->
+                            <div class="section-breadcrumbs">
+                              <ul class="breadcrumb-task">
+                                <li id="li_mini_tab13" class="active" onclick="sub_tab5('mini_tab13')"><a href="#">Overdue</a></li>
+                                <li id="li_mini_tab14" onclick="sub_tab5('mini_tab14')"><a href="#">Flagged</a></li>
+                                <li id="li_mini_tab15" onclick="sub_tab5('mini_tab15')"><a href="#">Due this Week</a></li>
+                              </ul>
+                            </div>
+                            <!-- End breadcrumbs -->
+                          </task-panel-nav>
+
+                          <task-panel-content><!-- Begin Task Panel Content -->
+
+                            <div id="mini_tab13">
+                              <div class="overdue-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+
+                                    <task-outlook><!-- Begin Task 5 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 5 -->
+
+                                    <task-outlook><!-- Begin Task 6 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 6 -->
+
+                                    <task-outlook><!-- Begin Task 7 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 7 -->
+
+                                    <task-outlook><!-- Begin Task 8 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 8 -->
+
+                                    <task-outlook><!-- Begin Task 9 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 9 -->
+
+                                    <task-outlook><!-- Begin Task 10 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 10 -->
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab14" style="display: none;" >
+                              <div class="flagged-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab15" style="display: none;">
+                              <div id="due-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </task-panel-content><!-- End Task Panel Content -->
+
+                        </task-panel>
+                      </div><!--End Task Panel -->
+                    </div>
+
+
+                    <div id="tab23" style="display: none;">
+                      <div class="comment-panel"><!-- Begin Comment Panel -->
+                        <div class="comments" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start comment 1 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 1 -->
+
+                            <!-- Start comment 2 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 2 -->
+
+                            <!-- Start comment 3 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 3 -->
+
+                          </div>
+                        </div>
+                      </div><!-- End Comment Panel -->
+                    </div>
+
+                    <div id="tab24" style="display: none;">
+                      <div class="file-panel"><!--Start File Panel -->
+                        <div class="file-panel-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start File Panel Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 1 -->
+
+                            <!-- Start File Panel Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 2 -->
+
+
+                            <!-- Start File Panel Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 3 -->
+
+                          </div>
+                        </div>
+                      </div><!--End File Panel -->
+                    </div>
+
+                    <div id="tab25" style="display: none;">
+                      <div class="instance-panel"><!--Start instance Panel -->
+
+                        <div class="instance" id="scroll">
+
+                          <div class="container-body">
+                            <table class="pure-table pure-table-bordered" id="example">
+                              <thead>
+                              <tr>
+                                <th>Reason</th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 1 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 1 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 2 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 2 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 3 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 3 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 4 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 4 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 5 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 5 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 6 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 6 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 7 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 7 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 8 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 8 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 9 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 9 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 10 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 10 -->
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+
+                        </div>
+
+
+                      </div><!--End instance Panel -->
+                    </div>
+
+
+                    <!-- End FILE INSTANCE CONTENT -->
+
+
+                  </pane-content>
+
+                </mini-panels><!-- End MINI-PANELS -->
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+
+
+
+            </org-delivery-address-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORG DELIVERY-ADDRESS-PAGE======-->
+
+
+        <!-- =================================================== --
+              //                                                   //
+              //           END ORG DELIVERY-ADDRESS-PAGE           //
+              //                                                   //
+            -- ==================================================== -->
+
+
+
+
+
+        <!-- =================================================== --
+              //                                                   //
+              //            BEGIN ORG-COMMUNICATION-PAGE           //
+              //                                                   //
+            -- ==================================================== -->
+
+
+        <div id="org-communication-page" class="pagesets_section" style="display: none;"><!--======Start COMMUNICATION-PAGE ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-communication-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Contact Profile</a></li>
+                    <li class="active"><a href="#">Communication</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+
+
+              <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
+
+                <dataset-short-info-2><!-- Begin DATASET-SHORT-INFO-2 -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important">Contact Profile - Communication</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <menu-level-3><!--Start MENU LEVEL 3 -->
+                    <div class="main-mid-menu"><!--Start Mid menu -->
+                      <div class="menu-list">
+
+                        <ul id="mid-menu-content" class="menu-content collapse out">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-management-profile-page')"><a href="#">Management Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><a href="#">Organization Identifier<span></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div><!--End mid Menu -->
+                  </menu-level-3><!--End MENU LEVEL 3  -->
+
+                  <sub-menu-level-3><!-- Begin SUB-MENU-LEVEL 3 -->
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Component Instances</h5>
+                      </div>
+                    </div>
+
+                    <div class="main-mid-menu">
+                      <div class="menu-list">
+
+                        <ul id="sub-menu-content">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')">
+                            <a href="#">Billing Address<span class="arrow"></span></a>
+                          </li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-delivery-address-page')">
+                            <a href="#">Delivery Address<span class="arrow"></span></a>
+                          </li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-communication-page')">
+                            <a href="#">Communication<span class="arrow"></span></a>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </sub-menu-level-3><!-- End SUB-MENU-LEVEL 3 -->
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info-2><!-- End DATASET-SHORT-INFO-2 -->
+
+              </pane-small-first><!-- END PANE-SMALL-FIRST -->
+
+
+
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <mid-pane>
+                  <mid-upper-pane-area>
+                    <div class="upper-pane-header">
+                      <mid-pane-tools>
+                        <page-prv>
+                          <div class="previous-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-delivery-address-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          </div>
+                        </page-prv>
+                        <quick-tools>
+                          <ul>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                          </ul>
+                        </quick-tools>
+                        <page-nxt>
+                          <div class="next-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-financial-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          </div>
+                        </page-nxt>
+                      </mid-pane-tools>
+                    </div>
+                  </mid-upper-pane-area>
+
+                  <mid-pane-key-title>
+                    <div class="container-body">
+                      <span class="capitalize most-important energicos-red">Communication</span>
+                    </div>
+                  </mid-pane-key-title>
+
+                  <mid-pane-title-line></mid-pane-title-line>
+
+
+                  <mid-content><!--Start Mid Content -->
+                    <div class="container-body">
+
+
+                      <form class="form-style-1 form-sitewide" method="post" action="#"><!-- Begin Form -->
+                        <div class="form-part-1">
+
+
+                          <div class="data-input">
+                            <label>Mobile Phone<span class="required"></span></label>
+                            <input type="text" name="mobile_phone" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Landline Phone<span class="required"></span></label>
+                            <input type="text" name="landline_phone" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Fax<span class="required"></span></label>
+                            <input type="text" name="fax" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+
+                        </div>
+
+                        <div class="form-part-2">
+
+
+                          <div class="data-input">
+                            <label>Email<span class="required"></span></label>
+                            <input type="text" name="email" class="field-long" placeholder="- Input Value -" />
+                          </div>
+
+
+
+                          <div class="data-input">
+                            <label>IM Name<span class="required"></span></label>
+                            <input type="text" name="im_name" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+
+                          <div class="data-input">
+                            <label>Comment<span class="required"></span></label>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
+                          </div>
+
+                        </div>
+                      </form><!-- End Form -->
+
+
+                    </div>
+                  </mid-content><!--End Mid Content -->
+
+
+
+                  <applied-tags><!--Start Applied Tags -->
+                    <div class="container-body">
+                      <div class="tags-line"></div>
+                      <div class="group-tags-section">
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
+                        <ul class="group-tags">
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 4</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-tags><!--End Applied Tags -->
+
+                </mid-pane>
+
+              </pane-large><!-- End PANE-LARGE -->
+
+
+
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <mini-panels><!-- Begin MINI-PANELS -->
+                  <pane-header>
+                    <div class="upper-pane-header">
+                      <!--Start tabs -->
+                      <div class="pane-tabs">
+                        <button id="li_tab26" class="active" onclick="tab_6('tab26')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab27" class="" onclick="tab_6('tab27')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab28" class="" onclick="tab_6('tab28')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab29" class="" onclick="tab_6('tab29')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab30" class="" onclick="tab_6('tab30')"><i class="icon icon-instance"></i></button>
+                      </div>
+                      <!--End tabs -->
+                    </div>
+                  </pane-header>
+
+                  <search-filter-section><!--Begin SEARCH AREA -->
+                    <div class="container-body">
+                      <mini-search-area>
+
+                        <filter-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-filter"></i></a>
+                        </filter-key>
+
+                        <search-box-input>
+                          <form class="search-box specific_module" method="get" action="#">
+                            <span class="searching-icon"><i class="icon icon-search"></i></span>
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
+                          </form>
+
+                        </search-box-input>
+
+                        <sorting-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-sorting"></i></a>
+                        </sorting-key>
+
+                        <reset-key>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
+                        </reset-key>
+
+                      </mini-search-area>
+                    </div>
+                  </search-filter-section><!--End SEARCH AREA -->
+
+                  <pane-content>
+
+
+
+                    <!-- Begin ACTIVITY LOG TABBED CONTENT-->
+
+                    <div id="tab26"><!--Begin ACTIVITY LOG-->
+                      <div class="activity-log-panel"><!--Start Activity log panel -->
+
+                        <div class="energicos-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start Activity Log Panel 1 -->
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 1</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 1-->
+
+                            <!-- Start Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-grey-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 2</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 2-->
+
+                            <!-- Start Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 3</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 3-->
+
+                            <!-- Start Timeline 4 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 4</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 4-->
+
+                            <!-- End Activity Log Panel 1 -->
+
+                          </div>
+                        </div>
+
+                      </div><!--End Activity log Panel -->
+
+                    </div><!--End ACTIVITY LOG-->
+
+
+                    <div id="tab27" style="display: none;">
+                      <div class="task-panel"><!--Start Task Panel -->
+                        <task-panel>
+
+                          <task-panel-nav>
+                            <!-- Start breadcrumbs -->
+                            <div class="section-breadcrumbs">
+                              <ul class="breadcrumb-task">
+                                <li id="li_mini_tab16" class="active" onclick="sub_tab6('mini_tab16')"><a href="#">Overdue</a></li>
+                                <li id="li_mini_tab17" onclick="sub_tab6('mini_tab17')"><a href="#">Flagged</a></li>
+                                <li id="li_mini_tab18" onclick="sub_tab6('mini_tab18')"><a href="#">Due this Week</a></li>
+                              </ul>
+                            </div>
+                            <!-- End breadcrumbs -->
+                          </task-panel-nav>
+
+                          <task-panel-content><!-- Begin Task Panel Content -->
+
+                            <div id="mini_tab16">
+                              <div class="overdue-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+
+                                    <task-outlook><!-- Begin Task 5 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 5 -->
+
+                                    <task-outlook><!-- Begin Task 6 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 6 -->
+
+                                    <task-outlook><!-- Begin Task 7 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 7 -->
+
+                                    <task-outlook><!-- Begin Task 8 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 8 -->
+
+                                    <task-outlook><!-- Begin Task 9 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 9 -->
+
+                                    <task-outlook><!-- Begin Task 10 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 10 -->
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab17" style="display: none;" >
+                              <div class="flagged-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab18" style="display: none;">
+                              <div id="due-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </task-panel-content><!-- End Task Panel Content -->
+
+                        </task-panel>
+                      </div><!--End Task Panel -->
+                    </div>
+
+
+                    <div id="tab28" style="display: none;">
+                      <div class="comment-panel"><!-- Begin Comment Panel -->
+                        <div class="comments" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start comment 1 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 1 -->
+
+                            <!-- Start comment 2 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 2 -->
+
+                            <!-- Start comment 3 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 3 -->
+
+                          </div>
+                        </div>
+                      </div><!-- End Comment Panel -->
+                    </div>
+
+                    <div id="tab29" style="display: none;">
+                      <div class="file-panel"><!--Start File Panel -->
+                        <div class="file-panel-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start File Panel Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 1 -->
+
+                            <!-- Start File Panel Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 2 -->
+
+
+                            <!-- Start File Panel Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 3 -->
+
+                          </div>
+                        </div>
+                      </div><!--End File Panel -->
+                    </div>
+
+                    <div id="tab30" style="display: none;">
+                      <div class="instance-panel"><!--Start instance Panel -->
+
+                        <div class="instance" id="scroll">
+
+                          <div class="container-body">
+                            <table class="pure-table pure-table-bordered" id="example">
+                              <thead>
+                              <tr>
+                                <th>Reason</th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 1 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 1 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 2 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 2 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 3 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 3 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 4 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 4 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 5 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 5 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 6 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 6 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 7 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 7 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 8 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 8 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 9 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 9 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 10 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 10 -->
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+
+                        </div>
+
+
+                      </div><!--End instance Panel -->
+                    </div>
+
+
+                    <!-- End FILE INSTANCE CONTENT -->
+
+
+                  </pane-content>
+
+                </mini-panels><!-- End MINI-PANELS -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+
+
+
+            </org-communication-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORG COMMUNICATION-PAGE======-->
+
+
+        <!-- =================================================== --
+              //                                                   //
+              //           END ORG-COMMUNICATION-PAGE               //
+              //                                                   //
+            -- ==================================================== -->
+
+
+
+
+
+        <!-- =================================================== --
+              //                                                     //
+              //          BEGIN ORG-FINANCIAL-PROFILE-PAGE           //
+              //                                                     //
+            -- ==================================================== -->
+
+
+        <div id="org-financial-profile-page" class="pagesets_section" style="display: none;"><!--======Start ORG FINANCIAL PROFILE PAGE ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-financial-profile-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Financial Profile</a></li>
+                    <li class="active"><a href="#">Bank Details</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+
+
+              <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
+
+                <dataset-short-info-2><!-- Begin DATASET-SHORT-INFO-2 -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important">Financial Profile - Bank Details</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <menu-level-3><!--Start MENU LEVEL 3 -->
+                    <div class="main-mid-menu"><!--Start Mid menu -->
+                      <div class="menu-list">
+
+                        <ul id="mid-menu-content" class="menu-content collapse out">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-management-profile-page')"><a href="#">Management Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><a href="#">Organization Identifier<span></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div><!--End mid Menu -->
+                  </menu-level-3><!--End MENU LEVEL 3  -->
+
+                  <sub-menu-level-3><!-- Begin SUB-MENU-LEVEL 3 -->
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Component Instances</h5>
+                      </div>
+                    </div>
+
+                    <div class="main-mid-menu">
+                      <div class="menu-list">
+
+                        <ul id="sub-menu-content">
+
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')">
+                            <a href="#">Bank Details<span class="arrow"></span></a>
+                          </li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-credit-card-details-page')">
+                            <a href="#">Credit Card Details<span class="arrow"></span></a>
+                          </li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-SEPA-mandate-page')">
+                            <a href="#">SEPA Mandate<span class="arrow"></span></a>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </sub-menu-level-3><!-- End SUB-MENU-LEVEL 3 -->
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info-2><!-- End DATASET-SHORT-INFO-2 -->
+
+              </pane-small-first><!-- END PANE-SMALL-FIRST -->
+
+
+
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <mid-pane>
+                  <mid-upper-pane-area>
+                    <div class="upper-pane-header">
+                      <mid-pane-tools>
+                        <page-prv>
+                          <div class="previous-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-communication-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          </div>
+                        </page-prv>
+                        <quick-tools>
+                          <ul>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                          </ul>
+                        </quick-tools>
+                        <page-nxt>
+                          <div class="next-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-credit-card-details-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          </div>
+                        </page-nxt>
+                      </mid-pane-tools>
+                    </div>
+                  </mid-upper-pane-area>
+
+                  <mid-pane-key-title>
+                    <div class="container-body">
+                      <span class="capitalize most-important energicos-red">Bank Details</span>
+                    </div>
+                  </mid-pane-key-title>
+
+                  <mid-pane-title-line></mid-pane-title-line>
+
+
+                  <mid-content><!--Start Mid Content -->
+                    <div class="container-body">
+
+
+                      <form class="form-style-1 form-sitewide" method="post" action="#"><!-- Begin Form -->
+                        <div class="form-part-1">
+
+
+                          <div class="data-input">
+                            <label>Payment Category <span class="required"></span></label>
+                            <input type="financial" name="payment_category" class="field-long field-autofill" placeholder=" - Autofill -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>IBAN<span class="required"></span></label>
+                            <input type="text" name="IBAN" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Bank <span class="required"></span></label>
+                            <input type="financial" name="bank" class="field-long field-autofill" placeholder=" - Autofill -" />
+                          </div>
+
+
+                        </div>
+
+                        <div class="form-part-2">
+
+
+                          <div class="data-input">
+                            <label>Bank Account Holder<span class="required"></span></label>
+                            <input type="text" name="account_holder" class="field-long" placeholder="- Input Value -" />
+                          </div>
+
+
+                          <div class="data-input">
+                            <label>BIC / SWIFT<span class="required"></span></label>
+                            <input type="financial" name="im_name" class="field-long field-autofill" placeholder=" - Autofill -" />
+                          </div>
+
+
+                          <div class="data-input">
+                            <label>Comment<span class="required"></span></label>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
+                          </div>
+
+                        </div>
+                      </form><!-- End Form -->
+
+
+                    </div>
+                  </mid-content><!--End Mid Content -->
+
+
+
+                  <applied-tags><!--Start Applied Tags -->
+                    <div class="container-body">
+                      <div class="tags-line"></div>
+                      <div class="group-tags-section">
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
+                        <ul class="group-tags">
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 4</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-tags><!--End Applied Tags -->
+
+                </mid-pane>
+
+              </pane-large><!-- End PANE-LARGE -->
+
+
+
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <mini-panels><!-- Begin MINI-PANELS -->
+                  <pane-header>
+                    <div class="upper-pane-header">
+                      <!--Start tabs -->
+                      <div class="pane-tabs">
+                        <button id="li_tab31" class="" onclick="tab_7('tab31')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab32" class="" onclick="tab_7('tab32')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab33" class="" onclick="tab_7('tab33')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab34" class="" onclick="tab_7('tab34')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab35" class="active" onclick="tab_7('tab35')"><i class="icon icon-instance"></i></button>
+                      </div>
+                      <!--End tabs -->
+                    </div>
+                  </pane-header>
+
+                  <search-filter-section><!--Begin SEARCH AREA -->
+                    <div class="container-body">
+                      <mini-search-area>
+
+                        <filter-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-filter"></i></a>
+                        </filter-key>
+
+                        <search-box-input>
+                          <form class="search-box specific_module" method="get" action="#">
+                            <span class="searching-icon"><i class="icon icon-search"></i></span>
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
+                          </form>
+
+                        </search-box-input>
+
+                        <sorting-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-sorting"></i></a>
+                        </sorting-key>
+
+                        <reset-key>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
+                        </reset-key>
+
+                      </mini-search-area>
+                    </div>
+                  </search-filter-section><!--End SEARCH AREA -->
+
+                  <pane-content>
+
+
+
+                    <!-- Begin ACTIVITY LOG TABBED CONTENT-->
+
+                    <div id="tab31" style="display: none;"><!--Begin ACTIVITY LOG-->
+                      <div class="activity-log-panel"><!--Start Activity log panel -->
+
+                        <div class="energicos-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start Activity Log Panel 1 -->
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 1</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 1-->
+
+                            <!-- Start Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-grey-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 2</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 2-->
+
+                            <!-- Start Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 3</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 3-->
+
+                            <!-- Start Timeline 4 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 4</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 4-->
+
+                            <!-- End Activity Log Panel 1 -->
+
+                          </div>
+                        </div>
+
+                      </div><!--End Activity log Panel -->
+
+                    </div><!--End ACTIVITY LOG-->
+
+
+                    <div id="tab32" style="display: none;">
+                      <div class="task-panel"><!--Start Task Panel -->
+                        <task-panel>
+
+                          <task-panel-nav>
+                            <!-- Start breadcrumbs -->
+                            <div class="section-breadcrumbs">
+                              <ul class="breadcrumb-task">
+                                <li id="li_mini_tab19" class="active" onclick="sub_tab7('mini_tab19')"><a href="#">Overdue</a></li>
+                                <li id="li_mini_tab20" onclick="sub_tab7('mini_tab20')"><a href="#">Flagged</a></li>
+                                <li id="li_mini_tab21" onclick="sub_tab7('mini_tab21')"><a href="#">Due this Week</a></li>
+                              </ul>
+                            </div>
+                            <!-- End breadcrumbs -->
+                          </task-panel-nav>
+
+                          <task-panel-content><!-- Begin Task Panel Content -->
+
+                            <div id="mini_tab19">
+                              <div class="overdue-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+
+                                    <task-outlook><!-- Begin Task 5 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 5 -->
+
+                                    <task-outlook><!-- Begin Task 6 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 6 -->
+
+                                    <task-outlook><!-- Begin Task 7 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 7 -->
+
+                                    <task-outlook><!-- Begin Task 8 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 8 -->
+
+                                    <task-outlook><!-- Begin Task 9 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 9 -->
+
+                                    <task-outlook><!-- Begin Task 10 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 10 -->
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab20" style="display: none;" >
+                              <div class="flagged-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab21" style="display: none;">
+                              <div id="due-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </task-panel-content><!-- End Task Panel Content -->
+
+                        </task-panel>
+                      </div><!--End Task Panel -->
+                    </div>
+
+
+                    <div id="tab33" style="display: none;">
+                      <div class="comment-panel"><!-- Begin Comment Panel -->
+                        <div class="comments" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start comment 1 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 1 -->
+
+                            <!-- Start comment 2 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 2 -->
+
+                            <!-- Start comment 3 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 3 -->
+
+                          </div>
+                        </div>
+                      </div><!-- End Comment Panel -->
+                    </div>
+
+                    <div id="tab34" style="display: none;">
+                      <div class="file-panel"><!--Start File Panel -->
+                        <div class="file-panel-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start File Panel Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 1 -->
+
+                            <!-- Start File Panel Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 2 -->
+
+
+                            <!-- Start File Panel Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 3 -->
+
+                          </div>
+                        </div>
+                      </div><!--End File Panel -->
+                    </div>
+
+                    <div id="tab35">
+                      <div class="instance-panel"><!--Start instance Panel -->
+
+                        <div class="instance" id="scroll">
+
+                          <div class="container-body">
+                            <table class="pure-table pure-table-bordered" id="example">
+                              <thead>
+                              <tr>
+                                <th>Reason</th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 1 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 1 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 2 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 2 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 3 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 3 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 4 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 4 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 5 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 5 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 6 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 6 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 7 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 7 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 8 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 8 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 9 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 9 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 10 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 10 -->
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+
+                        </div>
+
+
+                      </div><!--End instance Panel -->
+                    </div>
+
+
+                    <!-- End FILE INSTANCE CONTENT -->
+
+
+                  </pane-content>
+
+                </mini-panels><!-- End MINI-PANELS -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+
+
+
+            </org-financial-profile-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORG FINANCIAL PROFILE PAGE======-->
+
+
+        <!-- =================================================== --
+              //                                                   //
+              //         END ORG FINANCIAL PROFILE PAGE            //
+              //                                                   //
+            -- ==================================================== -->
+
+
+
+
+
+        <!-- =================================================== --
+              //                                                     //
+              //         BEGIN ORG CREDIT CARD DETAILS PAGE          //
+              //                                                     //
+            -- ==================================================== -->
+
+
+        <div id="org-credit-card-details-page" class="pagesets_section" style="display: none;"><!--======Start ORG CREDIT CARD DETAILS PAGE ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-credit-card-details-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Financial Profile</a></li>
+                    <li class="active"><a href="#">Credit Card Details</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+
+
+              <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
+
+                <dataset-short-info-2><!-- Begin DATASET-SHORT-INFO-2 -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important">Financial Profile - Credit Card Details</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <menu-level-3><!--Start MENU LEVEL 3 -->
+                    <div class="main-mid-menu"><!--Start Mid menu -->
+                      <div class="menu-list">
+
+                        <ul id="mid-menu-content" class="menu-content collapse out">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-management-profile-page')"><a href="#">Management Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><a href="#">Organization Identifier<span></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div><!--End mid Menu -->
+                  </menu-level-3><!--End MENU LEVEL 3  -->
+
+                  <sub-menu-level-3><!-- Begin SUB-MENU-LEVEL 3 -->
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Component Instances</h5>
+                      </div>
+                    </div>
+
+                    <div class="main-mid-menu">
+                      <div class="menu-list">
+
+                        <ul id="sub-menu-content">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')">
+                            <a href="#">Bank Details<span class="arrow"></span></a>
+                          </li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-credit-card-details-page')">
+                            <a href="#">Credit Card Details<span class="arrow"></span></a>
+                          </li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-SEPA-mandate-page')">
+                            <a href="#">SEPA Mandate<span class="arrow"></span></a>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </sub-menu-level-3><!-- End SUB-MENU-LEVEL 3 -->
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info-2><!-- End DATASET-SHORT-INFO-2 -->
+
+              </pane-small-first><!-- END PANE-SMALL-FIRST -->
+
+
+
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <mid-pane>
+                  <mid-upper-pane-area>
+                    <div class="upper-pane-header">
+                      <mid-pane-tools>
+                        <page-prv>
+                          <div class="previous-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-financial-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          </div>
+                        </page-prv>
+                        <quick-tools>
+                          <ul>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                          </ul>
+                        </quick-tools>
+                        <page-nxt>
+                          <div class="next-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-SEPA-mandate-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          </div>
+                        </page-nxt>
+                      </mid-pane-tools>
+                    </div>
+                  </mid-upper-pane-area>
+
+                  <mid-pane-key-title>
+                    <div class="container-body">
+                      <span class="most-important capitalize energicos-red">Credit Card Details</span>
+                    </div>
+                  </mid-pane-key-title>
+
+                  <mid-pane-title-line></mid-pane-title-line>
+
+
+                  <mid-content><!--Start Mid Content -->
+                    <div class="container-body">
+
+
+                      <form class="form-style-1 form-sitewide" method="post" action="#"><!-- Begin Form -->
+                        <div class="form-part-1">
+
+
+                          <div class="data-input">
+                            <label>Credit Card Type<span class="required"></span></label>
+                            <select name="credit_card_type" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Name on Credit Card<span class="required"></span></label>
+                            <input type="text" name="card_holder_name" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>CVC<span class="required"></span></label>
+                            <input type="text" name="cvc" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+
+                        </div>
+
+                        <div class="form-part-2">
+
+
+                          <div class="data-input">
+                            <label>Card Number<span class="required"></span></label>
+                            <input type="text" name="card_number" class="field-long" placeholder="- Input Value -" />
+                          </div>
+
+
+                          <div class="data-input">
+                            <label>Expiration Date<span class="required"></span></label>
+                            <input type="date" name="expiry_date" class="field-long" placeholder=" - Select Date -" />
+                          </div>
+
+
+                          <div class="data-input">
+                            <label>Comment<span class="required"></span></label>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
+                          </div>
+
+                        </div>
+                      </form><!-- End Form -->
+
+
+                    </div>
+                  </mid-content><!--End Mid Content -->
+
+
+
+                  <applied-tags><!--Start Applied Tags -->
+                    <div class="container-body">
+                      <div class="tags-line"></div>
+                      <div class="group-tags-section">
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
+                        <ul class="group-tags">
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 4</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-tags><!--End Applied Tags -->
+
+                </mid-pane>
+
+              </pane-large><!-- End PANE-LARGE -->
+
+
+
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <mini-panels><!-- Begin MINI-PANELS -->
+                  <pane-header>
+                    <div class="upper-pane-header">
+                      <!--Start tabs -->
+                      <div class="pane-tabs">
+                        <button id="li_tab36" class="" onclick="tab_8('tab36')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab37" class="" onclick="tab_8('tab37')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab38" class="" onclick="tab_8('tab38')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab39" class="" onclick="tab_8('tab39')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab40" class="active" onclick="tab_8('tab40')"><i class="icon icon-instance"></i></button>
+                      </div>
+                      <!--End tabs -->
+                    </div>
+                  </pane-header>
+
+                  <search-filter-section><!--Begin SEARCH AREA -->
+                    <div class="container-body">
+                      <mini-search-area>
+
+                        <filter-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-filter"></i></a>
+                        </filter-key>
+
+                        <search-box-input>
+                          <form class="search-box specific_module" method="get" action="#">
+                            <span class="searching-icon"><i class="icon icon-search"></i></span>
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
+                          </form>
+
+                        </search-box-input>
+
+                        <sorting-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-sorting"></i></a>
+                        </sorting-key>
+
+                        <reset-key>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
+                        </reset-key>
+
+                      </mini-search-area>
+                    </div>
+                  </search-filter-section><!--End SEARCH AREA -->
+
+                  <pane-content>
+
+
+
+                    <!-- Begin ACTIVITY LOG TABBED CONTENT-->
+
+                    <div id="tab36" style="display: none;"><!--Begin ACTIVITY LOG-->
+                      <div class="activity-log-panel"><!--Start Activity log panel -->
+
+                        <div class="energicos-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start Activity Log Panel 1 -->
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 1</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 1-->
+
+                            <!-- Start Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-grey-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 2</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 2-->
+
+                            <!-- Start Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 3</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 3-->
+
+                            <!-- Start Timeline 4 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 4</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 4-->
+
+                            <!-- End Activity Log Panel 1 -->
+
+                          </div>
+                        </div>
+
+                      </div><!--End Activity log Panel -->
+
+                    </div><!--End ACTIVITY LOG-->
+
+
+                    <div id="tab37" style="display: none;">
+                      <div class="task-panel"><!--Start Task Panel -->
+                        <task-panel>
+
+                          <task-panel-nav>
+                            <!-- Start breadcrumbs -->
+                            <div class="section-breadcrumbs">
+                              <ul class="breadcrumb-task">
+                                <li id="li_mini_tab22" class="active" onclick="sub_tab8('mini_tab22')"><a href="#">Overdue</a></li>
+                                <li id="li_mini_tab23" onclick="sub_tab8('mini_tab23')"><a href="#">Flagged</a></li>
+                                <li id="li_mini_tab24" onclick="sub_tab8('mini_tab24')"><a href="#">Due this Week</a></li>
+                              </ul>
+                            </div>
+                            <!-- End breadcrumbs -->
+                          </task-panel-nav>
+
+                          <task-panel-content><!-- Begin Task Panel Content -->
+
+                            <div id="mini_tab22">
+                              <div class="overdue-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+
+                                    <task-outlook><!-- Begin Task 5 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 5 -->
+
+                                    <task-outlook><!-- Begin Task 6 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 6 -->
+
+                                    <task-outlook><!-- Begin Task 7 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 7 -->
+
+                                    <task-outlook><!-- Begin Task 8 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 8 -->
+
+                                    <task-outlook><!-- Begin Task 9 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 9 -->
+
+                                    <task-outlook><!-- Begin Task 10 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 10 -->
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab23" style="display: none;" >
+                              <div class="flagged-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab24" style="display: none;">
+                              <div id="due-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </task-panel-content><!-- End Task Panel Content -->
+
+                        </task-panel>
+                      </div><!--End Task Panel -->
+                    </div>
+
+
+                    <div id="tab38" style="display: none;">
+                      <div class="comment-panel"><!-- Begin Comment Panel -->
+                        <div class="comments" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start comment 1 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 1 -->
+
+                            <!-- Start comment 2 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 2 -->
+
+                            <!-- Start comment 3 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 3 -->
+
+                          </div>
+                        </div>
+                      </div><!-- End Comment Panel -->
+                    </div>
+
+                    <div id="tab39" style="display: none;">
+                      <div class="file-panel"><!--Start File Panel -->
+                        <div class="file-panel-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start File Panel Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 1 -->
+
+                            <!-- Start File Panel Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 2 -->
+
+
+                            <!-- Start File Panel Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 3 -->
+
+                          </div>
+                        </div>
+                      </div><!--End File Panel -->
+                    </div>
+
+                    <div id="tab40">
+                      <div class="instance-panel"><!--Start instance Panel -->
+
+                        <div class="instance" id="scroll">
+
+                          <div class="container-body">
+                            <table class="pure-table pure-table-bordered" id="example">
+                              <thead>
+                              <tr>
+                                <th>Reason</th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 1 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 1 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 2 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 2 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 3 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 3 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 4 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 4 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 5 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 5 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 6 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 6 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 7 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 7 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 8 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 8 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 9 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 9 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 10 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 10 -->
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+
+                        </div>
+
+
+                      </div><!--End instance Panel -->
+                    </div>
+
+
+                    <!-- End FILE INSTANCE CONTENT -->
+
+
+                  </pane-content>
+
+                </mini-panels><!-- End MINI-PANELS -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+
+
+
+            </org-credit-card-details-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORG CREDIT CARD DETAILS PAGE======-->
+
+
+        <!-- =================================================== --
+              //                                                   //
+              //           END ORG CREDIT CARD DETAILS PAGE        //
+              //                                                   //
+            -- ==================================================== -->
+
+
+
+
+
+
+        <!-- =================================================== --
+              //                                                     //
+              //             BEGIN ORG SEPA MANDATE PAGE             //
+              //                                                     //
+            -- ==================================================== -->
+
+
+        <div id="org-SEPA-mandate-page" class="pagesets_section" style="display: none;"><!--======Start SEPA MANDATE PAGE ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-SEPA-mandate-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Financial Profile</a></li>
+                    <li class="active"><a href="#">SEPA Mandate</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+
+
+              <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
+
+                <dataset-short-info-2><!-- Begin DATASET-SHORT-INFO-2 -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important">Financial Profile - SEPA Mandate</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <menu-level-3><!--Start MENU LEVEL 3 -->
+                    <div class="main-mid-menu"><!--Start Mid menu -->
+                      <div class="menu-list">
+
+                        <ul id="mid-menu-content" class="menu-content collapse out">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-management-profile-page')"><a href="#">Management Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><a href="#">Organization Identifier<span></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div><!--End mid Menu -->
+                  </menu-level-3><!--End MENU LEVEL 3  -->
+
+                  <sub-menu-level-3><!-- Begin SUB-MENU-LEVEL 3 -->
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Component Instances</h5>
+                      </div>
+                    </div>
+
+                    <div class="main-mid-menu">
+                      <div class="menu-list">
+
+                        <ul id="sub-menu-content">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')">
+                            <a href="#">Bank Details<span class="arrow"></span></a>
+                          </li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-credit-card-details-page')">
+                            <a href="#">Credit Card Details<span class="arrow"></span></a>
+                          </li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-SEPA-mandate-page')">
+                            <a href="#">SEPA Mandate<span class="arrow"></span></a>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </sub-menu-level-3><!-- End SUB-MENU-LEVEL 3 -->
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info-2><!-- End DATASET-SHORT-INFO-2 -->
+
+              </pane-small-first><!-- END PANE-SMALL-FIRST -->
+
+
+
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <mid-pane>
+                  <mid-upper-pane-area>
+                    <div class="upper-pane-header">
+                      <mid-pane-tools>
+                        <page-prv>
+                          <div class="previous-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-credit-card-details-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          </div>
+                        </page-prv>
+                        <quick-tools>
+                          <ul>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                          </ul>
+                        </quick-tools>
+                        <page-nxt>
+                          <div class="next-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          </div>
+                        </page-nxt>
+                      </mid-pane-tools>
+                    </div>
+                  </mid-upper-pane-area>
+
+                  <mid-pane-key-title>
+                    <div class="container-body">
+                      <span class="capitalize most-important energicos-red">Financial Profile - SEPA Mandate</span>
+                    </div>
+                  </mid-pane-key-title>
+
+                  <mid-pane-title-line></mid-pane-title-line>
+
+
+                  <mid-content><!--Start Mid Content -->
+                    <div class="container-body">
+
+
+                      <form class="form-style-1 form-sitewide" method="post" action="#"><!-- Begin Form -->
+                        <div class="form-part-1">
+
+
+                          <div class="data-input">
+                            <label>SEPA Mode<span class="required"></span></label>
+                            <select name="SEPA_mode" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Mandat Reference<span class="required"></span></label>
+                            <input type="text" name="mandat_reference" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Valid To<span class="required"></span></label>
+                            <input type="date" name="valid_till" class="field-long" placeholder=" - Select Date -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Suffix<span class="required"></span></label>
+                            <input type="text" name="suffix" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+
+                        </div>
+
+                        <div class="form-part-2">
+
+                          <div class="data-input">
+                            <label>Bank Account<span class="required"></span></label>
+                            <select name="bank_account" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+
+                          <div class="data-input">
+                            <label>Valid From<span class="required"></span></label>
+                            <input type="date" name="valid_from" class="field-long" placeholder=" - Select Date -" />
+                          </div>
+
+
+                          <div class="data-input">
+                            <label>Disabled Check Box</label>
+                            <input type="checkbox" id="checkbox-1-1z" class="regular-checkbox"/><label for="checkbox-1-1z"></label>
+                          </div>
+
+
+
+                        </div>
+                      </form><!-- End Form -->
+
+
+                    </div>
+                  </mid-content><!--End Mid Content -->
+
+
+
+                  <applied-tags><!--Start Applied Tags -->
+                    <div class="container-body">
+                      <div class="tags-line"></div>
+                      <div class="group-tags-section">
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
+                        <ul class="group-tags">
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 4</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-tags><!--End Applied Tags -->
+
+                </mid-pane>
+
+              </pane-large><!-- End PANE-LARGE -->
+
+
+
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <mini-panels><!-- Begin MINI-PANELS -->
+                  <pane-header>
+                    <div class="upper-pane-header">
+                      <!--Start tabs -->
+                      <div class="pane-tabs">
+                        <button id="li_tab41" class="" onclick="tab_9('tab41')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab42" class="" onclick="tab_9('tab42')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab43" class="" onclick="tab_9('tab43')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab44" class="" onclick="tab_9('tab44')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab45" class="active" onclick="tab_9('tab45')"><i class="icon icon-instance"></i></button>
+                      </div>
+                      <!--End tabs -->
+                    </div>
+                  </pane-header>
+
+                  <search-filter-section><!--Begin SEARCH AREA -->
+                    <div class="container-body">
+                      <mini-search-area>
+
+                        <filter-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-filter"></i></a>
+                        </filter-key>
+
+                        <search-box-input>
+                          <form class="search-box specific_module" method="get" action="#">
+                            <span class="searching-icon"><i class="icon icon-search"></i></span>
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
+                          </form>
+
+                        </search-box-input>
+
+                        <sorting-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-sorting"></i></a>
+                        </sorting-key>
+
+                        <reset-key>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
+                        </reset-key>
+
+                      </mini-search-area>
+                    </div>
+                  </search-filter-section><!--End SEARCH AREA -->
+
+                  <pane-content>
+
+
+
+                    <!-- Begin ACTIVITY LOG TABBED CONTENT-->
+
+                    <div id="tab41" style="display: none;"><!--Begin ACTIVITY LOG-->
+                      <div class="activity-log-panel"><!--Start Activity log panel -->
+
+                        <div class="energicos-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start Activity Log Panel 1 -->
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 1</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 1-->
+
+                            <!-- Start Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-grey-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 2</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 2-->
+
+                            <!-- Start Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 3</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 3-->
+
+                            <!-- Start Timeline 4 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 4</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 4-->
+
+                            <!-- End Activity Log Panel 1 -->
+
+                          </div>
+                        </div>
+
+                      </div><!--End Activity log Panel -->
+
+                    </div><!--End ACTIVITY LOG-->
+
+
+                    <div id="tab42" style="display: none;">
+                      <div class="task-panel"><!--Start Task Panel -->
+                        <task-panel>
+
+                          <task-panel-nav>
+                            <!-- Start breadcrumbs -->
+                            <div class="section-breadcrumbs">
+                              <ul class="breadcrumb-task">
+                                <li id="li_mini_tab25" class="active" onclick="sub_tab9('mini_tab25')"><a href="#">Overdue</a></li>
+                                <li id="li_mini_tab26" onclick="sub_tab9('mini_tab26')"><a href="#">Flagged</a></li>
+                                <li id="li_mini_tab27" onclick="sub_tab9('mini_tab27')"><a href="#">Due this Week</a></li>
+                              </ul>
+                            </div>
+                            <!-- End breadcrumbs -->
+                          </task-panel-nav>
+
+                          <task-panel-content><!-- Begin Task Panel Content -->
+
+                            <div id="mini_tab25">
+                              <div class="overdue-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+
+                                    <task-outlook><!-- Begin Task 5 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 5 -->
+
+                                    <task-outlook><!-- Begin Task 6 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 6 -->
+
+                                    <task-outlook><!-- Begin Task 7 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 7 -->
+
+                                    <task-outlook><!-- Begin Task 8 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 8 -->
+
+                                    <task-outlook><!-- Begin Task 9 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 9 -->
+
+                                    <task-outlook><!-- Begin Task 10 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 10 -->
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab26" style="display: none;" >
+                              <div class="flagged-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab27" style="display: none;">
+                              <div id="due-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </task-panel-content><!-- End Task Panel Content -->
+
+                        </task-panel>
+                      </div><!--End Task Panel -->
+                    </div>
+
+
+                    <div id="tab43" style="display: none;">
+                      <div class="comment-panel"><!-- Begin Comment Panel -->
+                        <div class="comments" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start comment 1 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 1 -->
+
+                            <!-- Start comment 2 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 2 -->
+
+                            <!-- Start comment 3 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 3 -->
+
+                          </div>
+                        </div>
+                      </div><!-- End Comment Panel -->
+                    </div>
+
+                    <div id="tab44" style="display: none;">
+                      <div class="file-panel"><!--Start File Panel -->
+                        <div class="file-panel-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start File Panel Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 1 -->
+
+                            <!-- Start File Panel Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 2 -->
+
+
+                            <!-- Start File Panel Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 3 -->
+
+                          </div>
+                        </div>
+                      </div><!--End File Panel -->
+                    </div>
+
+                    <div id="tab45">
+                      <div class="instance-panel"><!--Start instance Panel -->
+
+                        <div class="instance" id="scroll">
+
+                          <div class="container-body">
+                            <table class="pure-table pure-table-bordered" id="example">
+                              <thead>
+                              <tr>
+                                <th>Reason</th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 1 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 1 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 2 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 2 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 3 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 3 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 4 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 4 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 5 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 5 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 6 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 6 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 7 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 7 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 8 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 8 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 9 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 9 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 10 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 10 -->
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+
+                        </div>
+
+
+                      </div><!--End instance Panel -->
+                    </div>
+
+
+                    <!-- End FILE INSTANCE CONTENT -->
+
+
+                  </pane-content>
+
+                </mini-panels><!-- End MINI-PANELS -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+
+
+
+            </org-SEPA-mandate-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORG SEPA MANDATE PAGE======-->
+
+
+        <!-- =================================================== --
+              //                                                   //
+              //           END ORG SEPA MANDATE PAGE               //
+              //                                                   //
+            -- ==================================================== -->
+
+
+
+
+        <!-- =================================================== --
+              //                                                     //
+              //               BEGIN ORG IDENTIFIER PAGE             //
+              //                                                     //
+            -- ==================================================== -->
+
+
+        <div id="org-identifier-profile-page" class="pagesets_section" style="display: none;"><!--======Start ORG IDENTIFIER PROFILE PAGE ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-identifier-profile-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#')"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="active"><a href="#">Organization Identifier Profile</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+
+
+              <pane-small-first><!-- Begin PANE-SMALL-FIRST -->
+
+                <dataset-short-info-1><!-- Begin DATASET-SHORT-INFO-1 -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important capitalize">Organization Identifier</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <menu-level-3><!--Start MENU LEVEL 3 -->
+                    <div class="main-mid-menu"><!--Start Mid menu -->
+                      <div class="menu-list">
+
+                        <ul id="mid-menu-content" class="menu-content collapse out">
+
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><a href="#">Basic Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-business-profile-page')"><a href="#">Business Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-management-profile-page')"><a href="#">Management Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-contact-profile-page')"><a href="#">Contact Profile<span class="arrow"></span></a></li>
+                          <li class="specific_module" onclick="pagesetFunction(event, 'org-financial-profile-page')"><a href="#">Financial Profile<span class="arrow"></span></a></li>
+                          <li class="active specific_module" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><a href="#">Organization Identifier<span></span></a></li>
+
+                        </ul>
+                      </div>
+                    </div><!--End mid Menu -->
+                  </menu-level-3><!--End MENU LEVEL 3  -->
+
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info-1><!-- End DATASET-SHORT-INFO-1 -->
+
+              </pane-small-first><!-- END PANE-SMALL-FIRST -->
+
+
+
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <mid-pane>
+                  <mid-upper-pane-area>
+                    <div class="upper-pane-header">
+                      <mid-pane-tools>
+                        <page-prv>
+                          <div class="previous-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-SEPA-mandate-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                          </div>
+                        </page-prv>
+                        <quick-tools>
+                          <ul>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                            <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                          </ul>
+                        </quick-tools>
+                        <page-nxt>
+                          <div class="next-arrow">
+                            <a href="#" onclick="pagesetFunction(event, 'org-mgr-summary')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                          </div>
+                        </page-nxt>
+                      </mid-pane-tools>
+                    </div>
+                  </mid-upper-pane-area>
+
+                  <mid-pane-key-title>
+                    <div class="container-body">
+                      <span class="capitalize most-important energicos-red">Organization Identifier</span>
+                    </div>
+                  </mid-pane-key-title>
+
+                  <mid-pane-title-line></mid-pane-title-line>
+
+
+                  <mid-content><!--Start Mid Content -->
+                    <div class="container-body">
+
+
+                      <form class="form-style-1 form-sitewide" method="post" action="#"><!-- Begin Form -->
+                        <div class="form-part-1">
+
+
+                          <div class="data-input">
+                            <label>Function / Designation<span class="required"></span></label>
+                            <select name="Function_Designation" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Function / Designation<span class="required"></span></label>
+                            <select name="Function_Designation_2" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Function / Designation<span class="required"></span></label>
+                            <select name="Function_Designation_3" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+                          <div class="data-input">
+                            <label>Function / Designation<span class="required"></span></label>
+                            <select name="Function_Designation_4" class="field-select">
+                              <option value=""> - Select Value - </option>
+                              <option value="">Value 1</option>
+                              <option value="">Value 2</option>
+                            </select>
+                          </div>
+
+
+
+                          <div class="data-input">
+                            <label>Comment<span class="required"></span></label>
+                            <textarea wrap="off" name="comment" class="field-textarea" cols="40" rows="5" placeholder=" - Text -"></textarea>
+                          </div>
+
+
+                        </div>
+
+                        <div class="form-part-2">
+
+                          <div class="data-input">
+                            <label>Marktteilnehmer ID<span class="required"></span></label>
+                            <input type="text" name="Marktteilnehmer_id_1" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Marktteilnehmer ID<span class="required"></span></label>
+                            <input type="text" name="Marktteilnehmer_id_2" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Marktteilnehmer ID<span class="required"></span></label>
+                            <input type="text" name="Marktteilnehmer_id_3" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+                          <div class="data-input">
+                            <label>Marktteilnehmer ID<span class="required"></span></label>
+                            <input type="text" name="Marktteilnehmer_id_4" class="field-long" placeholder=" - Input Value -" />
+                          </div>
+
+
+                        </div>
+                      </form><!-- End Form -->
+
+
+                    </div>
+                  </mid-content><!--End Mid Content -->
+
+
+
+                  <applied-tags><!--Start Applied Tags -->
+                    <div class="container-body">
+                      <div class="tags-line"></div>
+                      <div class="group-tags-section">
+                        <span class="mid-pane-font">Group Tags Applied&nbsp;&nbsp;<i class="icon icon-arrow-down"></i></span>
+                        <ul class="group-tags">
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 1</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 2</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 3</a></li>
+                          <li><a href="#" class="btn btn-orange" onclick="location.href='#'">Group 4</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-tags><!--End Applied Tags -->
+
+                </mid-pane>
+
+              </pane-large><!-- End PANE-LARGE -->
+
+
+
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <mini-panels><!-- Begin MINI-PANELS -->
+                  <pane-header>
+                    <div class="upper-pane-header">
+                      <!--Start tabs -->
+                      <div class="pane-tabs">
+                        <button id="li_tab46" class="" onclick="tab_10('tab46')"><a><i class="icon icon-clock"></i></a></button>
+                        <button id="li_tab47" class="" onclick="tab_10('tab47')"><a><i class="icon icon-activity"></i></a></button>
+                        <button id="li_tab48" class="active" onclick="tab_10('tab48')"><i class="icon icon-comment"></i></button>
+                        <button id="li_tab49" class="" onclick="tab_10('tab49')"><i class="icon icon-folder"></i></button>
+                        <button id="li_tab50" class="" onclick="tab_10('tab50')"><i class="icon icon-instance"></i></button>
+                      </div>
+                      <!--End tabs -->
+                    </div>
+                  </pane-header>
+
+                  <search-filter-section><!--Begin SEARCH AREA -->
+                    <div class="container-body">
+                      <mini-search-area>
+
+                        <filter-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-filter"></i></a>
+                        </filter-key>
+
+                        <search-box-input>
+                          <form class="search-box specific_module" method="get" action="#">
+                            <span class="searching-icon"><i class="icon icon-search"></i></span>
+                            <input placeholder="Search something ..." class="main-search-text" id="mySearch" >
+                          </form>
+
+                        </search-box-input>
+
+                        <sorting-key>
+                          <a href="#"><i class="icon symbol-nav-section icon-sorting"></i></a>
+                        </sorting-key>
+
+                        <reset-key>
+                          <a onclick="document.getElementById('mySearch').value = ''"><i class="icon symbol-nav-section icon-reset"></i></a>
+                        </reset-key>
+
+                      </mini-search-area>
+                    </div>
+                  </search-filter-section><!--End SEARCH AREA -->
+
+                  <pane-content>
+
+
+
+                    <!-- Begin ACTIVITY LOG TABBED CONTENT-->
+
+                    <div id="tab46" style="display: none;"><!--Begin ACTIVITY LOG-->
+                      <div class="activity-log-panel"><!--Start Activity log panel -->
+
+                        <div class="energicos-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start Activity Log Panel 1 -->
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 1</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 1-->
+
+                            <!-- Start Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-grey-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 2</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 2-->
+
+                            <!-- Start Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 3</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 3-->
+
+                            <!-- Start Timeline 4 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div>
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">Log Entry 4</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Kind : File Report</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">important</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End Timeline 4-->
+
+                            <!-- End Activity Log Panel 1 -->
+
+                          </div>
+                        </div>
+
+                      </div><!--End Activity log Panel -->
+
+                    </div><!--End ACTIVITY LOG-->
+
+
+                    <div id="tab47" style="display: none;">
+                      <div class="task-panel"><!--Start Task Panel -->
+                        <task-panel>
+
+                          <task-panel-nav>
+                            <!-- Start breadcrumbs -->
+                            <div class="section-breadcrumbs">
+                              <ul class="breadcrumb-task">
+                                <li id="li_mini_tab28" class="active" onclick="sub_tab10('mini_tab28')"><a href="#">Overdue</a></li>
+                                <li id="li_mini_tab29" onclick="sub_tab10('mini_tab29')"><a href="#">Flagged</a></li>
+                                <li id="li_mini_tab30" onclick="sub_tab10('mini_tab30')"><a href="#">Due this Week</a></li>
+                              </ul>
+                            </div>
+                            <!-- End breadcrumbs -->
+                          </task-panel-nav>
+
+                          <task-panel-content><!-- Begin Task Panel Content -->
+
+                            <div id="mini_tab28">
+                              <div class="overdue-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+
+                                    <task-outlook><!-- Begin Task 5 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 5 -->
+
+                                    <task-outlook><!-- Begin Task 6 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 6 -->
+
+                                    <task-outlook><!-- Begin Task 7 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 7 -->
+
+                                    <task-outlook><!-- Begin Task 8 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 8 -->
+
+                                    <task-outlook><!-- Begin Task 9 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 9 -->
+
+                                    <task-outlook><!-- Begin Task 10 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 10 -->
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab29" style="display: none;" >
+                              <div class="flagged-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+
+                                    <task-outlook><!-- Begin Task 4 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 4 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div id="mini_tab30" style="display: none;">
+                              <div id="due-area">
+                                <div class="task" id="scroll">
+                                  <div class="container-body">
+
+                                    <task-outlook><!-- Begin Task 1 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 1 -->
+
+                                    <task-outlook><!-- Begin Task 2 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 2 -->
+
+                                    <task-outlook><!-- Begin Task 3 -->
+                                      <task-name>
+                                        <div class="container-body">
+                                          <span class="most-important energicos-dark">Task A</span>
+                                        </div>
+                                      </task-name>
+                                      <task-date>
+                                        27.05.2017
+                                      </task-date>
+                                      <task-tag>
+                                        <div class="container-body">
+                                          <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                        </div>
+                                      </task-tag>
+                                    </task-outlook><!-- End Task 3 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </task-panel-content><!-- End Task Panel Content -->
+
+                        </task-panel>
+                      </div><!--End Task Panel -->
+                    </div>
+
+
+                    <div id="tab48">
+                      <div class="comment-panel"><!-- Begin Comment Panel -->
+                        <div class="comments" id="scroll">
+                          <div class="container-body">
+
+                            <!-- Start comment 1 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 1 -->
+
+                            <!-- Start comment 2 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 2 -->
+
+                            <!-- Start comment 3 -->
+                            <div class="comment-area">
+                              <div class="comment-header-area">
+                                <div class="comment-date">
+                                  <i class="icon energicos-red icon-calendar"></i><span class="date">27.05.2017</span>
+                                </div>
+
+                                <div class="comment-header-divider"></div>
+
+                                <div class="comment-title">
+                                  <span class="note-title">Note Title</span>
+                                </div>
+
+                                <div class="comment-functions">
+                                  <ul>
+                                    <li><a href="#"><i class="icon icon-margin icon-reply"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-margin icon-star"></i></a></li>
+                                    <li><a href="#"><i class="icon icon-more"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="comment-content">
+                                <div class="comment-section-1">
+                                  <div class="container-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                  </div>
+
+                                </div>
+
+                                <div class="comment-section-2">
+                                </div>
+
+                                <div class="comment-section-3">
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a>
+                                </div>
+
+                              </div>
+                            </div>
+                            <!-- End Comment 3 -->
+
+                          </div>
+                        </div>
+                      </div><!-- End Comment Panel -->
+                    </div>
+
+                    <div id="tab49" style="display: none;">
+                      <div class="file-panel"><!--Start File Panel -->
+                        <div class="file-panel-timeline" id="scroll">
+                          <div class="container-body">
+
+                            <div class="timeline-center-line"></div>
+
+                            <!-- Start File Panel Timeline 1 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 1 -->
+
+                            <!-- Start File Panel Timeline 2 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 2 -->
+
+
+                            <!-- Start File Panel Timeline 3 -->
+                            <div class="timeline-core">
+                              <div class="meta-dot dot energicos-orange-dot"></div> <!-- orange circular bullet -->
+                              <div class="timeline-info">
+                                <div class="timeline-content-right">
+                                  <div class="timeline-section-1">
+
+                                    <div class="timeline-components">
+                                      <span class="most-important energicos-red entry">File Name</span>
+
+                                      <ul>
+                                        <li><span class="kind most-important">Stored by : John Doe</span></li>
+                                        <li><span class="kind most-important">Size : 106 Kb</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-calendar"></i>&nbsp;</span><span class="date">27.05.2017</span></li>
+                                        <li><span class="energicos-red"><i class="icon icon-clock"></i>&nbsp;</span><span class="time-ago">2 Days ago</span></li>
+                                      </ul>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="timeline-section-2"></div>
+
+                                  <div class="timeline-section-3">
+                                    <div class="energicos-red timeline-important"><span class="important">Tags</span></div>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a>
+                                    <a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- End File Panel Timeline 3 -->
+
+                          </div>
+                        </div>
+                      </div><!--End File Panel -->
+                    </div>
+
+                    <div id="tab50" style="display: none;">
+                      <div class="instance-panel"><!--Start instance Panel -->
+
+                        <div class="instance" id="scroll">
+
+                          <div class="container-body">
+                            <table class="pure-table pure-table-bordered" id="example">
+                              <thead>
+                              <tr>
+                                <th>Reason</th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                                <th>Header<i class="icon order-2 icon-up-down-arrow"></i></th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 1 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 1 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 2 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 2 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 3 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 3 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 4 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 4 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 5 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 5 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 6 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 6 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 7 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 7 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 8 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 8 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 9 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 9 -->
+
+                              <tr onclick="pagesetFunction(event, '#')" style="cursor:hand"><!-- Begin row 10 -->
+                                <td class="table-text">#10</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                                <td class="table-text">text</td>
+                              </tr><!--End row 10 -->
+
+
+                              </tbody>
+                            </table>
+
+                          </div>
+
+                        </div>
+
+
+                      </div><!--End instance Panel -->
+                    </div>
+
+
+                    <!-- End FILE INSTANCE CONTENT -->
+
+
+                  </pane-content>
+
+                </mini-panels><!-- End MINI-PANELS -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+
+
+
+            </org-identifier-profile-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORGANIZATION IDENTIFIER PROFILE PAGE======-->
+
+
+        <!-- =================================================== --
+              //                                                    //
+              //             END ORG IDENTIFIER PAGE                //
+              //                                                    //
+            -- ==================================================== -->
+
+
+
+
+
+
+        <!-- =================================== --
+              //                                    //
+              //        BEGIN ORG SUMMARY PAGE      //
+              //                                    //
+            -- ==================================== -->
+
+
+        <div id="org-mgr-summary" class="pagesets_section" style="display: none;"><!--======Start ORGANIZATION SUMMARY ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-summary-page>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#')"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="active"><a href="#">Summary</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <div class="upper-pane-header">
+                  <div class="container-body">
+                    <large-pane-tools>
+                      <page-prv>
+                        <div class="previous-arrow">
+                          <a href="#" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-left"></i></a>
+                        </div>
+                      </page-prv>
+                      <page-title>
+                        <span class="energicos-red most-important capitalize">Summary</span>
+                      </page-title>
+                      <quick-tools>
+                        <ul>
+                          <li><a href="#"><i class="icon symbol-pagination-dark icon-cancel"></i></a></li>
+                          <li><a href="#"><i class="icon symbol-pagination-dark icon-check"></i></a></li>
+                        </ul>
+                      </quick-tools>
+                      <page-nxt>
+                        <div class="next-arrow">
+                          <a href="#" onclick="pagesetFunction(event, 'org-identifier-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                        </div>
+                      </page-nxt>
+                    </large-pane-tools>
+                  </div>
+                </div>
+
+                <div class="summary" id="scroll">
+
+                  <summary-form><!--Begin BASIC PROFILE -->
+                    <summary-sub-header>
+                      <div class="container-summary">
+                        <span class="energicos-dark capitalize most-important">Basic Profile</span>
+                      </div>
+                    </summary-sub-header>
+                  </summary-form>
+
+                  <summary-fields>
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>Name of Organization</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Organization ID</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>Legal Form</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>Tax Number</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>Incorporated in (Place)</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+                    <summary-field-6>
+                      <div class="container-summary-content">
+                        <label>Registered in (Country)</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-6>
+                    <summary-field-7>
+                      <div class="container-summary-content">
+                        <label>Registry Date</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-7>
+                    <summary-field-8>
+                      <div class="container-summary-content">
+                        <label>File</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-8>
+                    <summary-field-9>
+                      <div class="container-summary-content">
+                        <label>Status</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-9>
+                    <summary-field-10>
+                      <div class="container-summary-content">
+                        <label>Comment</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-10>
+                  </summary-fields><!--End BASIC PROFILE -->
+
+
+                  <summary-form><!--Begin BUSINESS PROFILE -->
+                    <summary-sub-header>
+                      <div class="container-summary">
+                        <span class="energicos-dark capitalize most-important">Business Profile</span>
+                      </div>
+                    </summary-sub-header>
+                  </summary-form>
+
+                  <summary-fields>
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>Main Business Activity</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Sector</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>Industry Group</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>Industries</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>Sub-industries</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+                    <summary-field-6>
+                      <div class="container-summary-content">
+                        <label>Comments</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-6>
+                  </summary-fields><!--End BUSINESS PROFILE -->
+
+
+                  <summary-form><!--Begin MANAGEMENT PROFILE -->
+                    <summary-sub-header>
+                      <div class="container-summary">
+                        <span class="energicos-dark capitalize most-important">Management Profile</span>
+                      </div>
+                    </summary-sub-header>
+                  </summary-form>
+
+                  <summary-fields>
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>Majority Shareholder</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Exchange Listed</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>CEO/Managing Director</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>Chairman of Board of Directors</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>Comment</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+                  </summary-fields><!--End MANAGEMENT PROFILE -->
+
+
+
+                  <!-- Begin CONTACT PROFILE -->
+                  <summary-form>
+                    <summary-sub-header>
+                      <div class="container-summary">
+                        <span class="energicos-dark capitalize most-important">Contact Profile</span>
+                      </div>
+                    </summary-sub-header>
+                  </summary-form>
+
+
+                  <div class="container-body"><!-- Begin BILLING -->
+                    <mid-pane-random-title>
+                      <span class="most-important summary-sub-title energicos-red capitalize">Billing Address</span>
+                    </mid-pane-random-title>
+                    <div class="random-title-line"></div>
+                  </div>
+
+                  <summary-fields>
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>Different Billing &amp; Delivery Address</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Building Name</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>Postal Box No</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>Street</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>Street No</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+
+                    <summary-field-6>
+                      <div class="container-summary-content">
+                        <label>Address Addon 1</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-6>
+
+                    <summary-field-7>
+                      <div class="container-summary-content">
+                        <label>Address Addon 2</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-7>
+
+                    <summary-field-8>
+                      <div class="container-summary-content">
+                        <label>City</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-8>
+
+                    <summary-field-9>
+                      <div class="container-summary-content">
+                        <label>Zip Code</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-9>
+
+                    <summary-field-10>
+                      <div class="container-summary-content">
+                        <label>Country</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-10>
+
+                    <summary-field-11>
+                      <div class="container-summary-content">
+                        <label>State</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-11>
+
+                    <summary-field-12>
+                      <div class="container-summary-content">
+                        <label>Comment</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-12>
+
+                  </summary-fields><!-- End BILLING -->
+
+
+
+                  <div class="container-body"><!-- Begin DELIVERY ADDRESS -->
+                    <mid-pane-random-title>
+                      <span class="most-important summary-sub-title energicos-red capitalize">Delivery Address</span>
+                    </mid-pane-random-title>
+                    <div class="random-title-line"></div>
+                  </div>
+
+                  <summary-fields>
+
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>Building Name</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Postal Box No</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>Street</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>Street No</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>Address Addon 1</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+
+                    <summary-field-6>
+                      <div class="container-summary-content">
+                        <label>Address Addon 2</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-6>
+
+                    <summary-field-7>
+                      <div class="container-summary-content">
+                        <label>City</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-7>
+
+                    <summary-field-8>
+                      <div class="container-summary-content">
+                        <label>Zip Code</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-8>
+
+                    <summary-field-9>
+                      <div class="container-summary-content">
+                        <label>Country</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-9>
+
+                    <summary-field-10>
+                      <div class="container-summary-content">
+                        <label>State</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-10>
+
+                    <summary-field-11>
+                      <div class="container-summary-content">
+                        <label>Comment</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-11>
+
+                  </summary-fields><!-- End DELIVERY ADDRESS -->
+
+
+
+                  <div class="container-body"><!-- Begin COMMUNICATION -->
+                    <mid-pane-random-title>
+                      <span class="most-important summary-sub-title energicos-red capitalize">Communication</span>
+                    </mid-pane-random-title>
+                    <div class="random-title-line"></div>
+                  </div>
+
+                  <summary-fields>
+
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>Mobile Phone</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Email</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>Landline Phone</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>IM Name</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>Fax</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+
+                    <summary-field-6>
+                      <div class="container-summary-content">
+                        <label>Comment</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-6>
+
+                  </summary-fields><!-- End COMMUNICATION -->
+                  <!-- End CONTACT PROFILE -->
+
+
+
+
+                  <!--Begin FINANCIAL PROFILE -->
+                  <summary-form>
+                    <summary-sub-header>
+                      <div class="container-summary">
+                        <span class="energicos-dark capitalize most-important">Financial Profile</span>
+                      </div>
+                    </summary-sub-header>
+                  </summary-form>
+
+
+                  <div class="container-body"><!-- Begin BANK DETAILS -->
+                    <mid-pane-random-title>
+                      <span class="most-important summary-sub-title energicos-red capitalize">Bank Details</span>
+                    </mid-pane-random-title>
+                    <div class="random-title-line"></div>
+                  </div>
+
+                  <summary-fields>
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>Payment Category</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Bank Account Holder</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>IBAN</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>BIC / SWIFT</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>Bank</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+
+                    <summary-field-6>
+                      <div class="container-summary-content">
+                        <label>Comment</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-6>
+                  </summary-fields><!-- Edit BANK DETAILS -->
+
+
+
+                  <div class="container-body"><!-- Begin CREDIT CARD DETAILS -->
+                    <mid-pane-random-title>
+                      <span class="most-important summary-sub-title energicos-red capitalize">Credit Card Details</span>
+                    </mid-pane-random-title>
+                    <div class="random-title-line"></div>
+                  </div>
+
+                  <summary-fields>
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>Credit Card Type</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Card Number</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>Name on Credit Card</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>Expiration Date</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>CVC</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+
+                    <summary-field-6>
+                      <div class="container-summary-content">
+                        <label>Comment</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-6>
+                  </summary-fields><!-- Edit CREDIT CARD DETAILS -->
+
+
+
+                  <div class="container-body"><!-- Begin SEPA MANDATE -->
+                    <mid-pane-random-title>
+                      <span class="most-important summary-sub-title energicos-red capitalize">SEPA Mandate</span>
+                    </mid-pane-random-title>
+                    <div class="random-title-line"></div>
+                  </div>
+
+                  <summary-fields>
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>SEPA Mode</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Bank Account</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>Mandat Reference</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>Valid From</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>Valid To</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+
+                    <summary-field-6>
+                      <div class="container-summary-content">
+                        <label>Checkbox Status</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-6>
+
+                    <summary-field-7>
+                      <div class="container-summary-content">
+                        <label>Suffix</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-7>
+                  </summary-fields><!-- End SEPA MANDATE -->
+
+                  <!--End FINANCIAL PROFILE -->
+
+
+
+                  <!--Begin ORGANIZATION IDENTIFIER -->
+                  <summary-form>
+                    <summary-sub-header>
+                      <div class="container-summary">
+                        <span class="energicos-dark capitalize most-important">Organization Identifier</span>
+                      </div>
+                    </summary-sub-header>
+                  </summary-form>
+
+                  <summary-fields>
+                    <summary-field-1>
+                      <div class="container-summary-content">
+                        <label>Function / Designation</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-1>
+
+                    <summary-field-2>
+                      <div class="container-summary-content">
+                        <label>Marktteilnehmer ID</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-2>
+
+                    <summary-field-3>
+                      <div class="container-summary-content">
+                        <label>Function / Designation</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-3>
+
+                    <summary-field-4>
+                      <div class="container-summary-content">
+                        <label>Marktteilnehmer ID</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-4>
+
+                    <summary-field-5>
+                      <div class="container-summary-content">
+                        <label>Function / Designation</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-5>
+
+                    <summary-field-6>
+                      <div class="container-summary-content">
+                        <label>Marktteilnehmer ID</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-6>
+
+                    <summary-field-7>
+                      <div class="container-summary-content">
+                        <label>Function / Designation</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-7>
+
+                    <summary-field-8>
+                      <div class="container-summary-content">
+                        <label>Comment</label>
+                        <div class="data-placeholder">Data</div>
+                        <div class="label-underline"></div>
+                      </div>
+                    </summary-field-8>
+
+                  </summary-fields>
+
+                  <!--End ORGANIZATION IDENTIFIER -->
+
+                </div>
+
+
+
+              </pane-large><!-- End PANE-LARGE -->
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <dataset-short-info><!-- Begin DATASET-SHORT-INFO -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important">Organization</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="active specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info><!-- Begin DATASET-SHORT-INFO -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+            </org-summary-page>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End ORG SUMMARY======-->
+
+
+        <!-- =================================== --
+              //                                    //
+              //        END ORG SUMMARY PAGE        //
+              //                                    //
+            -- ==================================== -->
+
+
+
+
+
+
+
+        <!-- ======================================== --
+              //                                          //
+              //           BEGIN ORG OVERVIEW PAGE        //
+              //                                          //
+            -- ========================================== -->
+
+
+        <div id="org-mgr-overview" class="pagesets_section" style="display: none;"><!--======Start ORG OVERVIEW ======-->
+
+
+          <nav-level-2-tab-content><!-- BEGIN MAIN CONTENT -->
+
+            <org-mgr-overview>
+              <breadcrumbs><!-- Begin Breadcumbs -->
+                <!-- Start breadcrumbs -->
+                <div class="section-breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li><i class="icon icon-arrow-left"></i></li>
+                    <li class="specific_module" onclick="#"><a href="#">CRM</a></li>
+                    <li class="specific_module" onclick="#"><a href="#">Organization Manager</a></li>
+                    <li class="active"><a href="#">Overview</a></li>
+                  </ul>
+                </div>
+                <!-- End breadcrumbs -->
+              </breadcrumbs><!-- End Breadcumbs -->
+
+              <bookmarks><!-- Begin bookmarks addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Bookmarks</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </bookmarks><!-- End bookmarks addon -->
+
+              <favorites><!-- Begin favorites addon -->
+                <div class="container-body">
+                  <ul>
+                    <li><span class="most-important">Favorites</span></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 1<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 2<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-bookmark"></i>Folder 3<span class="icon icon-arrow-down"></span></a></li>
+                    <li><a href="#"><i class="icon icon-bookmark-nav icon-settings3"></i>Settings</a></li>
+                  </ul>
+                </div>
+              </favorites><!-- End favorites addon -->
+
+              <module-identity-title><!-- Begin MODULE TITLE -->
+                <div align="center"><span class="module-name">Organization Manager</span></div>
+              </module-identity-title><!-- End MODULE TITLE -->
+
+              <pane-large><!-- Begin PANE-LARGE -->
+
+                <overview-section>
+                  <overview-header-functions>
+                    <div class="dataset-function-tabs"><!-- Start dataset function tabs -->
+                      <button class="tab-export tooltip-top" data-tooltip="Export" onclick="location.href='#'"><i class="icon symbol-dataset icon-export"></i></button>
+                      <button class="tab-analytics tooltip-top" data-tooltip="Analytics" onclick="location.href='#'"><i class="icon symbol-tab-nav symbol-dataset icon-analytics"></i></button>
+                      <button class="tab-link tooltip-top" data-tooltip="Link" onclick="location.href='#'"><i class="icon symbol-tab-nav symbol-dataset icon-hyperlink"></i></button>
+
+                    </div><!-- End dataset function tabs -->
+                  </overview-header-functions>
+
+                  <dataset-results-table>
+
+                    <div class="container-body">
+                      <div class="paginated-links"><!-- Start pagination -->
+                        <ul class="pagination">
+                          <li><a href="#"><i class="icon icon-arrow-left"></i></a></li>
+                          <li><a class="active" href="#">1</a></li>
+                          <li class="pagination-of">of</li>
+                          <li><a href="#">12</a></li>
+                          <li><a href="#"><i class="icon icon-arrow-right"></i></a></li>
+                        </ul>
+                      </div><!-- End Pagination -->
+                    </div>
+
+
+                    <div class="results-table" id="scroll"><!-- Begin Table -->
+
+
+                      <div class="container-body">
+                        <table class="pure-table pure-table-bordered" id="example">
+                          <thead>
+                          <tr>
+                            <th>#</th>
+                            <th>Flag</th>
+                            <th>ID</th>
+                            <th>Header<i class="icon order icon-up-down-arrow"></i></th>
+                            <th>Header<i class="icon order icon-up-down-arrow"></i></th>
+                            <th>Header<i class="icon order icon-up-down-arrow"></i></th>
+                            <th>Header<i class="icon order icon-up-down-arrow"></i></th>
+                            <th>Header<i class="icon order icon-up-down-arrow"></i></th>
+                            <th>Header<i class="icon order icon-up-down-arrow"></i></th>
+                            <th>Header<i class="icon order icon-up-down-arrow"></i></th>
+                            <th>Header<i class="icon order icon-up-down-arrow"></i></th>
+                            <th>Header<i class="icon order icon-up-down-arrow"></i></th>
+                            <th></th>
+                          </tr>
+                          </thead>
+
+                          <tbody>
+                          <tr onclick="#"><!-- Begin row 1 -->
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="1a" class="fav-checkbox" /><label for="1a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="2a" class="flag-checkbox" checked/><label for="2a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="3a" class="white-checkbox" checked/><label for="3a"></label>
+                              </div>
+                            </td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td>
+                              <div class="next-arrow">
+                                <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                              </div>
+                            </td>
+                          </tr><!--End row 1 -->
+
+                          <tr onclick="#"><!-- Begin row 2 -->
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="4a" class="fav-checkbox" /><label for="4a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="5a" class="flag-checkbox" /><label for="5a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="6a" class="white-checkbox" /><label for="6a"></label>
+                              </div>
+                            </td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td>
+                              <div class="next-arrow">
+                                <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                              </div>
+                            </td>
+                          </tr><!--End row 2 -->
+
+                          <tr onclick="#"><!-- Begin row 3 -->
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="7a" class="fav-checkbox" checked/><label for="7a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="8a" class="flag-checkbox"/><label for="8a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="9a" class="white-checkbox" checked/><label for="9a"></label>
+                              </div>
+                            </td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td>
+                              <div class="next-arrow">
+                                <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                              </div>
+                            </td>
+                          </tr><!--End row 3 -->
+
+                          <tr onclick="#"><!-- Begin row 4 -->
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="10a" class="fav-checkbox" /><label for="10a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="11a" class="flag-checkbox"/><label for="11a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="12a" class="white-checkbox"/><label for="12a"></label>
+                              </div>
+                            </td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td>
+                              <div class="next-arrow">
+                                <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                              </div>
+                            </td>
+                          </tr><!--End row 4 -->
+
+                          <tr onclick="#"><!-- Begin row 5 -->
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="13a" class="fav-checkbox" /><label for="13a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="14a" class="flag-checkbox"/><label for="14a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="15a" class="white-checkbox"/><label for="15a"></label>
+                              </div>
+                            </td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td>
+                              <div class="next-arrow">
+                                <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                              </div>
+                            </td>
+                          </tr><!--End row 5 -->
+
+                          <tr onclick="#"><!-- Begin row 6 -->
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="16a" class="fav-checkbox" /><label for="16a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="17a" class="flag-checkbox"/><label for="17a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="18a" class="white-checkbox"/><label for="18a"></label>
+                              </div>
+                            </td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td>
+                              <div class="next-arrow">
+                                <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                              </div>
+                            </td>
+                          </tr><!--End row 6 -->
+
+                          <tr onclick="#"><!-- Begin row 7 -->
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="19a" class="fav-checkbox" /><label for="19a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="20a" class="flag-checkbox"/><label for="20a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="21a" class="white-checkbox"/><label for="21a"></label>
+                              </div>
+                            </td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td>
+                              <div class="next-arrow">
+                                <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                              </div>
+                            </td>
+                          </tr><!--End row 7 -->
+
+                          <tr onclick="#"><!-- Begin row 8 -->
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="22a" class="fav-checkbox" /><label for="22a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="23a" class="flag-checkbox"/><label for="23a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="24a" class="white-checkbox"/><label for="24a"></label>
+                              </div>
+                            </td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td>
+                              <div class="next-arrow">
+                                <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                              </div>
+                            </td>
+                          </tr><!--End row 8 -->
+
+                          <tr onclick="#"><!-- Begin row 9 -->
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="25a" class="fav-checkbox" /><label for="25a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="26a" class="flag-checkbox"/><label for="26a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="27a" class="white-checkbox"/><label for="27a"></label>
+                              </div>
+                            </td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td>
+                              <div class="next-arrow">
+                                <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                              </div>
+                            </td>
+                          </tr><!--End row 9 -->
+
+                          <tr onclick="#"><!-- Begin row 10 -->
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="28a" class="fav-checkbox" /><label for="28a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="29a" class="flag-checkbox"/><label for="29a"></label>
+                              </div>
+                            </td>
+
+                            <td align="center">
+                              <div class="checkbox-element">
+                                <input type="checkbox" id="30a" class="white-checkbox"/><label for="30a"></label>
+                              </div>
+                            </td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td class="table-text">text</td>
+                            <td>
+                              <div class="next-arrow">
+                                <a class="specific_module" onclick="pagesetFunction(event, 'org-basic-profile-page')"><i class="icon symbol-pagination-dark icon-arrow-right"></i></a>
+                              </div>
+                            </td>
+                          </tr><!--End row 10 -->
+
+
+                          </tbody>
+                        </table>
+                      </div>
+
+
+                    </div><!-- End Table -->
+
+
+                  </dataset-results-table>
+
+
+                  <!--Start applied filters -->
+                  <applied-filters>
+                    <div class="container-body">
+                      <div class="filtered">
+                        <ul class="filtering">
+                          <li>
+													<span class="filter-icon">
+													<i class="icon energicos-red icon-filter"></i></span><span class="filter-title">Filters Applied</span>
+                          </li>
+                          <li><a href="#" class="btn btn-filter" onclick="location.href='#'">Filter</a></li>
+                          <li><a href="#" class="btn btn-filter" onclick="location.href='#'">Filter</a></li>
+                          <li><a href="#" class="btn btn-filter" onclick="location.href='#'">Filter</a></li>
+                          <li><a href="#" class="btn btn-filter" onclick="location.href='#'">Filter</a></li>
+                          <li><a href="#" class="btn btn-filter" onclick="location.href='#'">Filter</a></li>
+                          <li><a href="#" class="btn btn-filter" onclick="location.href='#'">Filter</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </applied-filters>
+                  <!--End Applied filters -->
+
+                </overview-section>
+
+
+              </pane-large><!-- End PANE-LARGE -->
+
+              <pane-small-last><!-- Begin PANE-SMALL-LAST -->
+
+                <dataset-short-info><!-- Begin DATASET-SHORT-INFO -->
+
+                  <short-info-title><!-- Start Title -->
+                    <div class="container-body">
+                      <span class="energicos-red most-important">Organization</span>
+                    </div>
+                  </short-info-title><!-- End Title -->
+                  <short-info-col-1>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="most-important energicos-dark contact-person">Name of Organization</span></li>
+                        <li><i class="icon energicos-red icon-legal-form">&nbsp;</i><span class="legal">Legal Form</span></li>
+                        <li><span class="energicos-blue"><i class="icon icon-mail2">&nbsp;</i></span><span class="contact-email">kasa@gmail.com</span></li>
+                        <li><span class="energicos-green"><i class="icon icon-phone">&nbsp;</i></span><span class="phone-no">+49 30 52 00522125</span></li>
+                        <li>
+                          <!--Start Rating -->
+                          <div class="rating">
+                            <ul>
+                              <li><a href="#"><i class="icon energicos-red icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                              <li><a href="#"><i class="icon rating-default icon-star"></i></a></li>
+                            </ul>
+                          </div>
+                          <!--End Rating -->
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-1>
+
+                  <short-info-col-2>
+                    <div class="container-body">
+                      <ul class="contacts">
+                        <li><span class="energicos-red"><i class="icon icon-calendar"></i></span>
+                          <span class="action">Last Action:</span> <span class="date">25.03.2017</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-comment"></i></span>
+                          <span class="normal">8</span>
+                        </li>
+                        <li><span class="energicos-red"><i class="icon icon-activity"></i></span>
+                          <span class="energicos-red normal-font">3</span> <span class="slash">/</span> <span class="energicos-blue normal-font">5</span> <span class="slash">/</span> <span class="energicos-darkgrey normal-font">8</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </short-info-col-2>
+
+                  <dataset-tags>
+                    <div class="container-body">
+                      <div class="horizontal-line"></div>
+                      <ul class="tags">
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 1</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 2</a></li>
+                        <li><a href="#" class="btn btn-blue" onclick="location.href='#'">Tag 3</a></li>
+                      </ul>
+                      <div class="horizontal-line"></div>
+                    </div>
+                  </dataset-tags>
+
+                  <subject-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Subject</h5>
+                      </div>
+                    </div>
+                    <!--Start left links -->
+                    <div class="lower-pane-1-navs-left-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-dataset"></i>
+                                Dataset
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-comment"></i>
+                                Comment
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-activity"></i>
+                                Task
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-bookmark"></i>
+                                Bookmark
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-tag"></i>
+                                Tag
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-instance"></i>
+                                Instance
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End left links -->
+                  </subject-area>
+
+                  <quick-action-area>
+                    <div class="sub-title">
+                      <div class="container-body">
+                        <h5 class="sub-module-title">Quick Action</h5>
+                      </div>
+                    </div>
+                    <!--Start right links -->
+                    <div class="lower-pane-1-navs-right-links">
+                      <div class="main-mid-menu"><!--Start Mid menu -->
+                        <div class="menu-list">
+
+                          <ul id="mid-menu-content-lower-2">
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-new"></i>
+                                New<span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-edit"></i>
+                                Edit <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-copy"></i>
+                                Copy <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-save"></i>
+                                Save <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-print"></i>
+                                Print <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="#">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-lock"></i>
+                                Lock <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="active specific_module" onclick="pagesetFunction(event, 'org-mgr-overview')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-overview"></i>
+                                Overview <span class="arrow"></span>
+                              </a>
+                            </li>
+
+                            <li class="specific_module" onclick="pagesetFunction(event, 'org-mgr-summary')">
+                              <a href="#"><i class="icon energicos-red icon-side-nav icon-summary"></i>
+                                Summary <span class="arrow"></span>
+                              </a>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div><!--End mid Menu -->
+
+                    </div>
+                    <!--End right links -->
+
+                  </quick-action-area>
+
+
+                </dataset-short-info><!-- Begin DATASET-SHORT-INFO -->
+
+              </pane-small-last><!-- End PANE-SMALL-LAST -->
+            </org-mgr-overview>
+
+          </nav-level-2-tab-content><!-- END MAIN CONTENT -->
+
+
+        </div><!--======End CONTACT OVERVIEW======-->
+
+
+        <!-- ======================================== --
+              //                                          //
+              //         END ORG OVERVIEW PAGE        //
+              //                                          //
+            -- ========================================== -->
+
+
+      </div><!--======End ORGANIZATION MANAGER TAB ======-->
+
+
+
+    </main-content><!-- END MAIN CONTENT -->
+  </section>
+
+</template>
+
+<script>
+  export default {
+  }
+</script>
+
+<style>
+
+</style>
